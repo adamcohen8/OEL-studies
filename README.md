@@ -9,6 +9,7 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 | Paper and workspace | Question | Verified replay |
 | --- | --- | --- |
 | [Schaub & Alfriend (2001), *J₂ Invariant Relative Orbits for Spacecraft Formations*](studies/schaub-alfriend-2001/) | How much does initializing a formation in mean orbital elements reduce relative phase drift over 45 orbits? | OEL 1.1.0 measured a **305.5×** reduction in the paper’s 48° example, consistent with Figures 3B and 4B. |
+| [Chesley et al. (2014), *Orbit and bulk density of the OSIRIS-REx target Asteroid (101955) Bennu*](studies/chesley-2014-bennu/) | Can optical and radar astrometry recover Bennu’s inward orbital drift? | GRSS with an OEL 1.1.0 cross-check gives **−282.90 ± 1.48 m/year** using an independent optical selection. The paper reports −284 ± 1.5 m/year. |
 
 ## Replay the first study
 

@@ -1,0 +1,42 @@
+{
+  "retrieved": "2026-11-20",
+  "sources": [
+    {
+      "source_key": "optical.json",
+      "url": "https://data.minorplanetcenter.net/api/get-obs",
+      "raw_sha256": "1afcee5e96b914fcd04587b5c5fb77c064521baa5804dd513f90b012bf88415e"
+    },
+    {
+      "source_key": "esa.rwo",
+      "url": "https://neo.ssa.esa.int/PSDB-portlet/download?file=101955.rwo",
+      "raw_sha256": "f20f5ffefee5609936644107ea9c8dcbb2e24b111d7b2015aee34cad6a996337"
+    },
+    {
+      "source_key": "radar.json",
+      "url": "https://ssd-api.jpl.nasa.gov/sb_radar.api?des=101955",
+      "raw_sha256": "e785db79abf8744894f2f17d54cfea26d2d232f5b8cf6bb82427a8fcb0fd691d"
+    },
+    {
+      "source_key": "stations.json",
+      "url": "https://data.minorplanetcenter.net/api/obscodes",
+      "raw_sha256": "b2a9b6c5458ba25a44706d2aa52c98e4ec29dcf23060556b532417a63c57048c"
+    }
+  ],
+  "mpc_get_json": {
+    "desigs": [
+      "101955"
+    ],
+    "output_format": [
+      "XML"
+    ]
+  },
+  "mpc_obscodes_get_json": {},
+  "matched_optical_dates_utc": [
+    "1999-09-11",
+    "2013-01-20"
+  ],
+  "normalized_sha256": {
+    "observations.json": "33680c92bdc2c4e3e514d788525f80854b89dbe960f2885a3498420e0eb6c47a",
+    "stations.json": "007d3db21aa2f9b31e2322526e2347760442bed6283abcf651d7ba307cb3e27c"
+  }
+}

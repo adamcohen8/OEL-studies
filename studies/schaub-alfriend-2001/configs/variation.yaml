@@ -1,0 +1,127 @@
+scenario_name: schaub_alfriend_variation
+objects:
+  direct_chief:
+    enabled: true
+    kind: satellite
+    role: target
+    runtime_profile: trajectory_only
+    specs:
+      mass_kg: 100
+    initial_state:
+      coes:
+        a_km: 7153.0
+        ecc: 0.05
+        inc_deg: 48.00000000000001
+        raan_deg: 0.0
+        argp_deg: 75.0
+        true_anomaly_deg: 0.0
+  direct_deputy:
+    enabled: true
+    kind: satellite
+    role: target
+    runtime_profile: trajectory_only
+    specs:
+      mass_kg: 100
+    initial_state:
+      coes:
+        a_km: 7152.999648235
+        ecc: 0.050100000000000006
+        inc_deg: 48.001035
+        raan_deg: 0.005
+        argp_deg: 75.01
+        true_anomaly_deg: 359.98893125206604
+  mapped_chief:
+    enabled: true
+    kind: satellite
+    role: target
+    runtime_profile: trajectory_only
+    specs:
+      mass_kg: 100
+    initial_state:
+      coes:
+        a_km: 7148.019835142347
+        ecc: 0.04965268463492737
+        inc_deg: 47.982941269426654
+        raan_deg: 0.01324955456664941
+        argp_deg: 75.14088519980463
+        true_anomaly_deg: 359.85253607664464
+  mapped_deputy:
+    enabled: true
+    kind: satellite
+    role: target
+    runtime_profile: trajectory_only
+    specs:
+      mass_kg: 100
+    initial_state:
+      coes:
+        a_km: 7148.018145472702
+        ecc: 0.04975254589380731
+        inc_deg: 47.9839742299041
+        raan_deg: 0.018253269467659622
+        argp_deg: 75.15070043512515
+        true_anomaly_deg: 359.84165051988214
+simulator:
+  initial_jd_utc: 2451545.0
+  duration_s: 270945
+  dt_s: 94.078125
+  execution:
+    policy: serial
+  dynamics:
+    orbit:
+      model: two_body
+      numeric_backend: rust
+      integrator: rk4
+      orbit_substep_s: 5.8798828125
+      j2: false
+      j3: false
+      j4: false
+      spherical_harmonics:
+        enabled: true
+        degree: 5
+        order: 0
+        reference_radius_km: 6378.1366
+        frame_model: simple
+        terms:
+        - n: 2
+          m: 0
+          c_nm: -0.001082616
+          s_nm: 0.0
+          normalized: false
+        - n: 3
+          m: 0
+          c_nm: 2.53881e-06
+          s_nm: 0.0
+          normalized: false
+        - n: 4
+          m: 0
+          c_nm: 1.65597e-06
+          s_nm: 0.0
+          normalized: false
+        - n: 5
+          m: 0
+          c_nm: 1.5e-07
+          s_nm: 0.0
+          normalized: false
+    attitude:
+      enabled: false
+    rocket:
+      enabled: false
+  environment:
+    ephemeris_mode: analytic_simple
+  plugin_validation:
+    strict: true
+outputs:
+  mode: save
+  output_dir: outputs/variation
+  review:
+    enabled: true
+    detail: standard
+  stats:
+    enabled: true
+    save_json: true
+    print_summary: false
+    save_full_log: false
+  plots:
+    enabled: false
+  animations:
+    enabled: false

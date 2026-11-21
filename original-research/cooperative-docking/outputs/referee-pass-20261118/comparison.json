@@ -1,0 +1,29 @@
+{
+  "matched": {
+    "profiles": 21,
+    "captures": 20,
+    "renewals": 1,
+    "occupied_s": 25.653521105618154,
+    "different_capture_outcomes": 0,
+    "different_contact_times": 14,
+    "all_scores_passed": true
+  },
+  "sensitivity": {
+    "profiles": 24,
+    "captures": 22,
+    "renewals": 4,
+    "occupied_s": 31.998401316974558,
+    "different_capture_outcomes": 0,
+    "different_contact_times": 12,
+    "all_scores_passed": true
+  },
+  "broader": {
+    "profiles": 12,
+    "captures": 10,
+    "renewals": 4,
+    "occupied_s": 18.649408759482014,
+    "different_capture_outcomes": 0,
+    "different_contact_times": 5,
+    "all_scores_passed": true
+  }
+}

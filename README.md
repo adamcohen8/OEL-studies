@@ -4,6 +4,10 @@ This repository collects [reproductions of published orbital mechanics results](
 
 Orbital Engineering Lab (OEL) is the simulation engine used in these studies. Its source, documentation and installation instructions are available in the [public OEL repository](https://github.com/adamcohen8/orbital-engineering-lab).
 
+## Original research
+
+[Cooperative Spacecraft Docking with Time-Limited Readiness Guarantees](original-research/cooperative-docking/) examines when receiver timing can certify a docking approach. The workspace includes the paper, supplement and offline evidence checks.
+
 ## Reproductions
 
 | Paper and workspace | Question | Verified replay |

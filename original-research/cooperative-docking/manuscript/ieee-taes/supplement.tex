@@ -1,0 +1,150 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper,margin=0.8in]{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\sfdefault}{phv}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\pagestyle{plain}
+
+\begin{document}
+
+{\large\bfseries Supplementary material\par}
+{\LARGE Cooperative Spacecraft Docking\\
+with Time-Limited Readiness Guarantees\par}
+\vspace{8pt}
+
+\textbf{Table S1. Matched outcomes for all 21 profiles.}
+Each policy cell gives the time of first contact in seconds since simulation start for a soft capture, or R for retreat. Parentheses give the total number of readiness requests, including the initial request. Bold times mark captures for which both renewable fixed policies retreated.
+
+Fast, middle, and slow designate configured first/renewal reply delays of 31.25/62.50, 156.25/93.75, and 281.25/218.75 ms, respectively. The two loss cases used 93.75/125.00 ms. Extended turnaround used 31.25/93.75 ms and a receiver turnaround of 125 ms. All other profiles used a 62.5 ms receiver turnaround. The cap is the maximum duration of the renewal grant.
+
+The level, moving, and tilted groups start with port-center clearances of 47, 52, and 52 mm and closing speeds of 40, 44, and 36 mm/s, respectively. Only the tilted group has a nonzero port tilt (25 mrad). First-reply loss uses the moving case, renewal-reply loss uses the level case, and extended turnaround uses the tilted case.
+
+\vspace{2pt}
+\begin{center}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrcccccr@{}}
+\toprule
+ & & Renewal & Fixed, & Fixed, & Fixed, & Fixed + & Corrected, & $\Delta t$ \\
+Profile & Delay & cap (s) & one shot & slow/renew & coast/renew & elapsed & adaptive & (ms) \\
+\midrule
+\input{comparator-rows.tex}
+\end{tabular}
+\end{center}
+
+\(\Delta t\) is the faster contact time of the two renewable fixed policies minus the corrected policy's contact time, computed before rounding. A positive value means corrected timing arrived earlier. The dash marks profiles without a common capture.
+
+\newpage
+
+{\large\bfseries S2. OEL build and reference replay\par}
+
+\textbf{Build identity.} The simulations used the experimental docking implementation in the local OEL v1.1 development checkout. The runtime identified itself as version 1.0.0 and used CPython 3.11.18. The Git base and the checked local source files identify the research build.
+
+\begin{tabular}{@{}p{1.7in}l@{}}
+Git base commit &
+  \textsf{8421e35773876e98c5c09a1e13ffc33d9cdfe4dc} \\
+Frozen plan (SHA-256) &
+  \textsf{9ae81cd9219230cf98e74f9851c717a278353f084ccbb906917222382086aa25} \\
+Source overrides (SHA-256) &
+  \textsf{e761e0a9def54e0449f8f5a9ae1e8a80fb1bc0c0283382e75247242c9df67686} \\
+Replay YAML (SHA-256) &
+  \textsf{21f13cf64fadaba1259edb5c8080e519ca53c95b57858a3d4523b3d650b02c99}
+\end{tabular}
+
+The engine reproduction record \textsf{.oel/reproduction/engine-reproduction.json} identifies the preserved local source overrides and points to the frozen holdout plan. That plan records SHA-256 digests for 2,016 engine files and the study source. The author retains the source overrides and the original plan. The repository copy of the plan includes the frozen cases and predictions.
+
+\textbf{Reference replay.} The aligned encounter uses the turnaround-corrected policy and replays the initial campaign's early valid-grant case. The scenario is \textsf{configs/cooperative\_docking\_paper\_replay.yaml}. For an exact trajectory replay, use the archived CPython 3.11.18 runtime, set \textsf{OEL\_DOCKING\_ARCHIVED\_PLAN} to the original frozen plan and supply the pinned research checkout. The public workspace README gives a separate command for rescoring the recorded encounters with standard Python.
+
+\begin{quote}
+\sffamily python -B replay.py -\kern0pt-engine /path/to/pinned/oel
+\end{quote}
+
+\textsf{replay.py} checks the Git base, the engine file digests, and the reference flight-software source. It then safely inspects and validates the scenario before running it into a fresh directory under \textsf{outputs/replays/}. The runner compares the full docking-event sequence to the archived reference and records the result in \textsf{replay-receipt.json}.
+
+\textbf{Table S2. Expected modeled events in the reference replay.}
+Times are measured from simulation start.
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Event & Time (s) \\
+\midrule
+First contact & 1.026536 \\
+Soft capture & 1.026536 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The repeat replay matched the archived event sequence exactly. The modeled latch accepts at the first contact event when the geometry, speed and arming gates are already satisfied. The two events therefore share a timestamp in this case. The inward contact speed was 50.4101 mm/s. The receipt retains full timestamp precision.
+
+\newpage
+
+{\large\bfseries S3. Revision studies\par}
+
+\textbf{Table S3. Reservation sensitivity.} Each row uses six profiles per policy and combines three approach geometries with configured renewal reply delays of 52 and 201 ms. Initial and renewal grants are measured in receiver-clock seconds. Occupied time is the union of granted intervals converted to simulated physical seconds and summed over runs.
+
+\begin{center}
+\begin{tabular}{@{}rrrrrrrr@{}}
+\toprule
+Initial & Renewal & \multicolumn{2}{c}{Captures} & \multicolumn{2}{c}{Renewals requested} &
+  \multicolumn{2}{c}{Occupied time (s)} \\
+grant & cap & Fixed & Corr. & Fixed & Corr. & Fixed & Corr. \\
+\midrule
+1.10 & 0.85 & 0 & 4 & 6 & 2 & 6.60 & 6.60 \\
+1.10 & 1.90 & 6 & 6 & 6 & 2 & 12.53 & 8.58 \\
+1.40 & 0.85 & 6 & 6 & 0 & 0 & 8.41 & 8.41 \\
+1.40 & 1.90 & 6 & 6 & 0 & 0 & 8.41 & 8.41 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Separately sampled profiles.} The frozen plan used seed 20261117 and retained all 12 sampled cases. Sampling ranges were 41--71 mm axial port-center gap, 29--46 mm/s closing speed, $\pm7$ mm/s$^2$ target acceleration, 0--32 mrad tilt, 31.25 or 62.5 ms actuation lag, and navigation biases of $\pm0.5$ mm and $\pm1$ mm/s. The initial grant was drawn from 0.90--1.65 s, the renewal cap from 0.80--1.90 s, and each configured return delay from 20--240 ms. Processing was 62.5 or 125 ms before scheduler effects and the renewal reply was dropped with sampling probability 0.2. These distributions specify the benchmark generator. Both controllers captured the same ten cases. Across the 14 retreats in these 78 runs, the minimum sampled port-center clearance was 4.748 mm and the minimum sampled leading-edge clearance was 4.489 mm. The smallest observed expiry margin beyond the certified latest-contact time and 40 ms reserve was 33.674 ms.
+
+\textbf{Contact checks.} The independent scalar reference subtracts $r_p\sin\theta$ from the port-center gap at commitment and finds the first root
+\[
+  g_{\rm eff}-v_0t-\tfrac12 a_Rt^2-\tfrac12 u[t-\ell]_+^2=0 ,
+\]
+using the OEL state at commitment, signed axial receiver acceleration, selected command, and configured lag. It excludes differential gravity and contact forces before the crossing. The audit queries precontact gap, speed, lateral distance, angle, and angular rate from \textsf{docking\_samples}. It reads the command from flight-software diagnostics. For a pair of precontact samples, the change in closing speed minus the integrated chaser acceleration, divided by the sample interval, gives the average residual acceleration. The finest convergence test used outer and contact steps of 7.8125 ms and 0.9765625 ms, respectively. The archival replay and the revised convergence checks use simulation time.
+
+\textbf{Protocol and scalar checks.} In an abstract two-request ledger, all $7^6$ length-six traces preserve active promises under new requests, duplicates, ordinary abort and reset requests, message loss, and tick advancement. The model defers incompatible transitions while a reservation is active. Reset survival of physical state requires an implementation beyond this discrete check. In 512 seeded scalar draws, 296 were admitted. The independent integrator propagated each admitted case with a sinusoidal disturbance (0.2--12 Hz), sampled phase and onset delay, and event-root detection. The smallest slack to either time bound was 15.848 ms, and the smallest slack to either speed bound was 0.466 mm/s. The nominal reference tested 201 constant commands at each exact-expiry refusal point of the original grid using zero disturbance and a 46.875 ms delay.
+
+\textbf{One-host timing repeat.} A timestamp-based classifier agreed with all 12 repeat decisions, including six admissions. Across these and the two original admissions, slack beyond certified latest contact plus handoff agreed within 3 ns with the interval from the chaser's request timestamp to receiver receipt. That interval includes a deliberately inserted 20 ms wait before transmission. The minimum slack was 22.613 ms in the original batch and 22.584 ms in the repeat. Both processes used the same host oscillator with emulated rates. The decision timestamp was taken before evaluating the certificate.
+
+\newpage
+{\large\bfseries S4. Controller implementation and paired attribution\par}
+
+\textbf{Table S4. Closed-loop comparison by timing information.} All four policies share minimum-acceleration guidance, speed management and one renewal. F uses the fixed reverse-delay bound. E also uses chaser elapsed time with a zero processing minimum. M uses elapsed time with a 62.5 ms physical processing minimum. C uses measured turnaround. E, M and C each retain F as an alternative bound. Occupancy sums the physical-time union of issued grants, including lost replies, over the profiles in each cohort.
+
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrrrrrrrrr@{}}
+\toprule
+Cohort (profiles) & \multicolumn{4}{c}{Captures} & \multicolumn{4}{c}{Renewals} & \multicolumn{4}{c}{Occupancy (s)}\\
+ & F & E & M & C & F & E & M & C & F & E & M & C\\
+\midrule
+Matched (21) & 15 & 17 & 20 & 20 & 11 & 6 & 1 & 1 & 31.30 & 28.82 & 25.65 & 25.65\\
+Sensitivity (24) & 18 & 20 & 22 & 22 & 12 & 8 & 4 & 4 & 35.95 & 33.97 & 32.00 & 32.00\\
+Sampled (12) & 10 & 10 & 10 & 10 & 4 & 4 & 4 & 3 & 18.65 & 18.65 & 18.65 & 18.04\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+For M, the age bound from the exchange is $\max(0,E_C/(1-\rho_C)-0.0625\,\mathrm{s})$. Every receiver configuration in these 57 runs enforces the assumed minimum. All 57 runs met the scoring criteria. M and C agreed on every capture and retreat. First-contact times differed in 14 matched, 12 sensitivity and five sampled profiles. All 114 F and C replays of previously tested profiles reproduced their outcomes, grant selections, request counts and first-contact or abort times.
+
+\textbf{Equal-observation example (Sec.~III).} The grid uses an outbound delay of 31.25 ms and both clocks at 1.001 times physical rate. The short-return exchange spends 281.25 ms in receiver processing and 31.25 ms on the return. The long-return exchange reverses those intervals. Both have $E_C=344.09375$ ms and $H_R=0.9$ receiver seconds. With a 40 ms reserve, (1) gives a certified short-return horizon of 795.913 ms. The admissible command interval is approximately $[41.0042,46.2695]$ mm/s$^2$. In the long-return exchange, even an oracle has only $T=0.9/1.001-0.28125-0.040$ physical seconds. For an allowed initial gap of 34.6 mm, closing speed of 32.8 mm/s, lag of 0.0625 s and constant disturbance of $-8$ mm/s$^2$, the greatest possible closure by $T$ is
+\[
+32.8T-4T^2+25(T-0.0625)^2=24.258~\mathrm{mm}\quad\text{(rounded)}.
+\]
+The corresponding command is the maximum 50 mm/s$^2$ after onset. The grid includes a 31.25 ms processing case, so the 62.5 ms processing minimum of the closed-loop experiments does not apply to this pair.
+
+\textbf{Actuator onset.} On each 31.25 ms chaser invocation the software applies all due setpoints in timestamp order. The last due setpoint governs the next integration interval. In an aligned approach and a matched braking test, the five configured delays were 31.25 ms, one nanosecond above 31.25 ms, 46.875 ms, one nanosecond below 62.5 ms and 62.5 ms. Measured onset delays were 31.25, 62.5, 62.5, 62.5 and 62.5 ms in both directions. The scorer matched the first nonzero command to the corresponding signed acceleration in the OEL thrust history. Each thrust sample describes the step ending at its timestamp. All five approaches captured and all five brakes retained the leading-edge reserve. This test assumes the scheduled task runs on time.
+
+\textbf{Receiver conformance.} A separate specification records the original grant intervals. At every step the checker compares the actual receiver's arming, reply identity, duration, retransmission flag and retained expiries with the specification. It exhausts all $7^6=117{,}649$ six-action sequences over initial request, renewal, duplicate, lost renewal reply, ordinary abort request, ordinary reset request and elapsed tick. The receiver declines new obligations after a stop request and honors outstanding ones until expiry. A separate test drops the first reply, then sends a duplicate after expiry and verifies that the chaser ignores the retransmission. These checks run the flight-software methods in process. Physical power interruption and persistent storage are outside their scope.
+
+\textbf{Independent rescoring.} The evidence archive includes time-stamped events, sampled retreat geometry and the applied acceleration for the onset cases. The standard-library checker recomputes the timing, speed and handoff conditions, occupancy, leading-edge clearance, and paired gains from these records. For retreat it queries time, port-center gap, angle and normal speed from \textsf{docking\_samples} in time order and minimizes $g(t)-0.20\sin\theta(t)$ over samples. All 38 archived retreats retained at least 2 mm. The underlying review stores and validated configurations remain in the OEL workspace.
+
+\end{document}

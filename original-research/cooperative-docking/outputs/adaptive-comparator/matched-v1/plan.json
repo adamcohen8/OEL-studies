@@ -1,0 +1,498 @@
+{
+  "cases": [
+    {
+      "name": "level_fast_renewable",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.03125,
+        0.0625
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "level_fast_limited",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.03125,
+        0.0625
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "level_middle_renewable",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.15625,
+        0.09375
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "level_middle_limited",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.15625,
+        0.09375
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "level_slow_renewable",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.28125,
+        0.21875
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "level_slow_limited",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.28125,
+        0.21875
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "moving_fast_renewable",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.03125,
+        0.0625
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "moving_fast_limited",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.03125,
+        0.0625
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "moving_middle_renewable",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.15625,
+        0.09375
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "moving_middle_limited",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.15625,
+        0.09375
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "moving_slow_renewable",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.28125,
+        0.21875
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "moving_slow_limited",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.28125,
+        0.21875
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "tilted_fast_renewable",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.03125,
+        0.0625
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "tilted_fast_limited",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.03125,
+        0.0625
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "tilted_middle_renewable",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.15625,
+        0.09375
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "tilted_middle_limited",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.15625,
+        0.09375
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "tilted_slow_renewable",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.28125,
+        0.21875
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "tilted_slow_limited",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.28125,
+        0.21875
+      ],
+      "second_cap_s": 0.85,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        false
+      ]
+    },
+    {
+      "name": "first_reply_lost",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.044,
+        "receiver_m_s2": -0.007,
+        "tilt_rad": 0,
+        "lag_s": 0.03125,
+        "initial_lease_s": 1.18,
+        "gap_bias_m": -0.00045,
+        "speed_bias_m_s": 0.001
+      },
+      "reverse_s": [
+        0.09375,
+        0.125
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        true,
+        false
+      ]
+    },
+    {
+      "name": "renewal_reply_lost",
+      "geometry": {
+        "gap_m": 0.047,
+        "closing_m_s": 0.04,
+        "receiver_m_s2": 0.001,
+        "tilt_rad": 0,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.05,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": -0.00075
+      },
+      "reverse_s": [
+        0.09375,
+        0.125
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.0625,
+      "drop": [
+        false,
+        true
+      ]
+    },
+    {
+      "name": "slow_processing",
+      "geometry": {
+        "gap_m": 0.052,
+        "closing_m_s": 0.036,
+        "receiver_m_s2": 0.0068,
+        "tilt_rad": 0.025,
+        "lag_s": 0.0625,
+        "initial_lease_s": 1.24,
+        "gap_bias_m": 0.00035,
+        "speed_bias_m_s": 0.00065
+      },
+      "reverse_s": [
+        0.03125,
+        0.09375
+      ],
+      "second_cap_s": 1.9,
+      "turnaround_s": 0.125,
+      "drop": [
+        false,
+        false
+      ]
+    }
+  ],
+  "policies": [
+    "fixed_one_shot",
+    "fixed_adaptive",
+    "fixed_renew_coast",
+    "corrected_adaptive"
+  ],
+  "source": {
+    "research/adaptive-comparator/run_comparison.py": "fb772f4e669cf70dfcd4066e53d7f19353f477582eaafef95bcce86a225c953e",
+    "fsw/comparator_stack.py": "43fbcfd03f7d4aa200b2be8cd126e35fd3976c59f98868e579be3564297c402f",
+    "configs/cooperative_docking_paper_replay.yaml": "21f13cf64fadaba1259edb5c8080e519ca53c95b57858a3d4523b3d650b02c99"
+  }
+}

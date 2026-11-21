@@ -8,6 +8,8 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 
 [Cooperative Spacecraft Docking with Time-Limited Readiness Guarantees](original-research/cooperative-docking/) examines when receiver timing can certify a docking approach. The workspace includes the paper, supplement and offline evidence checks.
 
+[One-exposure recovery bounds after the 2024 Juice lunar flyby](original-research/juice-lunar-flyby-recovery/) — Adam Cohen. A 4.4° square centered on the least-squares prediction misses a compatible orbit. Moving the boresight by 0.20557° covers the nominal family at a 2.00″ observation-error cap.
+
 ## Reproductions
 
 | Paper and workspace | Question | Verified replay |

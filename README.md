@@ -17,6 +17,7 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 | [Schaub & Alfriend (2001), *J₂ Invariant Relative Orbits for Spacecraft Formations*](reproductions/schaub-alfriend-2001/) | How much does initializing a formation in mean orbital elements reduce relative phase drift over 45 orbits? | OEL 1.1.0 measured a **305.5×** reduction in the paper’s 48° example, consistent with Figures 3B and 4B. |
 | [Chesley et al. (2014), *Orbit and bulk density of the OSIRIS-REx target Asteroid (101955) Bennu*](reproductions/chesley-2014-bennu/) | Can optical and radar astrometry recover Bennu’s inward orbital drift? | GRSS with an OEL 1.1.0 cross-check gives **−282.90 ± 1.48 m/year** using an independent optical selection. The paper reports −284 ± 1.5 m/year. |
 | [Izzo (2015), *Revisiting Lambert’s Problem*](reproductions/izzo-2015-lambert/) | Can two one-revolution transfers connect the same endpoints in 550 days? | Both branches closed within 0.22 m at the finer integration step. The minimum flight time was 479.07047 days. |
+| [Vallado et al. (2006), *Revisiting Spacetrack Report #3*](reproductions/vallado-2006-vanguard/) | Can OEL reproduce the archived 72-hour Vanguard 1 trajectory? | Across 13 epochs the submitted Python trajectory missed the 1 m and 1 mm/s limits. The default Rust backend met both. |
 
 ## Replay the first reproduction
 

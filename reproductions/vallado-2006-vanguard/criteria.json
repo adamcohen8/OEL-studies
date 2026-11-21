@@ -1,0 +1,22 @@
+{
+  "source_sha256": "5fd9b6dedbd755f0f336b143a076bbe6308e22c2f79f21910367963868b64869",
+  "epochs_min": [
+    0,
+    360,
+    720,
+    1080,
+    1440,
+    1800,
+    2160,
+    2520,
+    2880,
+    3240,
+    3600,
+    3960,
+    4320
+  ],
+  "frame": "TEME",
+  "max_position_norm_km": 0.001,
+  "max_velocity_norm_km_s": 1e-06,
+  "scope": "Vanguard example only"
+}

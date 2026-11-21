@@ -1,0 +1,8 @@
+{
+  "epochs": 13,
+  "max_position_error_km": 0.007890842439607679,
+  "max_position_error_at_min": 360,
+  "max_velocity_error_km_s": 6.2633699856455525e-06,
+  "max_velocity_error_at_min": 3960,
+  "passed": false
+}

@@ -1,0 +1,136 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[letterpaper,margin=.93in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx}
+\usepackage[hidelinks]{hyperref}
+\DeclareMathSizes{10}{10}{7}{7}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\newcommand{\file}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\as}{^{\prime\prime}}
+\hypersetup{pdftitle={Reproducing the Juice detector bounds},pdfauthor={Adam Cohen}}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Reproducing the Juice detector bounds}\\[5pt]
+{\large Computational supplement to \emph{One-exposure recovery bounds after the 2024 Juice lunar flyby}}\\[5pt]
+Adam Cohen \quad 19 November 2026
+\end{center}
+
+\section{What the calculations establish}
+At a hard $2.00\as$ residual cap, one compatible nominal orbit lies $3.180182^\circ$ or more from the least-squares boresight. The ideal $4.4^\circ$ square reaches only $3.109743^\circ$ from its center. The sufficient boresight is $0.205572^\circ$ away from the least-squares direction. These three numbers can be checked directly with unit vectors. The whole-set sufficiency result additionally requires coverage of every incoming state allowed by the optical model and the physical priors. The all-roll exclusion by $2.148\as$ instead requires three compatible surviving states and a lower bound over every detector orientation.
+
+The reviewer ZIP contains the sources and frozen numerical inputs for these three checks. The observation CSV gives archive entry, observatory, UTC, inertial ray and site position for each exposure. The original HTML, station data, Earth orientation and compact geocentric DE440s resource accompany it. The 25 training receptions and the forecast epoch use the same optical convention. Every signed detector projection below has units of kilometres because it operates on an unnormalized ray. The margin has no direct interpretation as a telescope pointing tolerance.
+
+\paragraph{Least-squares refit.}
+The original six-seed fit used equal weights for the two tangent-plane components per reception. It iterated the light time three times with the barycentric velocity held at its reception value. The local refit starts near that solution, propagates the spacecraft to each trial emission time and iterates the light time four times. For Earth's displacement over the light time, a quadratic through DE440s positions at reception and at $\pm64$ s avoids subtracting positions evaluated at nearly coincident Julian dates. At central-difference step scales $0.5$, $1$ and $2$ times the archived reference steps, the boresight shifts were $0.00708\as$, $0.00668\as$ and $0.00704\as$, respectively. The radial tangent-plane RMS was $0.269058\as$ for all three fits.
+
+\paragraph{Preceding-night check.}
+The August 14 holdout contains six directions from 718, two from G17 and five from C23. For each fixed first-reception state, a shooting calculation obtains the earlier state by forward integration back to the specified state, with closure tolerances of $10^{-5}$ km and $10^{-9}$ km/s. The calculation then propagates to the emission time for each archived reception and includes Earth's barycentric displacement in the topocentric ray. The script records the additional G17 parallax constants from the \href{https://minorplanetcenter.net/iau/lists/ObsCodes.html}{Minor Planet Center} and the August 14 Earth-orientation values from \href{https://datacenter.iers.org/data/9/finals2000A.all}{IERS finals2000A}. Output rows 62--74 form the holdout. Row 75 repeats the first training exposure as a check on epoch and frame. All residuals in the main paper's holdout table come from the 13 earlier rows.
+
+\section{From optical observations to a covering partition}
+A state at reception supplies three position and three velocity components and one light-path range. The joint linear relaxation has 175 variables. Start with a positive range bounded by the first--last angular change and the $6$ km/s geocentric speed limit. For each light-time product $\rho v_j$, the four endpoint planes of the McCormick envelope contain its graph on the current coordinate intervals. Supporting half-planes circumscribe the circular optical cap. Along an observing gap of duration $h$, a trajectory with acceleration norm bounded by $a$ deviates from its endpoint chord by at most $ah^2/8$. Combining this inequality with integrated relative acceleration and bounded variation of its Jacobian gives outer inequalities for both endpoint states. The two longest gaps are 51,558 and 70,363 seconds. After contracting the knots, their added position quadrature allowances are 0.05560 and 0.17548 km, respectively. The code records the remaining terms for every gap.
+
+Write $z=T(x_{25}-x_0)$ for the last-reception chart, where $x_0$ is the chart origin, distinct from the spacecraft state at the first observation. The archive gives $T$, $x_0$ and the enclosing root box at full precision. Every coordinate contraction maximizes a signed coordinate over the optical polytope; covering it suffices. For $Az\le b$, $l\le z\le h$ and objective $g$, the upper bound used is
+\[
+ U=\lambda^T b + \sum_j\max\{(g-A^T\lambda)_j l_j,(g-A^T\lambda)_j h_j\},
+ \qquad \lambda\ge0 .
+\]
+The residual term makes approximate LP multipliers usable. A failed solve cannot shrink the domain. A split sends the closed cut plane to both children. The audit starts with 32 contiguous slabs, visits every cut, widens a face wherever replay gives a looser bound, adds $10^{-6}$ chart units to each outer face of a terminal box, and reclassifies its enlarged domain. It evaluates 12 root and 2,349 selected partition supports by exact binary-rational arithmetic. The 408 flagged comparisons in the stored partition audit refer to original contraction estimates exceeded in this traversal; the widened boxes enter the final replay. The 606 internal splits end in 638 terminal regions.
+
+\section{Transport of the position and velocity remainder}
+For each box, use normalized coordinates $p_i\in[-1,1]$. At a reference knot, enclose position by
+$x_k+P_k p+Q_k m(p)+B(R_k)$, where $m(p)$ contains the 21 distinct quadratic products and $B(R)$ is the closed Euclidean ball. Use the same coordinates in the velocity enclosure with radius $V_k$. The reference knots for the limiting box come from OEL RK4. The fine grid caps steps at 90, 5, 1.25, 5 and 18 s on consecutive segments ending at forecast time minus 13 h, 10.75 h, 7 h, 5 h and 1 s. OEL includes Earth $J_2$ in its reference. The defect calculation uses an inverse-square acceleration proxy and budgets the omitted term.
+
+Let $d_r,d_v$ bound the measured knot defects including roundoff, $L$ bound the position derivative of acceleration, $e$ bound the discarded force, and $S$ bound the second time derivative of the smooth inverse-square acceleration. For $h=t_{k+1}-t_k$ set
+\begin{align*}
+ \widehat R&=\frac{R_k+hV_k+h^2(LR_k/3+e/2)+h^4S/24+d_r}{1-h^2L/6},\\
+ R_{k+1}&=(1+10^{-12})\widehat R+10^{-12},\\
+ V_{k+1}&=(1+10^{-12})[V_k+h\{L(R_k+\widehat R)/2+e\}+h^3S/12+d_v]+10^{-16}.
+\end{align*}
+These terms follow by subtracting the endpoint position and trapezoidal velocity formulas and moving the $h^2L\widehat R/6$ endpoint error to the left. Initialize $(R_0,V_0)=(10^{-7}\ \mathrm{km},10^{-11}\ \mathrm{km/s})$. A nonpositive denominator makes the step inconclusive. The exact formulas and domain guards for the quadratic and affine cases appear in \file{quadratic.py} and \file{affine_cells.py}.
+
+For body $i$, let $d_i$ be a lower endpoint distance and $f_i$ its lower distance after allowing the linear and quadratic displacement radii $a,b$. Then the quadratic implementation includes
+\[
+ \sum_i\left[4.00001\mu_i(a+b)^3/f_i^5+
+      3.00001\mu_i(2ab+b^2)/d_i^4\right]
+\]
+in $e$. The first term bounds the cubic Taylor remainder of inverse-square gravity. The second accounts for feeding the quadratic displacement back through the Hessian. Between-knot distances also include speed times step length and a 0.02 km allowance. The Jacobian bound sums $2\mu_i/r_i^3$ over the Earth, Moon and Sun direct terms. Smooth acceleration curvature uses the radial distance, relative speed and relative acceleration upper bounds for each direct and indirect term. The $J_2$ allowance bounds both the trajectory and reference contributions by their respective $12J_2\mu_E R_E^2/r^4$ envelopes.
+
+The ephemeris force allowance multiplies 0.011 km by the relevant direct and indirect Jacobian bounds. In the sky calculation the two Earth evaluations at emission and reception and the station computation share 0.021 km. These are numerical budgets for evaluating the specified ephemeris and observation model. The frozen geocentric Moon comparison against Horizons found discrepancies of up to 2.36 m at ten epochs; it does not uniformly bound error against the real lunar orbit. In the quadratic code both measured defects have a floor ($10^{-8}$ km and $10^{-12}$ km/s) and a scale-dependent arithmetic allowance. If $a,b$ are the knot widths and $w,u$ the two velocity-matrix bounds, set $\eta=10^{-11}[1+a+b+h(w+u)]$ and add $\eta,\eta/100$ to the two defects. A further $10^{-14}$ km/s$^2$ enters the force remainder. These implementation allowances and the floating-point construction of the inequalities are open to audit. The replay does not constitute a machine-checked nonlinear proof.
+
+\section{Worked example at the limiting detector face}
+Use terminal region \file{20.1.0.1.1.0.0.1.0.1.1.1.1.1.0}. The route file gives the split coordinate and cut at each prefix. Table~\ref{tab:box} shows the resulting box after enlargement. The executable reads full-precision endpoints. Transforming its midpoint back to physical coordinates gives last-reception position $(967819.596,-407208.282,-202161.067)$ km and velocity $(-2.91090332,1.05813495,0.46946282)$ km/s. The initial displacement matrix is $T^{-1}\operatorname{diag}[(z_{\max}-z_{\min})/2]$.
+\begin{table}[h]
+\centering
+\caption{Limiting box, in the six coordinates of the stored chart. Printed values are descriptive.}\label{tab:box}
+\begin{tabular}{crr@{\qquad}crr}
+\toprule
+Axis & Lower & Upper & Axis & Lower & Upper\\ \midrule
+1 & 2149.426358 & 2165.341137 & 4 & $-4.177910$ & 9.363964\\
+2 & 121.498321 & 136.663234 & 5 & $-0.251149$ & 0.395956\\
+3 & 22.834792 & 44.793286 & 6 & $-0.303246$ & 0.328367\\ \bottomrule
+\end{tabular}
+\end{table}
+
+This box is a useful test because its reference periapsis radius is 1,734.679 km, inside the sphere. Center impact alone cannot remove this box. At 17,159 reference knots, propagation carries the six linear and 21 quadratic displacement coefficients through the encounter. Around periapsis, necessary inequalities from $\|q\|^2\ge R_M^2$ constrain the same coefficients that determine the camera projections. The 25 optical caps contribute 64 support directions apiece in the local backward calculation. The resulting linear program has 8,333 inequality rows and 202 variables.
+
+At a fixed trial emission time let $y$ be the reference ray, $P_f$ the final linear-plus-quadratic position matrix and $R_f$ the remaining radius. For $\Delta$ equal to the absolute reference light-cone defect, an allowance in time is
+\[
+ \delta t=(\Delta+\operatorname{maxball}(P_f)+R_f+0.021)/(c_0-50),
+ \qquad \operatorname{maxball}(M)=\big\|\textstyle\sum_j |M_{:j}|\big\|_2 .
+\]
+Each face has unit normal $n$. Its signed upper bound is $n^Ty+U_n+R_f+0.021+50\delta t+0.0001$ km. Table~\ref{tab:faces} separates the terms that vary by face. The common contributions are 9.890093 km of propagation remainder, 0.021 km of site and ephemeris error, 10.464848 km of emission-time error and 0.0001 km of arithmetic padding.
+\begin{table}[h]
+\centering
+\caption{Four face projections for the limiting cell (km). The archive stores the complete LP, multipliers and objective scales.}\label{tab:faces}
+\begin{tabular}{lrrr}\toprule
+Normal & Reference $n^Ty$ & Padded support $U_n$ & Total upper bound\\ \midrule
+$+e_1$ face & $-94.238068$ & 69.035335 & $-4.826692$\\
+$+e_2$ face & $-17003.338436$ & 249.623452 & $-16733.338944$\\
+$-e_1$ face & $-18118.369439$ & 318.783352 & $-17779.210047$\\
+$-e_2$ face & $-1209.269071$ & 115.599411 & $-1073.293619$\\ \bottomrule
+\end{tabular}
+\end{table}
+
+For the limiting face, exact rational evaluation of the stored dual gives 69.03532060 km before padding. The total is negative even with the larger padded support. The four negative totals enclose every surviving member of this box. The separate tally for the entire tree is 394 contained, 176 collision and 68 infeasible. We rebuilt the incoming matrices from the observations and reclassified all 638 cells in a fresh directory. A second rebuild using the public OEL v1.0.0 source and a newly compiled native backend gave the same counts and a limiting projection of $-4.826459$ km, a difference of 0.23 m. Both executions use the same enclosure algorithms.
+
+\section{Testing the lunar model}
+GRGM1200A supplies geodesy-normalized sine and cosine coefficients. The numeric table header supplies $R=1738.0$ km and $GM=4902.8001224453$ km$^3$/s$^2$; the detached label quotes a slightly different $GM$. The replay uses the header in both the monopole correction and harmonics. In geocentric coordinates add $H(r-r_M)-H(-r_M)$, where $H$ is the OEL harmonic perturbation, along with the change from the nominal lunar monopole to the header value. The second term accounts for acceleration of the Earth origin. DE430 libration angles are Chebyshev-evaluated at TDB and define the inertial-to-principal-axis rotation. The terrain coordinates use the separate NAIF DE421 mean-Earth rotation. The two principal-axis orientations differ by 0.201 arcseconds at the first observation.
+
+The archive includes the full coefficient table. Near the surface the highest run uses all 1,200 degrees and orders. To reduce computation, the maximum degree becomes 256 at $r/R\ge1.12$, 128 at $r/R\ge1.3$ and 32 at $r/R\ge2.5$. For degree power $P_n=\sum_m(C_{nm}^2+S_{nm}^2)$, the addition theorem bounds the omitted acceleration at radius $r$ by $(GM/r^2)\sum_{n>N}(R/r)^n(2n+1)\sqrt{(n+1)P_n}$. At the three switch radii, in the order $2.5R,1.3R,1.12R$, the bounds for one field evaluation are below $3.1\times10^{-20}$, $7.8\times10^{-21}$ and $1.9\times10^{-18}$ km/s$^2$. They decrease with distance within each regime. The measured comparison against globally truncated degree 256 uses the same input states. For the original A, B and C, the angular changes between the two fields are 0.1651, less than 0.00001 and 0.0416 arcseconds, respectively. For the replacement the change is 0.1043 arcseconds. Repeating the high-degree replays with OEL Dormand--Prince 5 and five-second encounter knots in place of RKF78 and ten-second knots changes every forecast by less than $0.0044\as$ and minimum sampled clearance by less than 0.01 m. Both integrators use the same force model and terrain grids.
+
+LOLA grid values are signed little-endian 16-bit samples, in 0.5 m height units above the 1,737.4 km sphere. For longitude $\lambda$ east in $[0,360)$ and planetocentric latitude $\phi$ in degrees, the zero-based sample-center coordinates at $d$ pixels/degree are $j=d\lambda-1/2$ and $i=d(90-\phi)-1/2$. Interpolate the four adjacent samples bilinearly. The 16-pixel/degree map covers the globe. The finer subimage covers $90$--$120^\circ$ east and $5$--$23^\circ$ south at 128 pixels/degree (about 237 m at the equator). The replay requires the finer grid at every terrain sample less than 14 km above the reference sphere. The full finer grid's greatest labeled elevation is 10.779 km.
+
+Encounter state knots cover $\pm1,800$ s around the point-mass closest approach. Cubic Hermite interpolation of OEL positions and velocities gives terrain samples at intervals of 5 s, 0.25 s inside $\pm220$ s and 0.025 s inside $\pm85$ s. Each reception has a state knot and a preceding knot spanning its light time; five iterations evaluate the barycentric ray. The first emission uses the initial position, velocity and acceleration over the short lookback. Each output records all 25 residuals and the forecast unit vector. The map heights do not enclose unresolved topography or provide a formal lower bound on continuous clearance.
+
+For the two original low passes the finer terrain grid gives nominal point-mass clearances of $-0.447$ and $+1.327$ km. Adding rotating gravity gives $-0.501$ and $+1.270$ km. The new trajectory uses $x_A+0.003(x_{\rm LS}-x_A)$. Trials at fractions 0.001, 0.002 and 0.003 with degree 128 gave sampled clearances of 0.244, 0.990 and 1.733 km. The largest fraction was carried into the higher-degree test. Its minimum sampled clearance above even the highest of the four neighboring fine pixels was 1.710 km. With B and C, the resulting directions exclude a common pointing even if each is perturbed by $5\as$. This last radius tests geometric sensitivity. Agreement across integrators and truncations is numerical evidence for the propagated centers, with no validated error tube for the changed force law.
+
+For the rotating-gravity trio, subtracting the largest training residual of each trajectory from $2.148\as$ gives $0.010481\as$ for $A'$, $0.004907\as$ for B and $0.004985\as$ for C. B reaches its largest residual at station 718, entry 79. The illustrative $5\as$ perturbations apply only to the three final forecast rays in the roll calculation.
+
+\section{Executable checks}
+Unpack the reviewer ZIP and run the following from its root. The first two checks require NumPy and mpmath. They do not import OEL.
+\begin{verbatim}
+python revision/check_geometry.py
+python revision/check_cell_duals.py
+\end{verbatim}
+With the OEL environment active, run these commands from the archive root:
+\begin{verbatim}
+python review-round-2/recheck_witnesses.py
+python review-round-2/previous_night.py
+python review-round-2/refit_pointing.py
+\end{verbatim}
+The first command takes the four stored six-component states, recomputes their training and survival bounds and forecast rays and radii, and tests the geometry against the published boresight. It gives a $4.22639$ arcminute miss and a positive nominal chord excess of $1.28895\times10^{-4}$ across 4,096 roll intervals. The other two commands regenerate the earlier-night residuals and the local refit.
+
+For a complete replay, use the native orbit backend and the Python environment described in the accompanying README. Set the OEL source location and use a new output directory.
+\begin{verbatim}
+python revision/replay_cover.py /tmp/juice-fresh/study --oel /path/to/OEL
+\end{verbatim}
+This rebuilds the incoming programs from the archived optical observations, traverses the tree, reruns both nonlinear shards from empty checkpoints, and summarizes the results. It retains the archived chart, branch schedule, fit and camera as proposed inputs to be tested. The optional \file{--frozen-optics} skips rebuilding the incoming matrices. Run \file{revision/worked_cell.py} to recompute the limiting-cell budget from the boxed nonlinear initial conditions. With OEL and SpiceyPy on the import path, the command below regenerates the higher-degree replacement. Use A, B or C in place of the quoted argument to replay the originals.
+\begin{verbatim}
+python revision/lunar_replay.py 'A+.003' 1200 10
+\end{verbatim}
+
+The README gives the source and native build commands, software versions and archive hash check. The two source labels, Earth and lunar frame resources, gravity coefficients and georeferenced terrain crop are included for offline physics replay. The OEL checkout used for the public replay was \href{https://github.com/adamcohen8/orbital-engineering-lab/tree/108aa6412e6875bbfa5d9741ebee7200b362badc}{release v1.0.0}. NASA source products include the \href{https://pds-geosciences.wustl.edu/missions/lro/lola.htm}{LOLA gridded shape data}, \href{https://pgda.gsfc.nasa.gov/products/50}{GRGM1200A}, the \href{https://ssd.jpl.nasa.gov/ftp/eph/planets/ascii/de430/}{DE430 libration series} and \href{https://naif.jpl.nasa.gov/pub/naif/generic_kernels/}{NAIF orientation and time kernels}. A local rerun with the same algorithms checks numerical repeatability. Independent derivation of the outer optical inequalities and the nonlinear error budgets remains the main verification opportunity.
+\end{document}

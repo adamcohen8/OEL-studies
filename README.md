@@ -4,6 +4,10 @@ This repository collects [reproductions of published orbital mechanics results](
 
 Orbital Engineering Lab (OEL) is the simulation engine used in these studies. Its source, documentation and installation instructions are available in the [public OEL repository](https://github.com/adamcohen8/orbital-engineering-lab).
 
+## Original research
+
+[Cohen, *One-exposure recovery bounds after the 2024 Juice lunar flyby*](original-research/juice-lunar-flyby-recovery/) — A least-squares pointing misses a compatible orbit, while a 0.20557° shift covers the nominal family at a 2.00″ observation-error cap.
+
 ## Reproductions
 
 | Paper and workspace | Question | Verified replay |

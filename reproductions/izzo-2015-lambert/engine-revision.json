@@ -1,0 +1,12 @@
+{
+  "development_branch": "v1.2.0",
+  "development_commit": "c42fc5fc4bf9e35f30451d713258894ab28807c9",
+  "public_repository": "https://github.com/adamcohen8/orbital-engineering-lab",
+  "public_commit": "5a3d1eaf91775a304efccb85274571700578a0cf",
+  "package_version": "1.2.0+preview.1",
+  "accepted_runtime_sha256": {
+    "development": "c50a4a4bbf5ba5e5c22e31b219f3fa0643e7a96775d16c3a16cd6e916bf366b8",
+    "public_preview": "b9ec11ed36fc1a5b33dbaf196c90bac814220799b6fde65b4145f30c1194563e"
+  },
+  "hash_scope": "Python runtime sources under sim, excluding tests. The replay checks this content digest and the workspace version."
+}

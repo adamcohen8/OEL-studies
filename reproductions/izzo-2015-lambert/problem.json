@@ -1,0 +1,13 @@
+{
+  "central_body": "Sun, point mass",
+  "frame": "fixed right-handed inertial axes with origin at the Sun",
+  "mu_km3_s2": 132712440018.0,
+  "r1_km": [149597870.7, 0.0, 0.0],
+  "r2_km": [0.0, 143613955.872, 107710466.904],
+  "time_of_flight_s": 47520000.0,
+  "short_way": true,
+  "revolutions": 1,
+  "solver_tolerance_s": 0.00001,
+  "propagation_steps": [8192, 16384],
+  "limits": {"position_km": 1.0, "velocity_km_s": 0.000001, "winding_turns": 0.00000001}
+}

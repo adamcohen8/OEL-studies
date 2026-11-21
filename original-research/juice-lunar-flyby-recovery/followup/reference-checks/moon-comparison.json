@@ -1,0 +1,52 @@
+[
+  {
+    "jd_utc": 2458369.8762,
+    "original_error_km": 4391.624088463922,
+    "rebuilt_error_km": 0.001898159445455754
+  },
+  {
+    "jd_utc": 2458370.40822,
+    "original_error_km": 4397.763857074377,
+    "rebuilt_error_km": 0.0018452309790286934
+  },
+  {
+    "jd_utc": 2458370.94024,
+    "original_error_km": 4409.485009739298,
+    "rebuilt_error_km": 0.0018771638815513446
+  },
+  {
+    "jd_utc": 2459921.43642,
+    "original_error_km": 4855.711420002572,
+    "rebuilt_error_km": 0.0019930377473845874
+  },
+  {
+    "jd_utc": 2459921.87077,
+    "original_error_km": 4869.175907899974,
+    "rebuilt_error_km": 0.002038728878146914
+  },
+  {
+    "jd_utc": 2459922.30512,
+    "original_error_km": 4881.7007944511315,
+    "rebuilt_error_km": 0.0019654768296388445
+  },
+  {
+    "jd_utc": 2460537.81104,
+    "original_error_km": 4665.827894623202,
+    "rebuilt_error_km": 0.0021882229980409165
+  },
+  {
+    "jd_utc": 2460540.28052,
+    "original_error_km": 4492.050325023101,
+    "rebuilt_error_km": 0.0022719897328408846
+  },
+  {
+    "jd_utc": 2460542.75,
+    "original_error_km": 4386.151512399071,
+    "rebuilt_error_km": 0.002356452695882888
+  },
+  {
+    "jd_utc": 2460542.385355104,
+    "original_error_km": 4394.784402319552,
+    "rebuilt_error_km": 0.0023118968172319665
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "roll_intervals": 32768,
+  "precision_decimal_digits": 36,
+  "minimum_width_margin": 5.0808940971630445e-06,
+  "side_deg": 4.313,
+  "indices": [
+    0,
+    10,
+    13
+  ]
+}

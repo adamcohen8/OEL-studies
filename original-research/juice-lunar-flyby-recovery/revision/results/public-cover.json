@@ -1,0 +1,78 @@
+{
+  "epoch_utc": "2024-08-20T06:00:00Z",
+  "observatory_code": "703",
+  "observation_count": 25,
+  "nominal_cap_arcsec": 2.0,
+  "square_side_bounds_deg": [
+    4.3141937255859375,
+    4.4
+  ],
+  "circle_diameter_bounds_deg": [
+    5.926600467381925,
+    6.219485212873546
+  ],
+  "boresight": [
+    0.8665368467752693,
+    -0.42163114045745337,
+    -0.26709750013304273
+  ],
+  "ra_deg": 334.0538189864066,
+  "dec_deg": -15.49162393272101,
+  "roll_east_toward_north_deg": 79.22952091162294,
+  "incoming_slabs": 32,
+  "internal_splits": 606,
+  "audited_leaves": 638,
+  "unconstrained_chart_projection_slack": [
+    187.96447348063612,
+    186.6769284061893,
+    3.360867978775218,
+    3.606233836690592,
+    3.0896385585492894,
+    3.11363990516368,
+    2.156365551851483,
+    2.155993786055671,
+    0.019605110235184964,
+    0.0188059519029663,
+    0.02249799066611269,
+    0.020799993033883524
+  ],
+  "chart_supports_rationally_replayed": 12,
+  "partition_supports_rationally_replayed": 2411,
+  "audited_boxes_sha256": "04df53da819f7820ec28d37e53865db33378f0a957231bde56e933c0c8eb0b9e",
+  "final_classification": {
+    "contained": 394,
+    "collision": 176,
+    "infeasible": 68
+  },
+  "unresolved": 0,
+  "worst_contained_face_upper_km": -4.826459108993635,
+  "contained_box_counts_for_nominal_witnesses": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "sufficient_error_cap_arcsec": 2.0,
+  "excluded_error_cap_arcsec_rounded_up": 2.148,
+  "three_orbit_maximum_residual_upper_arcsec": 2.1475608183848975,
+  "three_orbit_indices": [
+    1,
+    3,
+    4
+  ],
+  "three_orbit_max_pair_upper_deg": 6.035075425646718,
+  "independent_integrator_max_training_residual_arcsec": {
+    "2": 1.9861164048817685,
+    "2.15": 2.1430925640055016
+  }
+}

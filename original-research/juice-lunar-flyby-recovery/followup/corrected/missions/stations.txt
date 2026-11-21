@@ -1,0 +1,6 @@
+703 249.267360.845311+0.533211University of Arizona Catalina Sky Survey
+718 247.7042 0.76004 +0.64802 Tooele
+C23   5.154390.628694+0.775052Olmen
+C40  39.0308 0.70806 +0.70380 Kuban State University Astrophysical Observatory
+G96 249.211280.845107+0.533611University of Arizona Mt. Lemmon Survey
+Y05 316.310000.941320-0.337075SONEAR Wykrota-CEAMIG, Serra da Piedade

@@ -1,0 +1,72 @@
+[
+  {
+    "witness": 0,
+    "scale": 0,
+    "status": "contained",
+    "remainder_km": 62.72716528696669,
+    "max_outside_plane_km": -99.89494882796097
+  },
+  {
+    "witness": 0,
+    "scale": 0.1,
+    "status": "unresolved",
+    "remainder_km": 98.84265588838657,
+    "max_outside_plane_km": 28.05816146657505
+  },
+  {
+    "witness": 0,
+    "scale": 0.25,
+    "status": "unresolved",
+    "remainder_km": 288.56536184076856,
+    "max_outside_plane_km": 355.5599079478916
+  },
+  {
+    "witness": 0,
+    "scale": 0.5,
+    "status": "unresolved",
+    "remainder_km": 1161.2443898907395,
+    "max_outside_plane_km": 1457.9634956539494
+  },
+  {
+    "witness": 0,
+    "scale": 1.0,
+    "status": "unresolved",
+    "remainder_km": 12259.135966421742,
+    "max_outside_plane_km": 13016.864286383723
+  },
+  {
+    "witness": 11,
+    "scale": 0,
+    "status": "contained",
+    "remainder_km": 3.220189250712971,
+    "max_outside_plane_km": -165.4714878349204
+  },
+  {
+    "witness": 11,
+    "scale": 0.1,
+    "status": "contained",
+    "remainder_km": 3.802997531241659,
+    "max_outside_plane_km": -152.20999271719867
+  },
+  {
+    "witness": 11,
+    "scale": 0.25,
+    "status": "contained",
+    "remainder_km": 6.706584199739924,
+    "max_outside_plane_km": -130.28803727326127
+  },
+  {
+    "witness": 11,
+    "scale": 0.5,
+    "status": "contained",
+    "remainder_km": 17.329993137665284,
+    "max_outside_plane_km": -87.96638219833885
+  },
+  {
+    "witness": 11,
+    "scale": 1.0,
+    "status": "unresolved",
+    "remainder_km": 62.833032054820734,
+    "max_outside_plane_km": 20.937195169852686
+  }
+]

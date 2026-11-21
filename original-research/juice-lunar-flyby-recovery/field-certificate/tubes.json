@@ -1,0 +1,1022 @@
+[
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 2.6595406409772813,
+    "end_velocity_radius_km_s": 8.917300801475082e-05,
+    "field_radius_deg": 0.01015588610179009,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 2.6595406409772813
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 67.92603732037493,
+    "end_velocity_radius_km_s": 0.0020925989303181222,
+    "field_radius_deg": 0.024785554002199752,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 67.92603732037493
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 680.6440572085652,
+    "end_velocity_radius_km_s": 0.02102265535625237,
+    "field_radius_deg": 0.16212822188282525,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 680.6440572085652
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 3.0316344819037,
+    "end_velocity_radius_km_s": 0.00010056138871377898,
+    "field_radius_deg": 0.0102392919748776,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 3.0316344819037
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 68.30126378565974,
+    "end_velocity_radius_km_s": 0.0021040984732886713,
+    "field_radius_deg": 0.024869662068345736,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 68.30126378565974
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 681.0492736183028,
+    "end_velocity_radius_km_s": 0.02103522021694947,
+    "field_radius_deg": 0.16221905263457603,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 681.0492736183028
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 6.753564581892736,
+    "end_velocity_radius_km_s": 0.00021448037640505452,
+    "field_radius_deg": 0.011073572997220008,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 6.753564581892736
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 72.05453220600171,
+    "end_velocity_radius_km_s": 0.0022191295192757017,
+    "field_radius_deg": 0.025710967730087745,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 72.05453220600171
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 685.1025594028318,
+    "end_velocity_radius_km_s": 0.021160908699627095,
+    "field_radius_deg": 0.16312761160486558,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 685.1025594028318
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 44.07229194822631,
+    "end_velocity_radius_km_s": 0.0013571976014039359,
+    "field_radius_deg": 0.01943867007746112,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 44.07229194822631
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 109.68785457891094,
+    "end_velocity_radius_km_s": 0.0033730110367423153,
+    "field_radius_deg": 0.03414658301258115,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 109.68785457891094
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 725.7478886030749,
+    "end_velocity_radius_km_s": 0.022421792042633275,
+    "field_radius_deg": 0.17223841448318336,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 725.7478886030749
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 427.4662347666298,
+    "end_velocity_radius_km_s": 0.013146630051222742,
+    "field_radius_deg": 0.1053775502208926,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 427.4662347666298
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 496.353192419038,
+    "end_velocity_radius_km_s": 0.015278614004695136,
+    "field_radius_deg": 0.12081878395115807,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 496.353192419038
+  },
+  {
+    "witness": 0,
+    "step_scale": 1.0,
+    "steps": 4064,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 1143.7592625327609,
+    "end_velocity_radius_km_s": 0.03544172876186187,
+    "field_radius_deg": 0.2659375247320132,
+    "center": [
+      0.839188080824174,
+      -0.456615553662966,
+      -0.29540751709410273
+    ],
+    "peak_radius_km": 1143.7592625327609
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 1.0420468273536976,
+    "end_velocity_radius_km_s": 3.47981310429567e-05,
+    "field_radius_deg": 0.009793320348724058,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 1.0420468273536976
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 65.83442876892235,
+    "end_velocity_radius_km_s": 0.0020211872437125447,
+    "field_radius_deg": 0.024316714071362235,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 65.83442876892235
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 673.9511888936534,
+    "end_velocity_radius_km_s": 0.020785729423033306,
+    "field_radius_deg": 0.160627990840851,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 673.9511888936534
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 1.4114037068677485,
+    "end_velocity_radius_km_s": 4.608826883572886e-05,
+    "field_radius_deg": 0.009876112724179494,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 1.4114037068677485
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 66.20687750076668,
+    "end_velocity_radius_km_s": 0.0020325870592942277,
+    "field_radius_deg": 0.024400199500461885,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 66.20687750076668
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 674.3532269737326,
+    "end_velocity_radius_km_s": 0.020798179949500745,
+    "field_radius_deg": 0.1607181091516448,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 674.3532269737326
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 5.105951286543104,
+    "end_velocity_radius_km_s": 0.00015902435772797058,
+    "field_radius_deg": 0.010704255877182534,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 5.105951286543104
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 69.93235545774556,
+    "end_velocity_radius_km_s": 0.00214662035341495,
+    "field_radius_deg": 0.02523527584874787,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 69.93235545774556
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 678.3747140980028,
+    "end_velocity_radius_km_s": 0.0209227245290754,
+    "field_radius_deg": 0.16161954026796646,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 678.3747140980028
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 42.149558085505916,
+    "end_velocity_radius_km_s": 0.001291865445593586,
+    "field_radius_deg": 0.019007683897677555,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 42.149558085505916
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 107.2864554552816,
+    "end_velocity_radius_km_s": 0.0032904763751716234,
+    "field_radius_deg": 0.03360830261030402,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 107.2864554552816
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 718.7005144538423,
+    "end_velocity_radius_km_s": 0.02217211254207386,
+    "field_radius_deg": 0.1706587188485188,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 718.7005144538423
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 422.65784751571584,
+    "end_velocity_radius_km_s": 0.012977639864933393,
+    "field_radius_deg": 0.10429973500944201,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 422.65784751571584
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 491.02277862574175,
+    "end_velocity_radius_km_s": 0.015090840965493423,
+    "field_radius_deg": 0.11962395420900053,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 491.02277862574175
+  },
+  {
+    "witness": 0,
+    "step_scale": 0.5,
+    "steps": 8128,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 1133.3562746508453,
+    "end_velocity_radius_km_s": 0.035071239414497996,
+    "field_radius_deg": 0.2636056410981239,
+    "center": [
+      0.8391880808268185,
+      -0.4566155536597045,
+      -0.29540751709163193
+    ],
+    "peak_radius_km": 1133.3562746508453
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 18.71972024682701,
+    "end_velocity_radius_km_s": 0.0006031447356140819,
+    "field_radius_deg": 0.014046642632446139,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 18.71972024682701
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 601.147482969118,
+    "end_velocity_radius_km_s": 0.019212307871555246,
+    "field_radius_deg": 0.15364317801074862,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 601.147482969118
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7114.41421381821,
+    "end_velocity_radius_km_s": 0.22886487910144812,
+    "field_radius_deg": 1.7149995734303254,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 7114.41421381821
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 22.046705484719023,
+    "end_velocity_radius_km_s": 0.0007093658973965017,
+    "field_radius_deg": 0.014844054852121553,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 22.046705484719023
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 604.6088204860871,
+    "end_velocity_radius_km_s": 0.019322961463025336,
+    "field_radius_deg": 0.15447279477333187,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 604.6088204860871
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7119.554264766586,
+    "end_velocity_radius_km_s": 0.2290314007408128,
+    "field_radius_deg": 1.7162320939098419,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 7119.554264766586
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 55.3584883408527,
+    "end_velocity_radius_km_s": 0.001772959946131462,
+    "field_radius_deg": 0.022828227134769348,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 55.3584883408527
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 639.2666164459465,
+    "end_velocity_radius_km_s": 0.0204309638298199,
+    "field_radius_deg": 0.16277961103204325,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 639.2666164459465
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7171.035304665284,
+    "end_velocity_radius_km_s": 0.23069931879600944,
+    "field_radius_deg": 1.7285766528185098,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 7171.035304665284
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 392.72162389784245,
+    "end_velocity_radius_km_s": 0.012548905457212234,
+    "field_radius_deg": 0.10368751722975947,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 392.72162389784245
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 990.3433742587329,
+    "end_velocity_radius_km_s": 0.03165954882629937,
+    "field_radius_deg": 0.2469262730460563,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 990.3433742587329
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7694.032256703284,
+    "end_velocity_radius_km_s": 0.2476532885835217,
+    "field_radius_deg": 1.8539899318877138,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 7694.032256703284
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 4251.059604525056,
+    "end_velocity_radius_km_s": 0.13634516668611502,
+    "field_radius_deg": 1.0285095757408207,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 4251.059604525056
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 5016.570297214566,
+    "end_velocity_radius_km_s": 0.16102562508411197,
+    "field_radius_deg": 1.212022419478097,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 5016.570297214566
+  },
+  {
+    "witness": 1,
+    "step_scale": 1.0,
+    "steps": 4651,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 13905.426829473286,
+    "end_velocity_radius_km_s": 0.45035004601853484,
+    "field_radius_deg": 3.3443128303227017,
+    "center": [
+      0.8833941841613379,
+      -0.3966004978304111,
+      -0.24964526935352543
+    ],
+    "peak_radius_km": 13905.426829473286
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 7.859261809293917,
+    "end_velocity_radius_km_s": 0.00025329895777878076,
+    "field_radius_deg": 0.011443606673456857,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 7.859261809293917
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 583.551135308132,
+    "end_velocity_radius_km_s": 0.01864008096626831,
+    "field_radius_deg": 0.14942566867744814,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 583.551135308132
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.001,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7007.863907719602,
+    "end_velocity_radius_km_s": 0.2253290305104587,
+    "field_radius_deg": 1.689450309167675,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 7007.863907719602
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 11.148146104095023,
+    "end_velocity_radius_km_s": 0.00035826325923809594,
+    "field_radius_deg": 0.012231886846282448,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 11.148146104095023
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 586.9716826903185,
+    "end_velocity_radius_km_s": 0.018749387144697535,
+    "field_radius_deg": 0.15024550866036543,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 586.9716826903185
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.01,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7012.9232287944005,
+    "end_velocity_radius_km_s": 0.2254928411390221,
+    "field_radius_deg": 1.6906634555360716,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 7012.9232287944005
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 44.07809019728245,
+    "end_velocity_radius_km_s": 0.0014092608071631972,
+    "field_radius_deg": 0.020124539854184897,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 44.07809019728245
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 621.2206734696105,
+    "end_velocity_radius_km_s": 0.019843884916953786,
+    "field_radius_deg": 0.15845434039826028,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 621.2206734696105
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 0.1,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7063.594770930876,
+    "end_velocity_radius_km_s": 0.22713357313990531,
+    "field_radius_deg": 1.702813743779484,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 7063.594770930876
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 377.538355283333,
+    "end_velocity_radius_km_s": 0.01205639821916627,
+    "field_radius_deg": 0.10004838395305214,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 377.538355283333
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 968.1172652851632,
+    "end_velocity_radius_km_s": 0.03093431782364523,
+    "field_radius_deg": 0.2415990683392044,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 968.1172652851632
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 1.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 7578.271342041887,
+    "end_velocity_radius_km_s": 0.2438078916052104,
+    "field_radius_deg": 1.8262300275196641,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 7578.271342041887
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 0.0,
+    "status": "bounded",
+    "end_position_radius_km": 4186.519001526838,
+    "end_velocity_radius_km_s": 0.1342152267609478,
+    "field_radius_deg": 1.0130380213999097,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 4186.519001526838
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-10,
+    "status": "bounded",
+    "end_position_radius_km": 4941.218822704392,
+    "end_velocity_radius_km_s": 0.1585349750519392,
+    "field_radius_deg": 1.1939581879654062,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 4941.218822704392
+  },
+  {
+    "witness": 1,
+    "step_scale": 0.5,
+    "steps": 9302,
+    "initial_radius_km": 10.0,
+    "acceleration_km_s2": 1e-09,
+    "status": "bounded",
+    "end_position_radius_km": 13676.69298756218,
+    "end_velocity_radius_km_s": 0.4426686437776866,
+    "field_radius_deg": 3.2893978839129727,
+    "center": [
+      0.8833941841510675,
+      -0.3966004978455384,
+      -0.24964526936583611
+    ],
+    "peak_radius_km": 13676.69298756218
+  }
+]

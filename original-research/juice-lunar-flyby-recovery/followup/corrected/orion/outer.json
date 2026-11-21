@@ -1,0 +1,27 @@
+{
+  "double": {
+    "fixed_center": [
+      0.7373074820400884,
+      0.6622502818166563,
+      0.13342503948458795
+    ],
+    "transverse_east_bound_km": 14253.783428980942,
+    "transverse_north_bound_km": 19135.493565761648,
+    "forward_lower_km": 80783.55686258005,
+    "sufficient_field_radius_deg": 7.0832628563881315,
+    "acceleration_only_radius_deg": 20.833542861099332
+  },
+  "triple": {
+    "fixed_center": [
+      0.7371845142364015,
+      0.6627733521466955,
+      0.1314932532652268
+    ],
+    "transverse_east_bound_km": 2092.638429068387,
+    "transverse_north_bound_km": 2167.7860942753996,
+    "forward_lower_km": 302793.870868568,
+    "sufficient_field_radius_deg": 0.5701204832688188,
+    "acceleration_only_radius_deg": 13.270040865435918,
+    "radius_with_extra_1as_bias_deg": 0.6630843773109982
+  }
+}

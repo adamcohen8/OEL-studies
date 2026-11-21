@@ -1,0 +1,4 @@
+204   8.769720.697648+0.714307Schiaparelli Observatory
+I47 290.5503 0.81526 -0.57753 Pierre Auger Observatory, Malargue
+J69 358.980340.631443+0.772863North Observatory, Clanfield
+U52 237.451000.749240+0.660270Shasta Valley Observatory, Grenada

@@ -2,7 +2,7 @@
 
 **Adam Cohen · OEL original research · November 2026**
 
-[Read the paper (PDF)](manuscript/juice-recovery.pdf) · [Computational supplement (PDF)](manuscript/juice-supplement.pdf) · [Replay the detector checks](#replay-the-detector-checks) · [LaTeX source](manuscript/)
+[Read the paper (PDF)](manuscript/juice-recovery.pdf) · [Computational supplement (PDF)](manuscript/juice-supplement.pdf) · [Replay instructions](REPRODUCING.md) · [LaTeX source](manuscript/)
 
 Could a single Catalina exposure cover every direction consistent with a short optical arc after Juice passed the Moon? We fitted 25 observations from August 15–17, 2024 and evaluated an ideal, freely rotatable 4.4° square at Catalina station 703 on August 20 at 06:00 UTC.
 
@@ -12,15 +12,13 @@ The choice of observing arc matters. A single C23 exposure from August 14 rules 
 
 ## Replay the detector checks
 
-From this study folder, run the following commands in a Python environment.
+With NumPy and mpmath installed, run `python reproduce.py` in this folder to recover the 4.22639 arcminute fixed-boresight miss and both 4,096-interval roll checks from the [published detector inputs](inputs/detector.json). The full dynamics replay below starts from observations and trajectory states.
 
-```sh
-python -m pip install numpy==2.4.6 mpmath==1.3.0
-python reproduce.py
-```
+## Explore the workspace
 
-The script reads the [numerical inputs](inputs/detector.json). It checks the fixed-boresight miss and evaluates 4,096 roll intervals for each three-orbit obstruction. The nominal miss is 4.22639 arcminutes. The minimum positive chord excess is 0.0001288955 for the nominal trio and 0.0000508640 for the terrain-replacement trio under the paper’s illustrative 5″ forecast perturbations.
+- [Run the geometry and exact-arithmetic checks](REPRODUCING.md#offline-checks-without-oel) using Python, NumPy and mpmath.
+- [Regenerate the witness trajectories and preceding-night comparison](REPRODUCING.md#regenerate-the-four-nominal-witnesses-and-check-the-observing-arc) using the pinned public OEL v1.0.0 source and native backend.
+- [Rebuild the 638-region enclosure](REPRODUCING.md#rebuild-the-nominal-enclosure) or [repeat the lunar terrain and gravity calculations](REPRODUCING.md#recompute-terrain-and-gravity).
+- Inspect the [25 training observations](revision/results/observations.csv), [preceding-night residuals](review-round-2/previous-night.csv), [public-engine enclosure results](revision/results/public-cover.json) and [lunar replay results](revision/results/public-lunar.json).
 
-This compact replay starts from the reported directions and radii. The [supplement](manuscript/juice-supplement.pdf) describes the separate trajectory integration, lunar terrain checks and 638-region enclosure. The larger dynamics archive referenced in the manuscript is separate from this edition. The public numerical engine used for verification was [OEL v1.0.0](https://github.com/adamcohen8/orbital-engineering-lab/tree/108aa6412e6875bbfa5d9741ebee7200b362badc).
-
-The [25 training observations](inputs/observations.csv) give reception times, station codes, observed directions and site vectors. The [August 14 check](inputs/previous-night.csv) gives angular residuals for archive entries 62–74, with entry 75 repeated as a timing check. [Project Pluto observation archive](https://www.projectpluto.com/pluto/mpecs/23053a.htm)
+The study includes the fixed-width astrometry records used by the analysis and the public gravity and terrain inputs. The ephemeris records its source kernel by filename. The published PDFs match the revised manuscript and supplement. [Project Pluto astrometry](https://www.projectpluto.com/pluto/mpecs/23053a.htm) · [Lunar data sources and checksums](revision/inputs/sources.json) · [Workspace checksums](SHA256SUMS)

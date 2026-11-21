@@ -1,0 +1,41 @@
+[
+  {
+    "case": "juice",
+    "new_curve_calls_each": 24,
+    "cov_seconds": 0.1049859169870615,
+    "grid_seconds": 0.07455166603904217,
+    "gaussian95_diameter_deg": 4.2584782587621,
+    "trial_max_residuals_as": [
+      0.6207110083675167,
+      0.5832324945865639
+    ],
+    "trial_pair_deg": 1.3462034730833055,
+    "below_2as": 2
+  },
+  {
+    "case": "tess",
+    "new_curve_calls_each": 24,
+    "cov_seconds": 0.01783612498547882,
+    "grid_seconds": 0.01400116691365838,
+    "gaussian95_diameter_deg": 58.30376414458964,
+    "trial_max_residuals_as": [
+      0.3620779633062445,
+      0.41326526982778605
+    ],
+    "trial_pair_deg": 0.7393889352258076,
+    "below_2as": 2
+  },
+  {
+    "case": "tess-november",
+    "new_curve_calls_each": 24,
+    "cov_seconds": 0.023766875034198165,
+    "grid_seconds": 0.020898165996186435,
+    "gaussian95_diameter_deg": 4.8601374501094545,
+    "trial_max_residuals_as": [
+      1.3091111599731373,
+      1.291994471550395
+    ],
+    "trial_pair_deg": 1.1413604753347095,
+    "below_2as": 2
+  }
+]

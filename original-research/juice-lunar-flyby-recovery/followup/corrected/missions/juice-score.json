@@ -1,0 +1,51 @@
+{
+  "horizons_ra_deg": 334.309155659,
+  "horizons_dec_deg": -15.497193918,
+  "forecast_error_deg": 0.050289452878217726,
+  "mission_initial_position_difference_km": 165.47352200672546,
+  "mission_initial_velocity_difference_m_s": 0.2942792478367982,
+  "same_model_mission_seed_forecast_error_as": 12.747376679770573,
+  "same_model_mission_seed_training_max_as": 0.610294251461755,
+  "reference_sampled_coast": {
+    "min_earth_km": 253056.77035059984,
+    "max_earth_km": 1604619.9880214592,
+    "min_moon_km": 3921.4000921302963,
+    "max_speed_km_s": 3.8956842432843084
+  },
+  "verified_pair_diameter_deg": 1.9963237770747397,
+  "replay": [
+    {
+      "training_max_as": 0.5660212237244828,
+      "los": [
+        0.867948590662128,
+        -0.4183761652571536,
+        -0.2676315159175852
+      ],
+      "limb_clearance_deg": 3.520798936176826,
+      "elevation_deg": 36.12681649797342,
+      "forecast_error_deg": 0.05028944727921121
+    },
+    {
+      "training_max_as": 1.9799999999983375,
+      "los": [
+        0.873612391295604,
+        -0.4111384312889227,
+        -0.26032014922410524
+      ],
+      "limb_clearance_deg": 2.8509611354848117,
+      "elevation_deg": 36.27075682867236,
+      "forecast_error_deg": 0.623224819600755
+    },
+    {
+      "training_max_as": 1.9799999999951905,
+      "los": [
+        0.856263823943928,
+        -0.4340659217785494,
+        -0.27999828455806686
+      ],
+      "limb_clearance_deg": 4.846630648517207,
+      "elevation_deg": 35.96870091152019,
+      "forecast_error_deg": 1.3763182540515655
+    }
+  ]
+}

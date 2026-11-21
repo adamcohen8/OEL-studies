@@ -1,0 +1,156 @@
+[
+  {
+    "training_count": 9,
+    "california_count": 1,
+    "last_row": {
+      "source_row": 27,
+      "station": "U52",
+      "utc": "2022-12-08T02:50:48+00:00",
+      "ra_deg": 42.012510000000006,
+      "dec_deg": 9.59947
+    },
+    "fit_max_as": 0.4507906607255487,
+    "first_holdout_as": 1.9262225615248139,
+    "upper_diameter_deg": 1.5385887780313645
+  },
+  {
+    "training_count": 10,
+    "california_count": 2,
+    "last_row": {
+      "source_row": 28,
+      "station": "U52",
+      "utc": "2022-12-08T02:52:38+00:00",
+      "ra_deg": 42.00845,
+      "dec_deg": 9.59682
+    },
+    "fit_max_as": 0.45462813048361056,
+    "first_holdout_as": 3.3102324838285124,
+    "upper_diameter_deg": 1.5311536817962716
+  },
+  {
+    "training_count": 11,
+    "california_count": 3,
+    "last_row": {
+      "source_row": 29,
+      "station": "U52",
+      "utc": "2022-12-08T02:54:29+00:00",
+      "ra_deg": 42.0044,
+      "dec_deg": 9.59411
+    },
+    "fit_max_as": 0.46101983387662515,
+    "first_holdout_as": 9.2978742149917,
+    "upper_diameter_deg": 1.5225289714406856
+  },
+  {
+    "training_count": 12,
+    "california_count": 4,
+    "last_row": {
+      "source_row": 30,
+      "station": "U52",
+      "utc": "2022-12-08T02:57:52+00:00",
+      "ra_deg": 41.99663,
+      "dec_deg": 9.58926
+    },
+    "fit_max_as": 0.4605961618030029,
+    "first_holdout_as": 8.750525222655577,
+    "upper_diameter_deg": 1.5093078399342874
+  },
+  {
+    "training_count": 13,
+    "california_count": 5,
+    "last_row": {
+      "source_row": 31,
+      "station": "U52",
+      "utc": "2022-12-08T02:59:42+00:00",
+      "ra_deg": 41.992450000000005,
+      "dec_deg": 9.58663
+    },
+    "fit_max_as": 0.461428047910809,
+    "first_holdout_as": 9.183942803144754,
+    "upper_diameter_deg": 1.5051535673533452
+  },
+  {
+    "training_count": 14,
+    "california_count": 6,
+    "last_row": {
+      "source_row": 32,
+      "station": "U52",
+      "utc": "2022-12-08T03:01:32+00:00",
+      "ra_deg": 41.9882,
+      "dec_deg": 9.584
+    },
+    "fit_max_as": 0.4622502201387136,
+    "first_holdout_as": 9.03772488980629,
+    "upper_diameter_deg": 1.5006049323820814
+  },
+  {
+    "training_count": 15,
+    "california_count": 7,
+    "last_row": {
+      "source_row": 33,
+      "station": "U52",
+      "utc": "2022-12-08T03:08:39+00:00",
+      "ra_deg": 41.97153,
+      "dec_deg": 9.57352
+    },
+    "fit_max_as": 0.45929893905911556,
+    "first_holdout_as": 12.805095437827372,
+    "upper_diameter_deg": 1.486521165898605
+  },
+  {
+    "training_count": 16,
+    "california_count": 8,
+    "last_row": {
+      "source_row": 34,
+      "station": "U52",
+      "utc": "2022-12-08T03:13:55+00:00",
+      "ra_deg": 41.95872,
+      "dec_deg": 9.56583
+    },
+    "fit_max_as": 0.4583467981051074,
+    "first_holdout_as": 12.958068850047251,
+    "upper_diameter_deg": 1.4642944063970273
+  },
+  {
+    "training_count": 17,
+    "california_count": 9,
+    "last_row": {
+      "source_row": 35,
+      "station": "U52",
+      "utc": "2022-12-08T03:18:12+00:00",
+      "ra_deg": 41.94819,
+      "dec_deg": 9.55939
+    },
+    "fit_max_as": 0.4550428492682209,
+    "first_holdout_as": 14.71690744824586,
+    "upper_diameter_deg": 1.441732501526246
+  },
+  {
+    "training_count": 18,
+    "california_count": 10,
+    "last_row": {
+      "source_row": 36,
+      "station": "U52",
+      "utc": "2022-12-08T04:08:11+00:00",
+      "ra_deg": 41.81317,
+      "dec_deg": 9.48217
+    },
+    "fit_max_as": 0.5689809674678461,
+    "first_holdout_as": 5.387891485794743,
+    "upper_diameter_deg": 1.2136913854909066
+  },
+  {
+    "training_count": 19,
+    "california_count": 11,
+    "last_row": {
+      "source_row": 37,
+      "station": "U52",
+      "utc": "2022-12-08T04:14:47+00:00",
+      "ra_deg": 41.79412,
+      "dec_deg": 9.47147
+    },
+    "fit_max_as": 0.5584793140594924,
+    "first_holdout_as": 4.813778015374745,
+    "upper_diameter_deg": 1.1753403847471342
+  }
+]

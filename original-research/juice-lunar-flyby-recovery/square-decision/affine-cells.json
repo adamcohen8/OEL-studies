@@ -1,0 +1,144 @@
+[
+  {
+    "witness": 11,
+    "track_seconds": 2.0321797500364482,
+    "knots": 9548,
+    "base_half_widths": [
+      100.0,
+      20.0,
+      8.0,
+      8.0,
+      0.46,
+      0.46
+    ],
+    "tests": [
+      {
+        "scale": 0.0,
+        "seconds": 3.245858749956824,
+        "status": "contained",
+        "remainder_km": 0.9341621682303931,
+        "max_outside_plane_km": -178.7803124390741
+      },
+      {
+        "scale": 0.02,
+        "seconds": 0.02192570804618299,
+        "status": "contained",
+        "remainder_km": 0.9456719456334169,
+        "max_outside_plane_km": -176.23306985621724
+      },
+      {
+        "scale": 0.05,
+        "seconds": 0.022227125009521842,
+        "status": "contained",
+        "remainder_km": 1.0019286942847494,
+        "max_outside_plane_km": -172.37320739512109
+      },
+      {
+        "scale": 0.1,
+        "seconds": 0.022268874919973314,
+        "status": "contained",
+        "remainder_km": 1.200629645323357,
+        "max_outside_plane_km": -165.8351460850296
+      },
+      {
+        "scale": 0.25,
+        "seconds": 0.022375957923941314,
+        "status": "contained",
+        "remainder_km": 2.600610570774398,
+        "max_outside_plane_km": -145.41694998762415
+      },
+      {
+        "scale": 0.5,
+        "seconds": 0.02197637502104044,
+        "status": "contained",
+        "remainder_km": 7.726561925007794,
+        "max_outside_plane_km": -108.59350750525238
+      },
+      {
+        "scale": 1.0,
+        "seconds": 0.022283042082563043,
+        "status": "contained",
+        "remainder_km": 29.350315665483922,
+        "max_outside_plane_km": -23.572874571524384
+      },
+      {
+        "scale": 2.0,
+        "seconds": 0.02177770808339119,
+        "status": "unresolved",
+        "remainder_km": 125.97095517380941,
+        "max_outside_plane_km": 199.8504264884392
+      }
+    ]
+  },
+  {
+    "witness": 0,
+    "track_seconds": 2.7247675829567015,
+    "knots": 11407,
+    "base_half_widths": [
+      100.0,
+      20.0,
+      8.0,
+      8.0,
+      0.46,
+      0.46
+    ],
+    "tests": [
+      {
+        "scale": 0.0,
+        "seconds": 0.033319124951958656,
+        "status": "contained",
+        "remainder_km": 8.66129201854017,
+        "max_outside_plane_km": -158.94613418689792
+      },
+      {
+        "scale": 0.02,
+        "seconds": 0.03414116706699133,
+        "status": "contained",
+        "remainder_km": 9.212547578324449,
+        "max_outside_plane_km": -140.02836456051998
+      },
+      {
+        "scale": 0.05,
+        "seconds": 0.033786750049330294,
+        "status": "contained",
+        "remainder_km": 11.972849120774729,
+        "max_outside_plane_km": -109.71796940494309
+      },
+      {
+        "scale": 0.1,
+        "seconds": 0.032973999972455204,
+        "status": "contained",
+        "remainder_km": 21.912372230632126,
+        "max_outside_plane_km": -53.86073300522736
+      },
+      {
+        "scale": 0.25,
+        "seconds": 0.031150708091445267,
+        "status": "unresolved",
+        "remainder_km": 95.19895572301664,
+        "max_outside_plane_km": 157.1862412504629
+      },
+      {
+        "scale": 0.5,
+        "seconds": 0.032278417027555406,
+        "status": "unresolved",
+        "remainder_km": 387.6521581995074,
+        "max_outside_plane_km": 679.2685042037807
+      },
+      {
+        "scale": 1.0,
+        "seconds": 0.032378749921917915,
+        "status": "unresolved",
+        "remainder_km": 1860.550108386756,
+        "max_outside_plane_km": 2611.5727010975647
+      },
+      {
+        "scale": 2.0,
+        "seconds": 0.0315305000403896,
+        "status": "unresolved",
+        "remainder_km": 12073.944892683454,
+        "max_outside_plane_km": 13744.992286021403
+      }
+    ]
+  }
+]

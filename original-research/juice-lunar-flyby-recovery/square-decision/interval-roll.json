@@ -1,0 +1,20 @@
+{
+  "2.15": {
+    "success": true,
+    "roll_intervals": 4096,
+    "precision_decimal_digits": 36,
+    "minimum_width_margin": 0.0001288954899539015
+  },
+  "2.2": {
+    "success": true,
+    "roll_intervals": 4096,
+    "precision_decimal_digits": 36,
+    "minimum_width_margin": 0.00045127267540270014
+  },
+  "2.4": {
+    "success": true,
+    "roll_intervals": 4096,
+    "precision_decimal_digits": 36,
+    "minimum_width_margin": 0.0008240545721697524
+  }
+}

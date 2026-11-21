@@ -1,0 +1,146 @@
+[
+  {
+    "gap_s": 124.41600012779236,
+    "displacement": 19235.018984947645,
+    "chord": 1.0419210206810086e-05,
+    "position_quadrature_allowance_km": 6.42037254581368e-07
+  },
+  {
+    "gap_s": 123.55199980735779,
+    "displacement": 19223.36838198949,
+    "chord": 1.0275473140664808e-05,
+    "position_quadrature_allowance_km": 6.324216478306521e-07
+  },
+  {
+    "gap_s": 123.55200004577637,
+    "displacement": 19211.803655988435,
+    "chord": 1.0274624883490476e-05,
+    "position_quadrature_allowance_km": 6.323034258592322e-07
+  },
+  {
+    "gap_s": 123.55200004577637,
+    "displacement": 19200.240732057013,
+    "chord": 1.0273776171143999e-05,
+    "position_quadrature_allowance_km": 6.321850810217092e-07
+  },
+  {
+    "gap_s": 51558.33599996567,
+    "displacement": 19190.93826136596,
+    "chord": 2.2625654867476515,
+    "position_quadrature_allowance_km": 0.190841163873249
+  },
+  {
+    "gap_s": 258.3359999656677,
+    "displacement": 14466.510842675109,
+    "chord": 4.262856752059345e-05,
+    "position_quadrature_allowance_km": 2.4992396194594196e-06
+  },
+  {
+    "gap_s": 259.2000000476837,
+    "displacement": 14443.537686606249,
+    "chord": 4.290130982492109e-05,
+    "position_quadrature_allowance_km": 2.5157306998689863e-06
+  },
+  {
+    "gap_s": 258.3359999656677,
+    "displacement": 14420.488781022517,
+    "chord": 4.260375378140076e-05,
+    "position_quadrature_allowance_km": 2.4956796836066113e-06
+  },
+  {
+    "gap_s": 259.2000000476837,
+    "displacement": 14397.517006328932,
+    "chord": 4.287622437703031e-05,
+    "position_quadrature_allowance_km": 2.5121366216920914e-06
+  },
+  {
+    "gap_s": 2569.5360000133514,
+    "displacement": 14374.473495194168,
+    "chord": 0.004254695431865935,
+    "position_quadrature_allowance_km": 0.0002883194536835156
+  },
+  {
+    "gap_s": 669.5999999046326,
+    "displacement": 14155.919530353412,
+    "chord": 0.00028551612201305725,
+    "position_quadrature_allowance_km": 1.8926373402307485e-05
+  },
+  {
+    "gap_s": 669.6000001430511,
+    "displacement": 14101.082974330444,
+    "chord": 0.0002853857393456459,
+    "position_quadrature_allowance_km": 1.8908171462779256e-05
+  },
+  {
+    "gap_s": 29243.808000087738,
+    "displacement": 14046.888086362675,
+    "chord": 0.6374484940487541,
+    "position_quadrature_allowance_km": 0.04779319467185285
+  },
+  {
+    "gap_s": 133.91999983787537,
+    "displacement": 11654.832955137403,
+    "chord": 1.1147374644533932e-05,
+    "position_quadrature_allowance_km": 6.186773034191886e-07
+  },
+  {
+    "gap_s": 123.55200004577637,
+    "displacement": 11643.893766600877,
+    "chord": 9.50050732315564e-06,
+    "position_quadrature_allowance_km": 5.173659575839842e-07
+  },
+  {
+    "gap_s": 123.55200004577637,
+    "displacement": 11633.802287382574,
+    "chord": 9.498953828422407e-06,
+    "position_quadrature_allowance_km": 5.171477007599624e-07
+  },
+  {
+    "gap_s": 123.55200004577637,
+    "displacement": 11623.710667896152,
+    "chord": 9.497396294832727e-06,
+    "position_quadrature_allowance_km": 5.169290678250515e-07
+  },
+  {
+    "gap_s": 70363.24399995804,
+    "displacement": 11618.492548648512,
+    "chord": 4.873206774996133,
+    "position_quadrature_allowance_km": 0.42181525529797687
+  },
+  {
+    "gap_s": 245.89999985694885,
+    "displacement": 7111.08142975554,
+    "chord": 3.6184629890188434e-05,
+    "position_quadrature_allowance_km": 1.7711162302416046e-06
+  },
+  {
+    "gap_s": 239.10000014305115,
+    "displacement": 7097.423106410511,
+    "chord": 3.422572386506836e-05,
+    "position_quadrature_allowance_km": 2.1416919050073933e-06
+  },
+  {
+    "gap_s": 15070.507999897003,
+    "displacement": 7084.294765582349,
+    "chord": 0.15221563163295468,
+    "position_quadrature_allowance_km": 0.010127887832459288
+  },
+  {
+    "gap_s": 124.41600012779236,
+    "displacement": 6247.045183856125,
+    "chord": 9.233792397121893e-06,
+    "position_quadrature_allowance_km": 4.367485176478154e-07
+  },
+  {
+    "gap_s": 247.10399985313416,
+    "displacement": 6240.1359763179225,
+    "chord": 3.616048207173938e-05,
+    "position_quadrature_allowance_km": 1.7207791979553074e-06
+  },
+  {
+    "gap_s": 123.55200004577637,
+    "displacement": 6226.415060898551,
+    "chord": 9.103930636178128e-06,
+    "position_quadrature_allowance_km": 4.292317014394515e-07
+  }
+]

@@ -1,31 +1,31 @@
 # OEL studies
 
-Can an AI analyst given the same orbital mechanics problem as a published paper recover the authors’ conclusion? This repository collects those experiments. Each paper has a standalone workspace with the inputs, OEL version, replay command and numerical comparison. You can inspect the assumptions, run the simulation yourself and compare your result with the paper.
+This repository collects [reproductions of published orbital mechanics results](reproductions/) and [original research](original-research/) using Orbital Engineering Lab. Each reproduction has a standalone workspace with the inputs, OEL version, replay command and numerical comparison.
 
 Orbital Engineering Lab (OEL) is the simulation engine used in these studies. Its source, documentation and installation instructions are available in the [public OEL repository](https://github.com/adamcohen8/orbital-engineering-lab).
 
-## Study index
+## Reproductions
 
 | Paper and workspace | Question | Verified replay |
 | --- | --- | --- |
-| [Schaub & Alfriend (2001), *J₂ Invariant Relative Orbits for Spacecraft Formations*](studies/schaub-alfriend-2001/) | How much does initializing a formation in mean orbital elements reduce relative phase drift over 45 orbits? | OEL 1.1.0 measured a **305.5×** reduction in the paper’s 48° example, consistent with Figures 3B and 4B. |
-| [Chesley et al. (2014), *Orbit and bulk density of the OSIRIS-REx target Asteroid (101955) Bennu*](studies/chesley-2014-bennu/) | Can optical and radar astrometry recover Bennu’s inward orbital drift? | GRSS with an OEL 1.1.0 cross-check gives **−282.90 ± 1.48 m/year** using an independent optical selection. The paper reports −284 ± 1.5 m/year. |
+| [Schaub & Alfriend (2001), *J₂ Invariant Relative Orbits for Spacecraft Formations*](reproductions/schaub-alfriend-2001/) | How much does initializing a formation in mean orbital elements reduce relative phase drift over 45 orbits? | OEL 1.1.0 measured a **305.5×** reduction in the paper’s 48° example, consistent with Figures 3B and 4B. |
+| [Chesley et al. (2014), *Orbit and bulk density of the OSIRIS-REx target Asteroid (101955) Bennu*](reproductions/chesley-2014-bennu/) | Can optical and radar astrometry recover Bennu’s inward orbital drift? | GRSS with an OEL 1.1.0 cross-check gives **−282.90 ± 1.48 m/year** using an independent optical selection. The paper reports −284 ± 1.5 m/year. |
 
-## Replay the first study
+## Replay the first reproduction
 
-Install the pinned OEL version using the study’s instructions. The verified setup used Apple Silicon, CPython 3.11 and the signed OEL 1.1.0 core release. The replay runs locally with OEL and Python’s standard library, without a model API key. [Installation and replay instructions](studies/schaub-alfriend-2001/README.md#replay)
+Install the pinned OEL version using the study’s instructions. The verified setup used Apple Silicon, CPython 3.11 and the signed OEL 1.1.0 core release. The replay runs locally with OEL and Python’s standard library, without a model API key. [Installation and replay instructions](reproductions/schaub-alfriend-2001/README.md#replay)
 
 With the OEL launcher on your path, download just the study and run it:
 
 ```sh
 git clone --depth 1 --filter=blob:none --sparse https://github.com/adamcohen8/OEL-studies.git
 cd OEL-studies
-git sparse-checkout set studies/schaub-alfriend-2001
-cd studies/schaub-alfriend-2001
+git sparse-checkout set reproductions/schaub-alfriend-2001
+cd reproductions/schaub-alfriend-2001
 python3 reproduce.py
 ```
 
-The script prints the signed phase drifts and their reduction factor, then writes them with a pass flag for each case to `outputs/replay-*/comparison.json`. The 30° argument-of-perigee case reproduces the paper’s example. The 75° case tests whether its conclusion holds when that one input changes. Both use a 48° inclination. [Measurement method and reference values](studies/schaub-alfriend-2001/README.md#measurement-and-comparison)
+The script prints the signed phase drifts and their reduction factor, then writes them with a pass flag for each case to `outputs/replay-*/comparison.json`. The 30° argument-of-perigee case reproduces the paper’s example. The 75° case tests whether its conclusion holds when that one input changes. Both use a 48° inclination. [Measurement method and reference values](reproductions/schaub-alfriend-2001/README.md#measurement-and-comparison)
 
 ## How we check a reproduction
 

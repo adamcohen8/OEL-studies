@@ -19,8 +19,8 @@ Download this folder, or use Git to select it. Then run the replay with Python 3
 ```sh
 git clone --depth 1 --filter=blob:none --sparse https://github.com/adamcohen8/OEL-studies.git
 cd OEL-studies
-git sparse-checkout set studies/schaub-alfriend-2001
-cd studies/schaub-alfriend-2001
+git sparse-checkout set reproductions/schaub-alfriend-2001
+cd reproductions/schaub-alfriend-2001
 python3 reproduce.py
 ```
 

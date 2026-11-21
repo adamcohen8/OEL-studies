@@ -1,0 +1,3852 @@
+{
+  "0.0": {
+    "status": "contained",
+    "remainder_km": 5.912074744653953,
+    "max_outside_plane_km": -112.99687879310531,
+    "ref_rp": 5328.335028796474,
+    "seconds": 3.7906752090202644
+  },
+  "0.1": {
+    "status": "contained",
+    "remainder_km": 54.04086266496952,
+    "max_outside_plane_km": -71.65491110091659,
+    "ref_rp": 5259.224836063407,
+    "seconds": 0.22637129202485085
+  },
+  "1.0": {
+    "status": "contained",
+    "remainder_km": 209.10977979944036,
+    "max_outside_plane_km": -193.95825825165375,
+    "ref_rp": 5052.319907755331,
+    "seconds": 0.2128111250931397
+  },
+  "1.1.0": {
+    "status": "contained",
+    "remainder_km": 62.62248575278589,
+    "max_outside_plane_km": -157.3124738504832,
+    "ref_rp": 5169.434575460722,
+    "seconds": 0.22427720797713846
+  },
+  "1.1.1": {
+    "status": "contained",
+    "remainder_km": 71.36608818998272,
+    "max_outside_plane_km": -259.9398384291143,
+    "ref_rp": 5080.718586072874,
+    "seconds": 0.2318097910610959
+  },
+  "10": {
+    "status": "contained",
+    "remainder_km": 2652.4159791440106,
+    "max_outside_plane_km": -330.6754018272932
+  },
+  "11": {
+    "status": "contained",
+    "remainder_km": 3379.4910369599547,
+    "max_outside_plane_km": -131.42189490696495
+  },
+  "12.0": {
+    "status": "contained",
+    "remainder_km": 2970.0620469379037,
+    "max_outside_plane_km": -2218.766791107222,
+    "ref_rp": 2995.8807351019086,
+    "seconds": 0.25399654207285494
+  },
+  "12.1": {
+    "status": "contained",
+    "remainder_km": 2237.551815120302,
+    "max_outside_plane_km": -2271.0158698458426,
+    "ref_rp": 3192.756671651374,
+    "seconds": 0.24651249998714775
+  },
+  "13.0": {
+    "status": "contained",
+    "remainder_km": 3897.3522665138416,
+    "max_outside_plane_km": -2063.885167526533,
+    "ref_rp": 2821.8632281235964,
+    "seconds": 0.2608571659075096
+  },
+  "13.1": {
+    "status": "contained",
+    "remainder_km": 2861.1389188548733,
+    "max_outside_plane_km": -2361.6741828532295,
+    "ref_rp": 3019.8321553969067,
+    "seconds": 0.2420648339902982
+  },
+  "14.0": {
+    "status": "contained",
+    "remainder_km": 5241.970685565484,
+    "max_outside_plane_km": -1591.6605785640106,
+    "ref_rp": 2648.34764346081,
+    "seconds": 0.28775324998423457
+  },
+  "14.1": {
+    "status": "contained",
+    "remainder_km": 3731.987249658109,
+    "max_outside_plane_km": -2294.96347398321,
+    "ref_rp": 2847.1438620414847,
+    "seconds": 0.2830905830487609
+  },
+  "15.0.0": {
+    "status": "contained",
+    "remainder_km": 5691.621098874878,
+    "max_outside_plane_km": -725.6191259475258,
+    "ref_rp": 2426.148752329276,
+    "seconds": 0.23428170895203948
+  },
+  "15.0.1": {
+    "status": "contained",
+    "remainder_km": 4925.0276862119335,
+    "max_outside_plane_km": -2230.0887970097738,
+    "ref_rp": 2525.5368541549387,
+    "seconds": 0.2470100000500679
+  },
+  "15.1": {
+    "status": "contained",
+    "remainder_km": 4983.972138119387,
+    "max_outside_plane_km": -1952.1861696505673,
+    "ref_rp": 2674.841492939975,
+    "seconds": 0.25888079195283353
+  },
+  "16.0.0.0": {
+    "status": "contained",
+    "remainder_km": 1934.6242979210092,
+    "max_outside_plane_km": -3666.805271268467,
+    "ref_rp": 2299.4425726234235,
+    "seconds": 0.2333068330772221
+  },
+  "16.0.0.1": {
+    "status": "contained",
+    "remainder_km": 2217.61986425698,
+    "max_outside_plane_km": -2542.625884426924,
+    "ref_rp": 2211.489122225025,
+    "seconds": 0.2478795419447124
+  },
+  "16.0.1.0": {
+    "status": "contained",
+    "remainder_km": 1739.4950192509432,
+    "max_outside_plane_km": -4670.51919092636,
+    "ref_rp": 2398.627524463555,
+    "seconds": 0.2529403750086203
+  },
+  "16.0.1.1": {
+    "status": "contained",
+    "remainder_km": 2039.0417343689708,
+    "max_outside_plane_km": -3540.1149723438148,
+    "ref_rp": 2308.2719104608677,
+    "seconds": 0.26203262503258884
+  },
+  "16.1.0": {
+    "status": "contained",
+    "remainder_km": 5625.550983035688,
+    "max_outside_plane_km": -1010.0332524869411,
+    "ref_rp": 2452.919045251106,
+    "seconds": 0.23662037507165223
+  },
+  "16.1.1": {
+    "status": "contained",
+    "remainder_km": 4433.037662377866,
+    "max_outside_plane_km": -3256.4510716365457,
+    "ref_rp": 2552.508169100036,
+    "seconds": 0.29929920891299844
+  },
+  "17.0.0.0": {
+    "status": "contained",
+    "remainder_km": 2683.7613477849845,
+    "max_outside_plane_km": -1183.1347346746668,
+    "ref_rp": 2127.941980500648,
+    "seconds": 0.25789391703438014
+  },
+  "17.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 2777.7734152979824,
+    "max_outside_plane_km": -119.99264122548493,
+    "ref_rp": 2041.3693429439968,
+    "seconds": 0.25631604192312807
+  },
+  "17.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 2758.6790020619524,
+    "max_outside_plane_km": -218.53321236849933,
+    "ref_rp": 2040.120593824408,
+    "seconds": 0.2579370839521289
+  },
+  "17.0.1.0": {
+    "status": "contained",
+    "remainder_km": 2376.0569180963153,
+    "max_outside_plane_km": -2411.2328062158317,
+    "ref_rp": 2226.857631228908,
+    "seconds": 0.28397520794533193
+  },
+  "17.0.1.1": {
+    "status": "contained",
+    "remainder_km": 2832.6591092242243,
+    "max_outside_plane_km": -1015.2878290630313,
+    "ref_rp": 2136.7573515382364,
+    "seconds": 0.2538567919982597
+  },
+  "17.1.0.0": {
+    "status": "contained",
+    "remainder_km": 1968.804678413721,
+    "max_outside_plane_km": -3898.925432824106,
+    "ref_rp": 2326.367401055253,
+    "seconds": 0.26628800004255027
+  },
+  "17.1.0.1": {
+    "status": "contained",
+    "remainder_km": 2330.9291838124227,
+    "max_outside_plane_km": -2657.395371456284,
+    "ref_rp": 2236.3792608757076,
+    "seconds": 0.24023595789913088
+  },
+  "17.1.1": {
+    "status": "contained",
+    "remainder_km": 6106.872879493789,
+    "max_outside_plane_km": -116.60531215545961,
+    "ref_rp": 2380.7358897010627,
+    "seconds": 0.24009004095569253
+  },
+  "18.0.0.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 813.7189199877809,
+    "max_outside_plane_km": -1563.4346118016676,
+    "ref_rp": 1950.2253750455714,
+    "seconds": 0.22694333398249
+  },
+  "18.0.0.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 866.579306092546,
+    "max_outside_plane_km": -989.2133714720594,
+    "ref_rp": 1906.5455453215015,
+    "seconds": 0.24222058290615678
+  },
+  "18.0.0.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 788.9391629515802,
+    "max_outside_plane_km": -1617.9484519702698,
+    "ref_rp": 1961.8157432004516,
+    "seconds": 0.2441729580750689
+  },
+  "18.0.0.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 836.9071073663099,
+    "max_outside_plane_km": -1055.7492167870137,
+    "ref_rp": 1918.1740656914462,
+    "seconds": 0.2656086250208318
+  },
+  "18.0.0.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 796.558441608793,
+    "max_outside_plane_km": -2073.3932234271633,
+    "ref_rp": 2005.6047153376905,
+    "seconds": 0.2559601250104606
+  },
+  "18.0.0.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 867.2546185874539,
+    "max_outside_plane_km": -1472.7612351027258,
+    "ref_rp": 1960.7052399177815,
+    "seconds": 0.2746645420556888
+  },
+  "18.0.0.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 798.7777891507556,
+    "max_outside_plane_km": -2164.2019746758733,
+    "ref_rp": 2003.569902365973,
+    "seconds": 0.25514991593081504
+  },
+  "18.0.0.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 869.3721467973902,
+    "max_outside_plane_km": -1568.849468475463,
+    "ref_rp": 1958.744256775194,
+    "seconds": 0.2614337500417605
+  },
+  "18.0.0.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 927.7810414780895,
+    "max_outside_plane_km": -385.32282878159526,
+    "ref_rp": 1870.082684210633,
+    "seconds": 0.249915957916528
+  },
+  "18.0.0.1.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 433.0603097481139,
+    "max_outside_plane_km": -598.9995036152882,
+    "ref_rp": 1837.574070946791,
+    "seconds": 0.2537720419932157
+  },
+  "18.0.0.1.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 443.64746042882587,
+    "max_outside_plane_km": -306.28453811388783,
+    "ref_rp": 1815.704259366426,
+    "seconds": 0.24470995902083814
+  },
+  "18.0.0.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 926.6147578102173,
+    "max_outside_plane_km": -889.5452524937107,
+    "ref_rp": 1917.0234182977472,
+    "seconds": 0.2857193340314552
+  },
+  "18.0.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 1012.5231812511902,
+    "max_outside_plane_km": -234.750029718438,
+    "ref_rp": 1872.2029212292616,
+    "seconds": 0.2609058750094846
+  },
+  "18.0.0.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 943.8265855941721,
+    "max_outside_plane_km": -446.65659143315156,
+    "ref_rp": 1869.8002557604016,
+    "seconds": 0.2551102500874549
+  },
+  "18.0.0.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 443.8358228780942,
+    "max_outside_plane_km": -664.9090348013722,
+    "ref_rp": 1837.3372877572594,
+    "seconds": 0.2659966250648722
+  },
+  "18.0.0.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 454.7023451118764,
+    "max_outside_plane_km": -373.6902464831355,
+    "ref_rp": 1815.4982885605777,
+    "seconds": 0.26050495891831815
+  },
+  "18.0.0.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 922.2283823635286,
+    "max_outside_plane_km": -1013.3211191702123,
+    "ref_rp": 1915.5596661429115,
+    "seconds": 0.27961029193829745
+  },
+  "18.0.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 1007.1975699643144,
+    "max_outside_plane_km": -366.071153274743,
+    "ref_rp": 1870.8163549593646,
+    "seconds": 0.2836149160284549
+  },
+  "18.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 2886.813686330992,
+    "max_outside_plane_km": -50.71181818350442,
+    "ref_rp": 2056.9869353131285,
+    "seconds": 0.26499029190745205
+  },
+  "18.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 2897.440239086436,
+    "max_outside_plane_km": -249.22760610888122,
+    "ref_rp": 2054.5599400178276,
+    "seconds": 0.2499433329794556
+  },
+  "18.0.1.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 921.8115969391168,
+    "max_outside_plane_km": -1449.91791124401,
+    "ref_rp": 1964.5926776020249,
+    "seconds": 0.2509238750208169
+  },
+  "18.0.1.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 1006.4655712004338,
+    "max_outside_plane_km": -817.1972715968132,
+    "ref_rp": 1919.7714719334492,
+    "seconds": 0.23711637500673532
+  },
+  "18.0.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 841.852788303914,
+    "max_outside_plane_km": -2132.6216832973487,
+    "ref_rp": 2014.478882632825,
+    "seconds": 0.267769500031136
+  },
+  "18.0.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 920.208739762139,
+    "max_outside_plane_km": -1527.4890606393762,
+    "ref_rp": 1969.5729135271818,
+    "seconds": 0.25334562500938773
+  },
+  "18.0.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 900.9744868458072,
+    "max_outside_plane_km": -1678.5404587863898,
+    "ref_rp": 1962.543555395347,
+    "seconds": 0.25470270798541605
+  },
+  "18.0.1.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 984.6851690752948,
+    "max_outside_plane_km": -1056.342000870977,
+    "ref_rp": 1917.7582965936822,
+    "seconds": 0.2727531250566244
+  },
+  "18.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 2594.3855079546283,
+    "max_outside_plane_km": -124.75689368966187,
+    "ref_rp": 1989.8414336669364,
+    "seconds": 0.24584000010509044
+  },
+  "18.1.0.0": {
+    "status": "contained",
+    "remainder_km": 2723.704817791395,
+    "max_outside_plane_km": -1441.8631801243257,
+    "ref_rp": 2155.227840993294,
+    "seconds": 0.2624911670573056
+  },
+  "18.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 2821.5060562456115,
+    "max_outside_plane_km": -333.10609288388105,
+    "ref_rp": 2066.740533170239,
+    "seconds": 0.2654818749288097
+  },
+  "18.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 2837.2328629082185,
+    "max_outside_plane_km": -595.0563624185238,
+    "ref_rp": 2064.5473637954797,
+    "seconds": 0.2532386250095442
+  },
+  "18.1.1.0": {
+    "status": "contained",
+    "remainder_km": 2000.7854496389937,
+    "max_outside_plane_km": -3427.9375679182804,
+    "ref_rp": 2252.028707360915,
+    "seconds": 0.22799849999137223
+  },
+  "18.1.1.1": {
+    "status": "contained",
+    "remainder_km": 2424.5580516912883,
+    "max_outside_plane_km": -2097.2248493380757,
+    "ref_rp": 2164.441146927417,
+    "seconds": 0.25135254103224725
+  },
+  "19.0.0.0.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 50.83055117369207,
+    "max_outside_plane_km": -392.6393311898436,
+    "ref_rp": 1791.4653549657512,
+    "seconds": 1.6949103750521317
+  },
+  "19.0.0.0.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 52.38900644142644,
+    "max_outside_plane_km": -98.7715430056736,
+    "ref_rp": 1769.7059620421994,
+    "seconds": 0.30715766607318074
+  },
+  "19.0.0.0.0.0.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 23.65877351329049,
+    "max_outside_plane_km": -54.67142016026742,
+    "ref_rp": 1742.3589792322584,
+    "seconds": 0.31749974994454533
+  },
+  "19.0.0.0.0.0.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 25.183358839330385,
+    "max_outside_plane_km": -256.9893089720749,
+    "ref_rp": 1765.4251906890108,
+    "seconds": 0.23820812499616295
+  },
+  "19.0.0.0.0.0.1.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 20.62321667063492,
+    "max_outside_plane_km": -51.52192826755734,
+    "ref_rp": 1734.4320206498035,
+    "seconds": 0.3355777090182528
+  },
+  "19.0.0.0.0.0.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 20.723565338501825,
+    "max_outside_plane_km": -40.961502585747894,
+    "ref_rp": 1729.0011431427545,
+    "seconds": 0.3675126669695601
+  },
+  "19.0.0.0.0.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 25.555904585548323,
+    "max_outside_plane_km": -105.69690757083208,
+    "ref_rp": 1754.4075950727174,
+    "seconds": 0.3305123749887571
+  },
+  "19.0.0.0.0.0.1.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -78.25703898502614,
+    "remainder_km": 13.205420880042942,
+    "reference_peri_km": 1723.7086334270618
+  },
+  "19.0.0.0.0.0.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -78.11117949061705,
+    "remainder_km": 13.25223628391023,
+    "reference_peri_km": 1718.281270295569
+  },
+  "19.0.0.0.0.0.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -64.3387963792297,
+    "remainder_km": 14.247895734004901,
+    "reference_peri_km": 1744.06416398524
+  },
+  "19.0.0.0.0.0.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 21.867575472226687,
+    "max_outside_plane_km": -244.335111696558,
+    "ref_rp": 1742.8385586503384,
+    "seconds": 0.3447493340354413
+  },
+  "19.0.0.0.0.0.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1710.1910770221234,
+    "support_gap_km": 4.26624189764966
+  },
+  "19.0.0.0.0.0.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -49.73839617006611,
+    "remainder_km": 14.460556067696222,
+    "reference_peri_km": 1733.0446245065446
+  },
+  "19.0.0.0.0.0.1.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 22.192786808866316,
+    "max_outside_plane_km": -263.00138870067315,
+    "ref_rp": 1731.8368638853644,
+    "seconds": 0.4047100000316277
+  },
+  "19.0.0.0.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 495.85497801652264,
+    "max_outside_plane_km": -32.435597504186944,
+    "ref_rp": 1803.9244320662638,
+    "seconds": 0.26389258296694607
+  },
+  "19.0.0.0.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 48.265223629299186,
+    "max_outside_plane_km": -170.94838084105095,
+    "ref_rp": 1782.192157228387,
+    "seconds": 0.2759464170085266
+  },
+  "19.0.0.0.0.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 31.73177349589515,
+    "max_outside_plane_km": -43.71603612594379,
+    "ref_rp": 1766.0692024912864,
+    "seconds": 0.3198765000561252
+  },
+  "19.0.0.0.0.1.1.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 19.803321109318823,
+    "max_outside_plane_km": -49.334067709896544,
+    "ref_rp": 1745.8406193722196,
+    "seconds": 0.31316124997101724
+  },
+  "19.0.0.0.0.1.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 19.87374135084343,
+    "max_outside_plane_km": -36.72998909462791,
+    "ref_rp": 1740.3754513798638,
+    "seconds": 0.3092657499946654
+  },
+  "19.0.0.0.0.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 24.585414474024507,
+    "max_outside_plane_km": -153.91551235586996,
+    "ref_rp": 1765.6024530925547,
+    "seconds": 0.27911787503398955
+  },
+  "19.0.0.0.0.1.1.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -67.92141154374693,
+    "remainder_km": 12.45559187888726,
+    "reference_peri_km": 1735.1426243512287
+  },
+  "19.0.0.0.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -62.29913668846471,
+    "remainder_km": 12.473569628980538,
+    "reference_peri_km": 1729.6785057680897
+  },
+  "19.0.0.0.0.1.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -59.98326862667059,
+    "remainder_km": 13.586379257608327,
+    "reference_peri_km": 1755.1951866081547
+  },
+  "19.0.0.0.0.1.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 21.02076725871681,
+    "max_outside_plane_km": -272.46425842280553,
+    "ref_rp": 1753.9109587169062,
+    "seconds": 0.28248029097449034
+  },
+  "19.0.0.0.0.1.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -60.84785497388832,
+    "remainder_km": 12.589289960706468,
+    "reference_peri_km": 1724.4465009945586
+  },
+  "19.0.0.0.0.1.1.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1718.98397358802,
+    "support_gap_km": 1.364908725281147
+  },
+  "19.0.0.0.0.1.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -45.52456771695549,
+    "remainder_km": 13.773653997546798,
+    "reference_peri_km": 1744.1418275609608
+  },
+  "19.0.0.0.0.1.1.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 21.31366334032207,
+    "max_outside_plane_km": -272.00838377363743,
+    "ref_rp": 1742.8675333041626,
+    "seconds": 0.31022316694725305
+  },
+  "19.0.0.0.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 518.1264726725794,
+    "max_outside_plane_km": -511.86511447329303,
+    "ref_rp": 1846.4388643774469,
+    "seconds": 0.2614004159113392
+  },
+  "19.0.0.0.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -697.4710726017825,
+    "remainder_km": 43.43931322687938,
+    "reference_peri_km": 1824.0613445420788
+  },
+  "19.0.0.0.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 53.30847304153051,
+    "max_outside_plane_km": -353.58476798372,
+    "ref_rp": 1801.6948896211823,
+    "seconds": 0.303859084029682
+  },
+  "19.0.0.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 56.02326156695589,
+    "max_outside_plane_km": -42.21633016857504,
+    "ref_rp": 1779.339767361115,
+    "seconds": 0.34408650000113994
+  },
+  "19.0.0.0.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 519.2589892744865,
+    "max_outside_plane_km": -644.0848168532539,
+    "ref_rp": 1844.6626698699615,
+    "seconds": 0.30707162502221763
+  },
+  "19.0.0.0.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 541.2527346249606,
+    "max_outside_plane_km": -329.17377300895623,
+    "ref_rp": 1822.3257613030573,
+    "seconds": 0.2933717080159113
+  },
+  "19.0.0.0.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 564.7564430074366,
+    "max_outside_plane_km": -7.261821127510302,
+    "ref_rp": 1800.0004404546762,
+    "seconds": 0.3042864999733865
+  },
+  "19.0.0.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 56.13890547342252,
+    "max_outside_plane_km": -200.4149356278126,
+    "ref_rp": 1777.6870104833833,
+    "seconds": 0.3470318749314174
+  },
+  "19.0.0.1.0.0.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1703.4804285615226,
+    "support_gap_km": 8.638353115182952
+  },
+  "19.0.0.1.0.0.0.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -36.99567140989168,
+    "remainder_km": 14.155944388428754,
+    "reference_peri_km": 1731.60654310572
+  },
+  "19.0.0.1.0.0.0.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -34.139291573339946,
+    "remainder_km": 14.281078146902482,
+    "reference_peri_km": 1726.009755319002
+  },
+  "19.0.0.1.0.0.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 1692.6834017762367,
+    "support_gap_km": 0.6537647571430689
+  },
+  "19.0.0.1.0.0.0.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.47851162373003,
+    "remainder_km": 14.348563181979435,
+    "reference_peri_km": 1720.5582591445445
+  },
+  "19.0.0.1.0.0.0.0.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -89.76491710158052,
+    "remainder_km": 14.475291233385626,
+    "reference_peri_km": 1714.9606750772573
+  },
+  "19.0.0.1.0.0.0.1": {
+    "status": "collision",
+    "ref_rp": 1689.5420287494844,
+    "support_gap_km": 0.9210615209897952
+  },
+  "19.0.0.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 1656.5690276739176,
+    "support_gap_km": 20.19543788917902
+  },
+  "19.0.0.1.0.1.0.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -35.221516382548316,
+    "remainder_km": 15.177572111235879,
+    "reference_peri_km": 1747.0529973751777
+  },
+  "19.0.0.1.0.1.0.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -34.387651842642896,
+    "remainder_km": 14.986576184600601,
+    "reference_peri_km": 1757.8013833345456
+  },
+  "19.0.0.1.0.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 26.367161191016347,
+    "max_outside_plane_km": -258.2925947802722,
+    "ref_rp": 1775.6543331021587,
+    "seconds": 0.29551170801278204
+  },
+  "19.0.0.1.0.1.0.0.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -30.308234383718517,
+    "remainder_km": 12.482042625198153,
+    "reference_peri_km": 1738.6998508666886
+  },
+  "19.0.0.1.0.1.0.0.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -23.699158076321243,
+    "remainder_km": 12.60381970499887,
+    "reference_peri_km": 1733.105107821567
+  },
+  "19.0.0.1.0.1.0.0.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.729502305073,
+    "remainder_km": 12.340861891931837,
+    "reference_peri_km": 1749.4086331306119
+  },
+  "19.0.0.1.0.1.0.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -23.200426717149472,
+    "remainder_km": 12.460544657849429,
+    "reference_peri_km": 1743.811881810869
+  },
+  "19.0.0.1.0.1.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 26.883754733179472,
+    "max_outside_plane_km": -103.1917584466978,
+    "ref_rp": 1764.4859998035797,
+    "seconds": 0.32960937498137355
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.1137153268637974
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.5900768771164542
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.15926761269946915
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.635691753139216
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.1.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.168215224673394
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.1.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.6440079737073234
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.2609786446350827
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.0.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.7359173532800881
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -21.958586225017395,
+    "remainder_km": 10.14353396846045,
+    "reference_peri_km": 1733.8916932035593
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -148.09141551386418,
+    "remainder_km": 10.155377980154691,
+    "reference_peri_km": 1733.1112569691377
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.0.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.0.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.1115920193808664
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.5879335939790327
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.1.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.2113028288552532
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.0.1.1.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.1.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.04286476005999168
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.1.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.5000475788219845
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -21.035885509123784,
+    "remainder_km": 9.146603555054904,
+    "reference_peri_km": 1732.3551021691583
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -20.186632346821316,
+    "remainder_km": 9.183681534478248,
+    "reference_peri_km": 1729.5561218832343
+  },
+  "19.0.0.1.0.1.0.1.0.0.0.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -164.3851036160992,
+    "remainder_km": 10.243584177256682,
+    "reference_peri_km": 1727.520630569439
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -25.547312362426116,
+    "remainder_km": 11.096405759600666,
+    "reference_peri_km": 1732.2827219738087
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -21.191493751127584,
+    "remainder_km": 10.882557275703988,
+    "reference_peri_km": 1744.1592362793047
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -59.75287381945892,
+    "remainder_km": 11.197785925663679,
+    "reference_peri_km": 1726.6851443940573
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.1.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -21.080142556811257,
+    "remainder_km": 9.095169862287388,
+    "reference_peri_km": 1737.7064083959044
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -18.508708844157407,
+    "remainder_km": 9.13190603533362,
+    "reference_peri_km": 1734.908384246178
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -38.03171759290393,
+    "remainder_km": 9.450035280247109,
+    "reference_peri_km": 1741.6222169590674
+  },
+  "19.0.0.1.0.1.0.1.0.0.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -167.52429722228916,
+    "remainder_km": 10.112975441417824,
+    "reference_peri_km": 1738.188616867244
+  },
+  "19.0.0.1.0.1.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -73.39422307347613,
+    "remainder_km": 12.626092485312181,
+    "reference_peri_km": 1750.437326648847
+  },
+  "19.0.0.1.0.1.0.1.0.1.0.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -107.3326660990542,
+    "remainder_km": 9.56692446182158,
+    "reference_peri_km": 1736.5282831612906
+  },
+  "19.0.0.1.0.1.0.1.0.1.0.1.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -40.4455913758714,
+    "remainder_km": 9.065663982510788,
+    "reference_peri_km": 1743.5754129641648
+  },
+  "19.0.0.1.0.1.0.1.0.1.0.1.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -23.7686876385842,
+    "remainder_km": 9.102186914390465,
+    "reference_peri_km": 1740.7762507476823
+  },
+  "19.0.0.1.0.1.0.1.0.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -165.4198524758507,
+    "remainder_km": 10.023100184948945,
+    "reference_peri_km": 1751.226419220108
+  },
+  "19.0.0.1.0.1.0.1.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -140.04512727792232,
+    "remainder_km": 11.339510810212388,
+    "reference_peri_km": 1744.4275570219859
+  },
+  "19.0.0.1.0.1.0.1.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -86.9533617850856,
+    "remainder_km": 12.491784888871805,
+    "reference_peri_km": 1761.7740296409138
+  },
+  "19.0.0.1.0.1.0.1.0.1.1.1.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -51.550029678862245,
+    "remainder_km": 9.014712359875068,
+    "reference_peri_km": 1749.2624037470762
+  },
+  "19.0.0.1.0.1.0.1.0.1.1.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -20.46215012263446,
+    "remainder_km": 9.050785069725196,
+    "reference_peri_km": 1746.4638654098922
+  },
+  "19.0.0.1.0.1.0.1.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -101.28594474667617,
+    "remainder_km": 9.375885601033172,
+    "reference_peri_km": 1753.5083716648098
+  },
+  "19.0.0.1.0.1.0.1.0.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -184.40028374619888,
+    "remainder_km": 9.89421476370974,
+    "reference_peri_km": 1762.564967835545
+  },
+  "19.0.0.1.0.1.0.1.0.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -155.45175314609614,
+    "remainder_km": 11.186691207167794,
+    "reference_peri_km": 1755.7605568616982
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.0.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.0.0.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.0.0.1.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.0.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.0.1.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.0.1.1.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.9669552595151105
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.445345625354375
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.026658643380986773
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.4866677942597695
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.1.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.043050169425006
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.1.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.5188307876608917
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.13846541306557567
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.0.1.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.6124094502586137
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.0.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.0.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.9616632330759295
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.439808380668073
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.1.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.0892639179071377
+  },
+  "19.0.0.1.0.1.0.1.1.0.0.1.1.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.5650702068357305
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.0.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.1524606766112102
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.0.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.628849231480456
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.5043691971291848
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.9825717981229988
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.2530236869871814
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.4594630429986288
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -16.47436220943592,
+    "remainder_km": 9.591597765668183,
+    "reference_peri_km": 1730.7240585319253
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -36.01911472252307,
+    "remainder_km": 9.525890831806263,
+    "reference_peri_km": 1736.0189616039816
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -180.4105234554606,
+    "remainder_km": 10.193890274224648,
+    "reference_peri_km": 1732.60123642847
+  },
+  "19.0.0.1.0.1.0.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -40.875448272192216,
+    "remainder_km": 12.925486603072079,
+    "reference_peri_km": 1721.4382899889958
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -105.05255480425038,
+    "remainder_km": 9.643860972057812,
+    "reference_peri_km": 1730.9841405792133
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -23.723219293953964,
+    "remainder_km": 9.573283618640005,
+    "reference_peri_km": 1736.6114536172304
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -87.75121852456668,
+    "remainder_km": 10.102909945775464,
+    "reference_peri_km": 1745.6733501910812
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -148.58831605412044,
+    "remainder_km": 11.435784900621377,
+    "reference_peri_km": 1738.8813640173146
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.1.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.06809576799530122
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -26.010725585243943,
+    "remainder_km": 9.65417026940537,
+    "reference_peri_km": 1731.0179697208744
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.080751964057487,
+    "remainder_km": 10.190494885212296,
+    "reference_peri_km": 1740.078054580985
+  },
+  "19.0.0.1.0.1.0.1.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -159.6321773014632,
+    "remainder_km": 11.542391709608632,
+    "reference_peri_km": 1733.2903235547778
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -16.23765148146825,
+    "remainder_km": 9.5199169344628,
+    "reference_peri_km": 1742.2846585363782
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.1924942674417,
+    "remainder_km": 9.450985331167393,
+    "reference_peri_km": 1747.9094680226756
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -106.75402340981705,
+    "remainder_km": 9.972507940289988,
+    "reference_peri_km": 1756.9776899231822
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -157.65640910209427,
+    "remainder_km": 11.28187958310083,
+    "reference_peri_km": 1750.1793960865934
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -17.771967114337418,
+    "remainder_km": 9.600091523843236,
+    "reference_peri_km": 1736.6864157027355
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.33963449706016,
+    "remainder_km": 9.530169417720902,
+    "reference_peri_km": 1742.3127648465747
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.908101684067137,
+    "remainder_km": 10.058056197620566,
+    "reference_peri_km": 1751.379180306439
+  },
+  "19.0.0.1.0.1.0.1.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -167.79375587408217,
+    "remainder_km": 11.38626654885085,
+    "reference_peri_km": 1744.585574231953
+  },
+  "19.0.0.1.0.1.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1707.7708872402761,
+    "support_gap_km": 0.8154820407539667
+  },
+  "19.0.0.1.0.1.1.0.0.1.0.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.00045096653294348727
+  },
+  "19.0.0.1.0.1.1.0.0.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.869466749878914,
+    "remainder_km": 10.272432242903633,
+    "reference_peri_km": 1734.5265085595713
+  },
+  "19.0.0.1.0.1.1.0.0.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -171.3549093187211,
+    "remainder_km": 11.64122757895989,
+    "reference_peri_km": 1727.744654854147
+  },
+  "19.0.0.1.0.1.1.0.0.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.488962593319034,
+    "remainder_km": 11.733977495510153,
+    "reference_peri_km": 1722.9962352656837
+  },
+  "19.0.0.1.0.1.1.0.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -187.81735175955592,
+    "remainder_km": 11.75065354679717,
+    "reference_peri_km": 1722.1566699525788
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -21.91627836593028,
+    "remainder_km": 9.678078420478032,
+    "reference_peri_km": 1731.1085404644282
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -38.476668163030915,
+    "remainder_km": 9.60744659426617,
+    "reference_peri_km": 1736.7156576128034
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -24.5836164923378,
+    "remainder_km": 9.503821513884649,
+    "reference_peri_km": 1742.98691340718
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -45.97489904182953,
+    "remainder_km": 9.435283162930295,
+    "reference_peri_km": 1748.5980084193818
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -178.4294269517367,
+    "remainder_km": 11.484143105735848,
+    "reference_peri_km": 1739.0049356589675
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -42.319520762993065,
+    "remainder_km": 10.421043784209377,
+    "reference_peri_km": 1728.316011089905
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -26.362453316570853,
+    "remainder_km": 9.583772824359277,
+    "reference_peri_km": 1737.3934994836304
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -45.44799371291464,
+    "remainder_km": 9.514234760277022,
+    "reference_peri_km": 1743.0007381302971
+  },
+  "19.0.0.1.0.1.1.0.0.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -190.15093833347706,
+    "remainder_km": 11.591370747876713,
+    "reference_peri_km": 1733.4140965564
+  },
+  "19.0.0.1.0.1.1.0.1.0": {
+    "status": "collision",
+    "ref_rp": 1696.6112841247143,
+    "support_gap_km": 12.23908947664431
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -31.047152232799423,
+    "remainder_km": 13.346683129999242,
+    "reference_peri_km": 1717.0117169808138
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.1.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.8022328259266138
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.1.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.7949142823986066
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.1.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.1.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.8900767870865793
+  },
+  "19.0.0.1.0.1.1.0.1.1.0.1.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.9304775646995465
+  },
+  "19.0.0.1.0.1.1.0.1.1.1.0.0.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.9214518037322206
+  },
+  "19.0.0.1.0.1.1.0.1.1.1.0.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.22043217540988713
+  },
+  "19.0.0.1.0.1.1.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.69933704900264,
+    "remainder_km": 10.31014278490033,
+    "reference_peri_km": 1734.6111172357378
+  },
+  "19.0.0.1.0.1.1.0.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -202.2495457746364,
+    "remainder_km": 11.691848278329125,
+    "reference_peri_km": 1727.833950141105
+  },
+  "19.0.0.1.0.1.1.0.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -41.949627087150134,
+    "remainder_km": 13.339234506765264,
+    "reference_peri_km": 1722.64465321968
+  },
+  "19.0.0.1.0.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 40.71562740588832,
+    "max_outside_plane_km": -87.03268736993061,
+    "ref_rp": 1696.81121652314,
+    "seconds": 0.39028966694604605
+  },
+  "19.0.0.1.0.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1685.6606030217238,
+    "support_gap_km": 10.373579253326547
+  },
+  "19.0.0.1.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 56.71845255751366,
+    "max_outside_plane_km": -177.3212872726918,
+    "ref_rp": 1711.1816844631212,
+    "seconds": 0.4130404170136899
+  },
+  "19.0.0.1.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 1689.4197465568589,
+    "support_gap_km": 0.45586984086098425
+  },
+  "19.0.0.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1656.4913266334697,
+    "support_gap_km": 19.66470680434402
+  },
+  "19.0.0.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 56.49427257860704,
+    "max_outside_plane_km": -185.79664416256594,
+    "ref_rp": 1756.9671361411258,
+    "seconds": 0.377196624991484
+  },
+  "19.0.0.1.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 59.4201413315074,
+    "max_outside_plane_km": -212.96176245972543,
+    "ref_rp": 1734.6782630234673,
+    "seconds": 0.35361516708508134
+  },
+  "19.0.0.1.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 62.552352402787236,
+    "max_outside_plane_km": -183.7389674547511,
+    "ref_rp": 1712.4020489916866,
+    "seconds": 0.3820974580012262
+  },
+  "19.0.0.1.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 65.91025885405278,
+    "max_outside_plane_km": -342.10567344867644,
+    "ref_rp": 1690.1388417747025,
+    "seconds": 0.4491740840021521
+  },
+  "19.0.1.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 1091.1474792588192,
+    "max_outside_plane_km": -283.6182726756831,
+    "ref_rp": 1883.8246009983459,
+    "seconds": 0.23276562499813735
+  },
+  "19.0.1.0.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 565.1783748918233,
+    "max_outside_plane_km": -512.6863407346384,
+    "ref_rp": 1850.3059353350686,
+    "seconds": 0.23986949992831796
+  },
+  "19.0.1.0.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 589.268882422241,
+    "max_outside_plane_km": -193.0771000534313,
+    "ref_rp": 1827.9566135532425,
+    "seconds": 0.29083270800765604
+  },
+  "19.0.1.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 990.2213511715528,
+    "max_outside_plane_km": -1024.8577330713326,
+    "ref_rp": 1933.5619673194183,
+    "seconds": 0.2438821669202298
+  },
+  "19.0.1.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 1086.752427335951,
+    "max_outside_plane_km": -366.2879409056857,
+    "ref_rp": 1888.7379693529722,
+    "seconds": 0.255217875004746
+  },
+  "19.0.1.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 1064.5756512197702,
+    "max_outside_plane_km": -547.4087208698065,
+    "ref_rp": 1881.90244150221,
+    "seconds": 0.25209516705945134
+  },
+  "19.0.1.0.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 545.5753660002142,
+    "max_outside_plane_km": -773.3138341102003,
+    "ref_rp": 1848.4282560367024,
+    "seconds": 0.2420058329589665
+  },
+  "19.0.1.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 568.6688120249291,
+    "max_outside_plane_km": -460.39163678848786,
+    "ref_rp": 1826.1250574998246,
+    "seconds": 0.2754764170385897
+  },
+  "19.0.1.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 994.335559892688,
+    "max_outside_plane_km": -1293.6810189954138,
+    "ref_rp": 1931.5081233579526,
+    "seconds": 0.23028283298481256
+  },
+  "19.0.1.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 1089.486363527184,
+    "max_outside_plane_km": -649.4203184213109,
+    "ref_rp": 1886.7805939912275,
+    "seconds": 0.23122329101897776
+  },
+  "19.0.1.1.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 58.51261973016407,
+    "max_outside_plane_km": -395.6195177039467,
+    "ref_rp": 1805.6254233203108,
+    "seconds": 0.2582122079329565
+  },
+  "19.0.1.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 61.532876773208464,
+    "max_outside_plane_km": -85.02489441887337,
+    "ref_rp": 1783.2983059342207,
+    "seconds": 0.29114149999804795
+  },
+  "19.0.1.1.0.0.1.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.947793938703317,
+    "remainder_km": 16.970984875948847,
+    "reference_peri_km": 1748.7114167391205
+  },
+  "19.0.1.1.0.0.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -32.26315014096721,
+    "remainder_km": 16.711716354396263,
+    "reference_peri_km": 1760.6111974386981
+  },
+  "19.0.1.1.0.0.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 29.02036619182091,
+    "max_outside_plane_km": -316.69022004501653,
+    "ref_rp": 1779.0117252581663,
+    "seconds": 0.27195762493647635
+  },
+  "19.0.1.1.0.0.1.0.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -31.836996118392367,
+    "remainder_km": 13.758788907106512,
+    "reference_peri_km": 1740.36900049232
+  },
+  "19.0.1.1.0.0.1.0.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -34.21772944692799,
+    "remainder_km": 13.898726360640751,
+    "reference_peri_km": 1734.7812145642254
+  },
+  "19.0.1.1.0.0.1.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -29.788205024080558,
+    "remainder_km": 11.670017988882101,
+    "reference_peri_km": 1752.7385796316523
+  },
+  "19.0.1.1.0.0.1.0.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -204.46610650359966,
+    "remainder_km": 11.689281723798263,
+    "reference_peri_km": 1751.7749940876809
+  },
+  "19.0.1.1.0.0.1.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -27.520007525998015,
+    "remainder_km": 13.709813536562592,
+    "reference_peri_km": 1746.6427710554171
+  },
+  "19.0.1.1.0.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 29.60904075764861,
+    "max_outside_plane_km": -161.92114741732803,
+    "ref_rp": 1767.8573412594533,
+    "seconds": 0.26968937495257705
+  },
+  "19.0.1.1.0.0.1.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -31.93547617072003,
+    "remainder_km": 17.70544019324257,
+    "reference_peri_km": 1726.4410954117332
+  },
+  "19.0.1.1.0.0.1.1.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -30.95622448891348,
+    "remainder_km": 13.834310461913818,
+    "reference_peri_km": 1741.0647742001997
+  },
+  "19.0.1.1.0.0.1.1.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -35.155800855877175,
+    "remainder_km": 13.975265601333128,
+    "reference_peri_km": 1735.473325032214
+  },
+  "19.0.1.1.0.0.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -58.25675801181731,
+    "remainder_km": 17.51700551268429,
+    "reference_peri_km": 1750.4895471441123
+  },
+  "19.0.1.1.0.0.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 24.64724458045199,
+    "max_outside_plane_km": -40.45067884168577,
+    "ref_rp": 1762.9100794454735,
+    "seconds": 0.2970283750910312
+  },
+  "19.0.1.1.0.0.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -39.922127239503624,
+    "remainder_km": 18.089110308571758,
+    "reference_peri_km": 1715.3107621026788
+  },
+  "19.0.1.1.0.0.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -35.18525099534381,
+    "remainder_km": 17.813609599975894,
+    "reference_peri_km": 1727.102342626368
+  },
+  "19.0.1.1.0.0.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -41.12360100605804,
+    "remainder_km": 17.893445018030565,
+    "reference_peri_km": 1739.3600695352961
+  },
+  "19.0.1.1.0.0.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -39.06158880758673,
+    "remainder_km": 17.563502136299448,
+    "reference_peri_km": 1751.74407977163
+  },
+  "19.0.1.1.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 566.7192880204802,
+    "max_outside_plane_km": -589.7653361827445,
+    "ref_rp": 1855.1538306723448,
+    "seconds": 0.2713068329030648
+  },
+  "19.0.1.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 592.4908477726669,
+    "max_outside_plane_km": -269.54516777051765,
+    "ref_rp": 1832.7734391948993,
+    "seconds": 0.2637185830390081
+  },
+  "19.0.1.1.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 59.1473573099496,
+    "max_outside_plane_km": -475.46026215082975,
+    "ref_rp": 1810.404119074039,
+    "seconds": 0.28437616606242955
+  },
+  "19.0.1.1.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 62.39176316004799,
+    "max_outside_plane_km": -165.68707622122065,
+    "ref_rp": 1788.046132406875,
+    "seconds": 0.29525437497068197
+  },
+  "19.0.1.1.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 594.602983712986,
+    "max_outside_plane_km": -136.19588825033213,
+    "ref_rp": 1803.8388686404194,
+    "seconds": 0.26706175005529076
+  },
+  "19.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 59.33787885883966,
+    "max_outside_plane_km": -344.1225101812008,
+    "ref_rp": 1781.5590479391926,
+    "seconds": 0.3301115840440616
+  },
+  "19.0.1.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 62.41557647447936,
+    "max_outside_plane_km": -166.35873583365083,
+    "ref_rp": 1759.2914312219282,
+    "seconds": 0.382896333001554
+  },
+  "19.0.1.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 65.70908605805054,
+    "max_outside_plane_km": -99.04970166890098,
+    "ref_rp": 1737.0363371624999,
+    "seconds": 0.38842712505720556
+  },
+  "19.0.1.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 568.8834918685362,
+    "max_outside_plane_km": -875.657854391588,
+    "ref_rp": 1853.2688714864562,
+    "seconds": 0.2546638330677524
+  },
+  "19.0.1.1.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 594.0957607847566,
+    "max_outside_plane_km": -516.2688967535391,
+    "ref_rp": 1830.9382147453325,
+    "seconds": 0.25221025000791997
+  },
+  "19.0.1.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 150.9688617486091,
+    "max_outside_plane_km": -234.1262050853154,
+    "ref_rp": 1797.4647616486295,
+    "seconds": 0.2729724580422044
+  },
+  "19.1.0.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 892.7169554149598,
+    "max_outside_plane_km": -1821.372631499816,
+    "ref_rp": 1983.120387095911,
+    "seconds": 0.3766008330276236
+  },
+  "19.1.0.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 978.9879999737376,
+    "max_outside_plane_km": -1190.6132220270995,
+    "ref_rp": 1938.3270908650181,
+    "seconds": 0.27799066610168666
+  },
+  "19.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 2407.325466162335,
+    "max_outside_plane_km": -520.1006182788797,
+    "ref_rp": 2010.0522285849302,
+    "seconds": 0.2945632499177009
+  },
+  "19.1.0.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 897.8959733642869,
+    "max_outside_plane_km": -2097.1338569418585,
+    "ref_rp": 1981.1347818017546,
+    "seconds": 0.29704904195386916
+  },
+  "19.1.0.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 982.9683484826244,
+    "max_outside_plane_km": -1409.0658175754736,
+    "ref_rp": 1936.4269175093648,
+    "seconds": 0.26893358398228884
+  },
+  "19.1.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 2459.242136160576,
+    "max_outside_plane_km": -594.430674102277,
+    "ref_rp": 2008.3173653822023,
+    "seconds": 0.31540470803156495
+  },
+  "19.1.0.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 1074.2628436149255,
+    "max_outside_plane_km": -530.4761393717861,
+    "ref_rp": 1893.5842368788126,
+    "seconds": 0.3157698339782655
+  },
+  "19.1.0.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 131.93317933344167,
+    "max_outside_plane_km": -850.4815483971402,
+    "ref_rp": 1848.8720206537869,
+    "seconds": 0.284298500046134
+  },
+  "19.1.0.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 924.4651993149625,
+    "max_outside_plane_km": -1450.2186199219375,
+    "ref_rp": 1942.7647920187694,
+    "seconds": 0.32068345800507814
+  },
+  "19.1.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 1013.7772939047175,
+    "max_outside_plane_km": -804.206021559786,
+    "ref_rp": 1897.9829185065557,
+    "seconds": 0.3046343750320375
+  },
+  "19.1.0.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 1080.2163401299579,
+    "max_outside_plane_km": -675.9235226740077,
+    "ref_rp": 1891.7675851348163,
+    "seconds": 0.29972600005567074
+  },
+  "19.1.0.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 132.60269142190518,
+    "max_outside_plane_km": -921.6444485448683,
+    "ref_rp": 1847.1485731312644,
+    "seconds": 0.4082975840428844
+  },
+  "19.1.0.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 955.7202519176625,
+    "max_outside_plane_km": -1467.7805029562999,
+    "ref_rp": 1941.1355978387523,
+    "seconds": 0.29119937494397163
+  },
+  "19.1.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 1047.3050427713774,
+    "max_outside_plane_km": -737.2708277976972,
+    "ref_rp": 1896.4287745966246,
+    "seconds": 0.2980952499201521
+  },
+  "19.1.1.0": {
+    "status": "contained",
+    "remainder_km": 2771.693088709208,
+    "max_outside_plane_km": -892.6006156502001,
+    "ref_rp": 2080.823443582596,
+    "seconds": 0.2835308749927208
+  },
+  "19.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 2496.170812631841,
+    "max_outside_plane_km": -101.42832141387612,
+    "ref_rp": 1968.929961692787,
+    "seconds": 0.2533080839784816
+  },
+  "19.1.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 2520.899231616356,
+    "max_outside_plane_km": -40.718321541198065,
+    "ref_rp": 1967.8794274758163,
+    "seconds": 0.27859583403915167
+  },
+  "19.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 2224.8721841621023,
+    "max_outside_plane_km": -1086.1623421102474,
+    "ref_rp": 2015.8699481971787,
+    "seconds": 0.2585236669983715
+  },
+  "2.0": {
+    "status": "contained",
+    "remainder_km": 301.4443048937386,
+    "max_outside_plane_km": -375.1283825578945,
+    "ref_rp": 4832.107755647377,
+    "seconds": 0.2404385000700131
+  },
+  "2.1": {
+    "status": "contained",
+    "remainder_km": 291.49152286562304,
+    "max_outside_plane_km": -151.85667689514048,
+    "ref_rp": 4940.658516384547,
+    "seconds": 0.2456568330526352
+  },
+  "20.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1593.6247248776085,
+    "support_gap_km": 4.766287721121657
+  },
+  "20.0.0.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1665.5280893769464,
+    "support_gap_km": 5.944867261024299
+  },
+  "20.0.0.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1620.992892082757,
+    "support_gap_km": 26.358475635753322
+  },
+  "20.0.0.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1664.0910729829855,
+    "support_gap_km": 6.364340565731354
+  },
+  "20.0.0.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1619.6488527748897,
+    "support_gap_km": 26.632557198537455
+  },
+  "20.0.0.1": {
+    "status": "collision",
+    "ref_rp": 1531.1327072902109,
+    "support_gap_km": 38.21152191667551
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.0.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.0962811214406747
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.0031214410935163
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.06904141442227586
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.1.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.2366024249686833
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.108894489394254
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.0.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.21266711263557309
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.1.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.9171575931163396
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.1.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.9665497198452593
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.1.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.1.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.017977259998241
+  },
+  "20.0.1.0.0.0.0.0.0.0.0.1.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.118237318184497
+  },
+  "20.0.1.0.0.0.0.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -49.4352592956495,
+    "remainder_km": 18.082567641944387,
+    "reference_peri_km": 1736.664375801169
+  },
+  "20.0.1.0.0.0.0.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 1701.2268595432788,
+    "support_gap_km": 10.904875076628876
+  },
+  "20.0.1.0.0.0.0.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -54.58996332826755,
+    "remainder_km": 18.46325785168425,
+    "reference_peri_km": 1725.526563566632
+  },
+  "20.0.1.0.0.0.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 33.05689187671278,
+    "max_outside_plane_km": -167.22307278111793,
+    "ref_rp": 1773.623863304704,
+    "seconds": 0.31245874997694045
+  },
+  "20.0.1.0.0.0.0.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -73.37769917092348,
+    "remainder_km": 18.099441929616397,
+    "reference_peri_km": 1750.0669261249775
+  },
+  "20.0.1.0.0.0.0.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 24.46327528499255,
+    "max_outside_plane_km": -386.2486165978123,
+    "ref_rp": 1774.8768079296901,
+    "seconds": 0.29491937498096377
+  },
+  "20.0.1.0.0.0.0.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1690.0921460683583,
+    "support_gap_km": 3.3043157733527124
+  },
+  "20.0.1.0.0.0.0.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -63.87616626217711,
+    "remainder_km": 18.855692909123764,
+    "reference_peri_km": 1714.3919081902
+  },
+  "20.0.1.0.0.0.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1690.8339877700548,
+    "support_gap_km": 7.727000718433381
+  },
+  "20.0.1.0.0.0.0.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -63.374767384667194,
+    "remainder_km": 18.516862172026798,
+    "reference_peri_km": 1738.9046881948454
+  },
+  "20.0.1.0.0.0.0.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 24.97634506468859,
+    "max_outside_plane_km": -229.5616071823017,
+    "ref_rp": 1763.717058168903,
+    "seconds": 0.29778891697060317
+  },
+  "20.0.1.0.0.0.0.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -69.26735782940683,
+    "remainder_km": 18.948440364655298,
+    "reference_peri_km": 1727.7455425051237
+  },
+  "20.0.1.0.0.0.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 25.503999142608915,
+    "max_outside_plane_km": -71.46822147414287,
+    "ref_rp": 1752.5601021355774,
+    "seconds": 0.3472773330286145
+  },
+  "20.0.1.0.0.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1674.1287283043914,
+    "support_gap_km": 18.329348320064753
+  },
+  "20.0.1.0.0.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -82.52562010038793,
+    "remainder_km": 19.393290881812238,
+    "reference_peri_km": 1716.5880253185344
+  },
+  "20.0.1.0.0.0.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 26.046472686517287,
+    "max_outside_plane_km": -34.665751858669694,
+    "ref_rp": 1741.4060837496365,
+    "seconds": 0.3945674999849871
+  },
+  "20.0.1.0.0.0.1.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1705.433688426285,
+    "support_gap_km": 5.429154221515976
+  },
+  "20.0.1.0.0.0.1.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 26.603267129687456,
+    "max_outside_plane_km": -51.070057492146105,
+    "ref_rp": 1730.254974772471,
+    "seconds": 0.3691297919722274
+  },
+  "20.0.1.0.0.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1651.8845769679087,
+    "support_gap_km": 18.913169267430632
+  },
+  "20.0.1.0.0.0.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 38.03206814504423,
+    "max_outside_plane_km": -61.24864752086532,
+    "ref_rp": 1706.6776319397468,
+    "seconds": 0.4221457919338718
+  },
+  "20.0.1.0.0.0.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1695.5308818226288,
+    "support_gap_km": 2.553364779086621
+  },
+  "20.0.1.0.0.1.0.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -41.745655139651106,
+    "remainder_km": 18.977531827121002,
+    "reference_peri_km": 1724.4034053439063
+  },
+  "20.0.1.0.0.1.0.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -45.129992683206325,
+    "remainder_km": 18.026639150094255,
+    "reference_peri_km": 1749.2640143043582
+  },
+  "20.0.1.0.0.1.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.261751326643214,
+    "remainder_km": 28.292730057534328,
+    "reference_peri_km": 1725.6583026687485
+  },
+  "20.0.1.0.0.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 50.37905270011084,
+    "max_outside_plane_km": -35.508054051435465,
+    "ref_rp": 1780.9305003126476,
+    "seconds": 0.3396530000027269
+  },
+  "20.0.1.0.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -45.81757383704745,
+    "remainder_km": 29.02185671913373,
+    "reference_peri_km": 1714.4872849840253
+  },
+  "20.0.1.0.0.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 38.01428196343121,
+    "max_outside_plane_km": -69.84479814253919,
+    "ref_rp": 1703.3182874445417,
+    "seconds": 0.3953677089884877
+  },
+  "20.0.1.0.0.1.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -52.72083240352853,
+    "remainder_km": 26.138037439941243,
+    "reference_peri_km": 1764.1746501343046
+  },
+  "20.0.1.0.0.1.0.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -55.11157715962642,
+    "remainder_km": 26.806647801820425,
+    "reference_peri_km": 1753.008620416378
+  },
+  "20.0.1.0.0.1.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1686.5730507914766,
+    "support_gap_km": 6.59061825889394
+  },
+  "20.0.1.0.0.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -65.8609048475702,
+    "remainder_km": 27.496009491932078,
+    "reference_peri_km": 1741.8455935078475
+  },
+  "20.0.1.0.0.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -99.54679323372054,
+    "remainder_km": 28.21055181543061,
+    "reference_peri_km": 1730.6861009338256
+  },
+  "20.0.1.0.0.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1664.256053993931,
+    "support_gap_km": 7.865575987067878
+  },
+  "20.0.1.0.0.1.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 37.01339041890516,
+    "max_outside_plane_km": -55.9254767944027,
+    "ref_rp": 1719.5279543205306,
+    "seconds": 0.37333258299622685
+  },
+  "20.0.1.0.0.1.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 37.902339380572,
+    "max_outside_plane_km": -107.9670888940372,
+    "ref_rp": 1708.3741572761407,
+    "seconds": 0.3611946669407189
+  },
+  "20.0.1.0.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 68.55821534474349,
+    "max_outside_plane_km": -41.31791539428784,
+    "ref_rp": 1723.5352609097295,
+    "seconds": 0.3908042919356376
+  },
+  "20.0.1.0.1.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 44.25033260387216,
+    "max_outside_plane_km": -85.10806512468756,
+    "ref_rp": 1706.8757763711696,
+    "seconds": 0.473635874921456
+  },
+  "20.0.1.0.1.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 45.29322274934654,
+    "max_outside_plane_km": -237.99247053032826,
+    "ref_rp": 1695.7651240248872,
+    "seconds": 0.47643149993382394
+  },
+  "20.0.1.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1667.962284148463,
+    "support_gap_km": 0.7053347405110131
+  },
+  "20.0.1.0.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 64.76056753952074,
+    "max_outside_plane_km": -85.53439576661549,
+    "ref_rp": 1772.7643049216738,
+    "seconds": 0.3653387079248205
+  },
+  "20.0.1.0.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 42.469768741455034,
+    "max_outside_plane_km": -72.84376515593874,
+    "ref_rp": 1756.0520866039662,
+    "seconds": 0.3911548340693116
+  },
+  "20.0.1.0.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 43.493611608129314,
+    "max_outside_plane_km": -39.39017424755792,
+    "ref_rp": 1744.915256826433,
+    "seconds": 0.38365087506826967
+  },
+  "20.0.1.0.1.1.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 32.519568853529734,
+    "max_outside_plane_km": -54.204007849410615,
+    "ref_rp": 1721.4522215397885,
+    "seconds": 0.38325291604269296
+  },
+  "20.0.1.0.1.1.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 31.712662860873813,
+    "max_outside_plane_km": -44.230246578649314,
+    "ref_rp": 1746.1881330187407,
+    "seconds": 0.39049062493722886
+  },
+  "20.0.1.0.1.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 33.23413772064134,
+    "max_outside_plane_km": -127.87106486349984,
+    "ref_rp": 1710.321064823903,
+    "seconds": 0.40384070901200175
+  },
+  "20.0.1.0.1.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -81.44900055121397,
+    "remainder_km": 24.60924001588753,
+    "reference_peri_km": 1735.0588753410707
+  },
+  "20.0.1.0.1.1.1.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1699.193218930685,
+    "support_gap_km": 5.596695837728312
+  },
+  "20.0.1.0.1.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -68.05671301872593,
+    "remainder_km": 25.20392431570129,
+    "reference_peri_km": 1723.9331675700641
+  },
+  "20.0.1.0.1.1.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1688.068828167435,
+    "support_gap_km": 17.021336995045907
+  },
+  "20.0.1.0.1.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -111.52291452862025,
+    "remainder_km": 25.817719335583117,
+    "reference_peri_km": 1712.8104140537337
+  },
+  "20.0.1.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1642.8101896859146,
+    "support_gap_km": 5.231445838707245
+  },
+  "20.0.1.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 1598.288491142088,
+    "support_gap_km": 23.70217007170507
+  },
+  "20.0.1.1.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1666.8434287697767,
+    "support_gap_km": 0.608846649869065
+  },
+  "20.0.1.1.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1644.5545394375788,
+    "support_gap_km": 23.979704929811348
+  },
+  "20.0.1.1.0.1.1": {
+    "status": "collision",
+    "ref_rp": 1611.148487822021,
+    "support_gap_km": 10.727740083445042
+  },
+  "20.0.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1601.3744462081706,
+    "support_gap_km": 31.074968006405697
+  },
+  "20.0.1.1.1.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1683.7255921517972,
+    "support_gap_km": 1.705182582513629
+  },
+  "20.0.1.1.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1661.4988928151959,
+    "support_gap_km": 3.441034535337124
+  },
+  "20.0.1.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1628.1865650548955,
+    "support_gap_km": 15.672805282384402
+  },
+  "20.1.0.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 144.4418838526269,
+    "max_outside_plane_km": -375.06339945172454,
+    "ref_rp": 1812.7328827389865,
+    "seconds": 0.37526333308778703
+  },
+  "20.1.0.0.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 63.44312522501482,
+    "max_outside_plane_km": -145.74929462289026,
+    "ref_rp": 1779.2062326202508,
+    "seconds": 0.389011042076163
+  },
+  "20.1.0.0.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 66.98251576824093,
+    "max_outside_plane_km": -34.54652986491055,
+    "ref_rp": 1756.861946778695,
+    "seconds": 0.3867858329322189
+  },
+  "20.1.0.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 1080.0188795298438,
+    "max_outside_plane_km": -297.04874793748854,
+    "ref_rp": 1861.379631997191,
+    "seconds": 0.33697658393066376
+  },
+  "20.1.0.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 132.30809367680882,
+    "max_outside_plane_km": -616.1418681584516,
+    "ref_rp": 1816.6878644927563,
+    "seconds": 0.3736634999513626
+  },
+  "20.1.0.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 145.48555053907364,
+    "max_outside_plane_km": -329.52180865539776,
+    "ref_rp": 1811.1248144375866,
+    "seconds": 0.32671029202174395
+  },
+  "20.1.0.0.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 63.802158333072015,
+    "max_outside_plane_km": -53.568858649107824,
+    "ref_rp": 1777.6737156731344,
+    "seconds": 0.3834293329855427
+  },
+  "20.1.0.0.1.0.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -55.05400527394298,
+    "remainder_km": 23.729581513600596,
+    "reference_peri_km": 1748.541124353591
+  },
+  "20.1.0.0.1.0.1.1.0.1": {
+    "status": "contained",
+    "remainder_km": 29.588569713560897,
+    "max_outside_plane_km": -268.6922098362671,
+    "ref_rp": 1772.9229297090703,
+    "seconds": 0.33879650000017136
+  },
+  "20.1.0.0.1.0.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -30.00033406093937,
+    "remainder_km": 24.2727062440803,
+    "reference_peri_km": 1737.3993739122589
+  },
+  "20.1.0.0.1.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 30.211747737958312,
+    "max_outside_plane_km": -86.58041219797542,
+    "ref_rp": 1761.7799259639294,
+    "seconds": 0.4164269579341635
+  },
+  "20.1.0.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 1112.701388739787,
+    "max_outside_plane_km": -133.25933429555062,
+    "ref_rp": 1859.9767904487296,
+    "seconds": 0.3269670420559123
+  },
+  "20.1.0.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 137.66554911962768,
+    "max_outside_plane_km": -377.5108577960673,
+    "ref_rp": 1815.3634493327422,
+    "seconds": 0.3182357089826837
+  },
+  "20.1.0.1.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 70.5896517178455,
+    "max_outside_plane_km": -59.538233183481,
+    "ref_rp": 1734.5384148966896,
+    "seconds": 0.388663416961208
+  },
+  "20.1.0.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 74.66820115727003,
+    "max_outside_plane_km": -130.0328840842404,
+    "ref_rp": 1712.2182992274722,
+    "seconds": 0.46535345807205886
+  },
+  "20.1.0.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 211.28410688527734,
+    "max_outside_plane_km": -75.42039247924549,
+    "ref_rp": 1678.7842783377089,
+    "seconds": 0.5038789589889348
+  },
+  "20.1.0.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 149.01294509007823,
+    "max_outside_plane_km": -84.18198493923296,
+    "ref_rp": 1772.0424424329287,
+    "seconds": 0.40047770796809345
+  },
+  "20.1.0.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 168.9417875844697,
+    "max_outside_plane_km": -52.45316121593655,
+    "ref_rp": 1727.444385387567,
+    "seconds": 0.46130450000055134
+  },
+  "20.1.0.1.1.0.0.0.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -37.19034369221195,
+    "remainder_km": 15.016568867096458,
+    "reference_peri_km": 1722.6740501734528
+  },
+  "20.1.0.1.1.0.0.0.0.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -36.44322642870317,
+    "remainder_km": 15.174143363903006,
+    "reference_peri_km": 1717.1188019877304
+  },
+  "20.1.0.1.1.0.0.0.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.96247319062206,
+    "remainder_km": 14.702389714697938,
+    "reference_peri_km": 1735.403816796397
+  },
+  "20.1.0.1.1.0.0.0.0.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -237.0425020887508,
+    "remainder_km": 12.432356726202272,
+    "reference_peri_km": 1730.1103244986034
+  },
+  "20.1.0.1.1.0.0.0.0.0.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -29.895756559100615,
+    "remainder_km": 12.443525716140634,
+    "reference_peri_km": 1729.6318684469452
+  },
+  "20.1.0.1.1.0.0.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.51613233093403,
+    "remainder_km": 18.112183717150657,
+    "reference_peri_km": 1744.4859491932102
+  },
+  "20.1.0.1.1.0.0.0.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -56.00564430262531,
+    "remainder_km": 14.020008380574575,
+    "reference_peri_km": 1759.5808529731146
+  },
+  "20.1.0.1.1.0.0.0.0.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -261.76357036086597,
+    "remainder_km": 11.8622333114045,
+    "reference_peri_km": 1754.2941944254403
+  },
+  "20.1.0.1.1.0.0.0.0.1.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -26.995114912009857,
+    "remainder_km": 9.749252351155551,
+    "reference_peri_km": 1744.5042142753337
+  },
+  "20.1.0.1.1.0.0.0.0.1.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -86.76791713130433,
+    "remainder_km": 9.670318565004749,
+    "reference_peri_km": 1750.664386828614
+  },
+  "20.1.0.1.1.0.0.0.0.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -171.05067893414102,
+    "remainder_km": 10.321385340531133,
+    "reference_peri_km": 1760.0291086734078
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.0.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.0.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.5918821713256808
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.5632259280449858
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.1.0.1": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.6921367680658288
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.0.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.6590675757147514
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.1.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.4973790381153744
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.1.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.4695211119628782
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.1.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.1.1.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.0.1.0.0.1.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.5648476323544964
+  },
+  "20.1.0.1.1.0.0.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -31.511910970502292,
+    "remainder_km": 19.091782029155198,
+    "reference_peri_km": 1721.473750776657
+  },
+  "20.1.0.1.1.0.0.0.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -38.941703148719256,
+    "remainder_km": 14.592645018573515,
+    "reference_peri_km": 1736.142331278283
+  },
+  "20.1.0.1.1.0.0.0.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -37.8965904007909,
+    "remainder_km": 14.743949973830208,
+    "reference_peri_km": 1730.5869570938137
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -233.36252024665637,
+    "remainder_km": 11.970321750890974,
+    "reference_peri_km": 1748.6956674994751
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -16.060066459528773,
+    "remainder_km": 9.830979828670667,
+    "reference_peri_km": 1738.920285303563
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -57.02813456143127,
+    "remainder_km": 9.7510697868802,
+    "reference_peri_km": 1745.067779105842
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -79.74296806126526,
+    "remainder_km": 10.408100767659418,
+    "reference_peri_km": 1754.4386073205026
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -225.93066107097044,
+    "remainder_km": 12.084126782301016,
+    "reference_peri_km": 1743.1367356236242
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -9.87340876862962,
+    "remainder_km": 9.914996362554415,
+    "reference_peri_km": 1733.3683115909957
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -49.56546049993214,
+    "remainder_km": 9.833991846242979,
+    "reference_peri_km": 1739.5152619948942
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -9.369129994862934,
+    "remainder_km": 9.72501800674763,
+    "reference_peri_km": 1745.8111419208628
+  },
+  "20.1.0.1.1.0.0.0.1.1.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -88.25560917093168,
+    "remainder_km": 9.646568008484163,
+    "reference_peri_km": 1751.9611184562182
+  },
+  "20.1.0.1.1.0.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 1703.9908680251024,
+    "support_gap_km": 1.8002471085495024
+  },
+  "20.1.0.1.1.0.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -38.35994239758563,
+    "remainder_km": 14.890459422348002,
+    "reference_peri_km": 1725.0220557897123
+  },
+  "20.1.0.1.1.0.0.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -40.13054862123569,
+    "remainder_km": 15.046183824094946,
+    "reference_peri_km": 1719.4694750952565
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -220.7710013499252,
+    "remainder_km": 12.195301424525253,
+    "reference_peri_km": 1737.5401888181996
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -10.254393461165897,
+    "remainder_km": 9.998839944622656,
+    "reference_peri_km": 1727.7873185436881
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -44.89739725957118,
+    "remainder_km": 9.916934779315289,
+    "reference_peri_km": 1733.9197552650112
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -4.941583542475062,
+    "remainder_km": 9.806415392633268,
+    "reference_peri_km": 1740.231405368786
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.0.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -40.51242534779817,
+    "remainder_km": 9.72696758776657,
+    "reference_peri_km": 1746.3656196125642
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -217.09368424145984,
+    "remainder_km": 12.312288365911087,
+    "reference_peri_km": 1731.9820818838514
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -130.72190321868928,
+    "remainder_km": 10.900246922661665,
+    "reference_peri_km": 1725.302774525569
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.1.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -4.826693444771383,
+    "remainder_km": 9.890092171384415,
+    "reference_peri_km": 1734.679407543826
+  },
+  "20.1.0.1.1.0.0.1.0.1.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -33.294064215820626,
+    "remainder_km": 9.809550458352408,
+    "reference_peri_km": 1740.8143781923404
+  },
+  "20.1.0.1.1.0.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1692.8620836577627,
+    "support_gap_km": 13.220957419343648
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.0.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.0.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.2476644643517525
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.2094484028552668
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.22445510219133338
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.1.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.340698522828499
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.3103926220844888
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.0.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.31787313802858075
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.1.0.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.1.0.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.1174272075745715
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.1.0.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.1254524113344386
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.1.1.0": {
+    "status": "collision",
+    "method": "quadratic position"
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.1.1.1.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -2.2132907247421585
+  },
+  "20.1.0.1.1.0.0.1.1.1.0.1.1.1.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.217287254292305
+  },
+  "20.1.0.1.1.0.0.1.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -214.02934949202313,
+    "remainder_km": 12.426387333257843,
+    "reference_peri_km": 1726.3884307651185
+  },
+  "20.1.0.1.1.0.0.1.1.1.1.0.1.0.0": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -1.3515053388756801
+  },
+  "20.1.0.1.1.0.0.1.1.1.1.0.1.0.1": {
+    "status": "infeasible",
+    "method": "empty lifted relaxation",
+    "phase_upper": -0.5537220532073565
+  },
+  "20.1.0.1.1.0.0.1.1.1.1.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -7.247673547832935,
+    "remainder_km": 9.973520824149606,
+    "reference_peri_km": 1729.101063651136
+  },
+  "20.1.0.1.1.0.0.1.1.1.1.0.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -27.172639856760505,
+    "remainder_km": 9.892076280167595,
+    "reference_peri_km": 1735.221837728846
+  },
+  "20.1.0.1.1.0.0.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -61.38223472599555,
+    "remainder_km": 15.044325864670686,
+    "reference_peri_km": 1720.5831459040328
+  },
+  "20.1.0.1.1.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 48.52023659717484,
+    "max_outside_plane_km": -232.1008979121828,
+    "ref_rp": 1694.1334782382723,
+    "seconds": 0.4907835000194609
+  },
+  "20.1.0.1.1.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1683.011586729516,
+    "support_gap_km": 11.194183916463615
+  },
+  "20.1.0.1.1.0.1.1": {
+    "status": "collision",
+    "ref_rp": 1666.34539962705,
+    "support_gap_km": 0.617826519747311
+  },
+  "20.1.0.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 60.34064500921201,
+    "max_outside_plane_km": -95.43594831742541,
+    "ref_rp": 1781.9186897147742,
+    "seconds": 0.34768179210368544
+  },
+  "20.1.0.1.1.1.0.1.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -40.57184177921178,
+    "remainder_km": 17.572982988115726,
+    "reference_peri_km": 1746.8681268727664
+  },
+  "20.1.0.1.1.1.0.1.0.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -96.56486870082242,
+    "remainder_km": 13.659155659022097,
+    "reference_peri_km": 1761.4876991095555
+  },
+  "20.1.0.1.1.1.0.1.0.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -265.26753471544487,
+    "remainder_km": 11.66463975039096,
+    "reference_peri_km": 1756.1860618200883
+  },
+  "20.1.0.1.1.1.0.1.0.0.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -23.55943211228791,
+    "remainder_km": 9.647199834411063,
+    "reference_peri_km": 1746.5452042686934
+  },
+  "20.1.0.1.1.1.0.1.0.0.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -66.19667205110997,
+    "remainder_km": 9.572599385802995,
+    "reference_peri_km": 1752.4701951955014
+  },
+  "20.1.0.1.1.1.0.1.0.0.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -221.4763980016635,
+    "remainder_km": 10.171827774728845,
+    "reference_peri_km": 1761.9549707867368
+  },
+  "20.1.0.1.1.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 27.037411673385225,
+    "max_outside_plane_km": -374.1198945058054,
+    "ref_rp": 1777.2629809741973,
+    "seconds": 0.2943062500562519
+  },
+  "20.1.0.1.1.1.0.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -42.29363497378287,
+    "remainder_km": 17.97791604621209,
+    "reference_peri_km": 1735.7516368554734
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -235.3747047694017,
+    "remainder_km": 11.773001670291086,
+    "reference_peri_km": 1750.592867191592
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -12.394723172918109,
+    "remainder_km": 9.729242314886768,
+    "reference_peri_km": 1740.96553992912
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.0.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -13.66444195309592,
+    "remainder_km": 9.653661953807331,
+    "reference_peri_km": 1746.8759212817783
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -130.10514748653569,
+    "remainder_km": 10.258467565953648,
+    "reference_peri_km": 1756.369229877066
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -219.1981468990284,
+    "remainder_km": 11.884023430388641,
+    "reference_peri_km": 1745.0351742111302
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.1.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -17.226367963204726,
+    "remainder_km": 9.811896057043027,
+    "reference_peri_km": 1735.415932468473
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -17.05408062732477,
+    "remainder_km": 9.735263635943207,
+    "reference_peri_km": 1741.3258443631469
+  },
+  "20.1.0.1.1.1.0.1.1.0.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -48.68083170122455,
+    "remainder_km": 10.347595877550217,
+    "reference_peri_km": 1750.8185174135037
+  },
+  "20.1.0.1.1.1.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 27.60554397931675,
+    "max_outside_plane_km": -192.58126117756228,
+    "ref_rp": 1766.131022621844,
+    "seconds": 0.3032646250212565
+  },
+  "20.1.0.1.1.1.1.0.0.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -51.0505778477576,
+    "remainder_km": 18.395049464983547,
+    "reference_peri_km": 1724.6391561302703
+  },
+  "20.1.0.1.1.1.1.0.0.0.1.0.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -213.61402073190536,
+    "remainder_km": 11.995283098757453,
+    "reference_peri_km": 1739.444761570363
+  },
+  "20.1.0.1.1.1.1.0.0.0.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -28.03744168582044,
+    "remainder_km": 10.647416546231568,
+    "reference_peri_km": 1732.7871180783402
+  },
+  "20.1.0.1.1.1.1.0.0.0.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -37.72087388185486,
+    "remainder_km": 10.436803311787068,
+    "reference_peri_km": 1745.2339391425442
+  },
+  "20.1.0.1.1.1.1.0.0.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -35.10412429838132,
+    "remainder_km": 14.373317503777248,
+    "reference_peri_km": 1733.6487421185136
+  },
+  "20.1.0.1.1.1.1.0.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -68.71625042371008,
+    "remainder_km": 20.658667680266475,
+    "reference_peri_km": 1755.0030668103802
+  },
+  "20.1.0.1.1.1.1.0.1.0": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -36.62094534749569,
+    "remainder_km": 24.01935551543736,
+    "reference_peri_km": 1719.4094921250426
+  },
+  "20.1.0.1.1.1.1.0.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -52.28170400001645,
+    "remainder_km": 21.144739134127835,
+    "reference_peri_km": 1743.8769608391785
+  },
+  "20.1.0.1.1.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 32.663975920448756,
+    "max_outside_plane_km": -45.12899490879903,
+    "ref_rp": 1708.2886099951122,
+    "seconds": 0.3774938340066001
+  },
+  "20.1.0.1.1.1.1.1.0.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -67.63039325602688,
+    "remainder_km": 21.647212383631068,
+    "reference_peri_km": 1732.7548827503383
+  },
+  "20.1.0.1.1.1.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1697.1722887235392,
+    "support_gap_km": 10.003373326010362
+  },
+  "20.1.0.1.1.1.1.1.1.1": {
+    "status": "contained",
+    "method": "lifted projection",
+    "max_outside_plane_km": -94.6566097005718,
+    "remainder_km": 22.165905685384708,
+    "reference_peri_km": 1721.6366768706441
+  },
+  "20.1.1.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 891.7531289167958,
+    "max_outside_plane_km": -1270.032735504739,
+    "ref_rp": 1908.736634377823,
+    "seconds": 0.2814892919268459
+  },
+  "20.1.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 977.4441615007371,
+    "max_outside_plane_km": -621.5377197839907,
+    "ref_rp": 1864.0707206790316,
+    "seconds": 0.3243278340669349
+  },
+  "20.1.1.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 902.75017234812,
+    "max_outside_plane_km": -1131.966513591415,
+    "ref_rp": 1907.8287214694938,
+    "seconds": 0.2764935839222744
+  },
+  "20.1.1.0.0.1.1": {
+    "status": "contained",
+    "remainder_km": 991.232382277583,
+    "max_outside_plane_km": -382.8413535362913,
+    "ref_rp": 1863.271171716204,
+    "seconds": 0.2839125000173226
+  },
+  "20.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 785.5677718188831,
+    "max_outside_plane_km": -1992.2555047823514,
+    "ref_rp": 1952.7128601259387,
+    "seconds": 0.2676661249715835
+  },
+  "20.1.1.0.1.1": {
+    "status": "contained",
+    "remainder_km": 876.2710724980411,
+    "max_outside_plane_km": -1273.9885153230973,
+    "ref_rp": 1909.1896974862043,
+    "seconds": 0.274624792044051
+  },
+  "20.1.1.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 118.50223232235476,
+    "max_outside_plane_km": -851.6983307940775,
+    "ref_rp": 1820.3850133827661,
+    "seconds": 0.27280362497549504
+  },
+  "20.1.1.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 133.58946833569473,
+    "max_outside_plane_km": -267.31708920113647,
+    "ref_rp": 1775.8059936015168,
+    "seconds": 0.3463849169202149
+  },
+  "20.1.1.1.0.1.0": {
+    "status": "contained",
+    "remainder_km": 120.44213948693933,
+    "max_outside_plane_km": -531.5651806382375,
+    "ref_rp": 1819.6902970842646,
+    "seconds": 0.29949704091995955
+  },
+  "20.1.1.1.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 51.91782126843878,
+    "max_outside_plane_km": -241.74016281555294,
+    "ref_rp": 1786.3180758566837,
+    "seconds": 0.2976698329439387
+  },
+  "20.1.1.1.0.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 34.34569137792113,
+    "max_outside_plane_km": -83.2730591294951,
+    "ref_rp": 1769.6405186316074,
+    "seconds": 0.3741079999599606
+  },
+  "20.1.1.1.0.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 35.15646485618032,
+    "max_outside_plane_km": -38.21887495119461,
+    "ref_rp": 1758.5306928933503,
+    "seconds": 0.4204537080368027
+  },
+  "20.1.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 953.1796723019459,
+    "max_outside_plane_km": -571.318047372991,
+    "ref_rp": 1866.5302677050765,
+    "seconds": 0.2869186250027269
+  },
+  "20.1.1.1.1.1.0": {
+    "status": "contained",
+    "remainder_km": 479.67070040815275,
+    "max_outside_plane_km": -697.1039391531567,
+    "ref_rp": 1833.6703478558138,
+    "seconds": 0.2637238750467077
+  },
+  "20.1.1.1.1.1.1": {
+    "status": "contained",
+    "remainder_km": 506.98691431553857,
+    "max_outside_plane_km": -323.06974656456805,
+    "ref_rp": 1811.8676976044767,
+    "seconds": 0.2506820419803262
+  },
+  "21.0.0": {
+    "status": "collision",
+    "ref_rp": 1404.285598305506,
+    "support_gap_km": 1.495694753104999
+  },
+  "21.0.1.0": {
+    "status": "collision",
+    "ref_rp": 1544.2165965401434,
+    "support_gap_km": 17.78446456681965
+  },
+  "21.0.1.1": {
+    "status": "collision",
+    "ref_rp": 1455.63057036505,
+    "support_gap_km": 31.226443449798495
+  },
+  "21.1.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1617.415146787586,
+    "support_gap_km": 17.337680931703417
+  },
+  "21.1.0.0.0.1.0": {
+    "status": "contained",
+    "remainder_km": 185.85186996288562,
+    "max_outside_plane_km": -149.22387387894344,
+    "ref_rp": 1687.2669523977902,
+    "seconds": 0.46216208301484585
+  },
+  "21.1.0.0.0.1.1": {
+    "status": "collision",
+    "ref_rp": 1642.7731613068488,
+    "support_gap_km": 4.8527817487754135
+  },
+  "21.1.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 1616.2977471277593,
+    "support_gap_km": 17.056022911548496
+  },
+  "21.1.0.0.1.1.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 1690.732106349359,
+    "support_gap_km": 17.056629237326185
+  },
+  "21.1.0.0.1.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 29.953267505623515,
+    "max_outside_plane_km": -62.87948590200651,
+    "ref_rp": 1714.6964658402908,
+    "seconds": 0.4091715000104159
+  },
+  "21.1.0.0.1.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 1691.7861175897056,
+    "support_gap_km": 4.193910171203996
+  },
+  "21.1.0.0.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1675.1390659031824,
+    "support_gap_km": 14.398120111847795
+  },
+  "21.1.0.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1641.8703966100038,
+    "support_gap_km": 6.023325234309169
+  },
+  "21.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1552.2765770519723,
+    "support_gap_km": 14.508885814736942
+  },
+  "21.1.1.0.0.0.0": {
+    "status": "contained",
+    "remainder_km": 146.6080141557165,
+    "max_outside_plane_km": -162.82305912086548,
+    "ref_rp": 1734.5742252149778,
+    "seconds": 0.40172079205513
+  },
+  "21.1.1.0.0.0.1": {
+    "status": "contained",
+    "remainder_km": 166.52976164162044,
+    "max_outside_plane_km": -150.35369697687997,
+    "ref_rp": 1690.0968125876652,
+    "seconds": 0.46231458289548755
+  },
+  "21.1.1.0.0.1.0.0.0": {
+    "status": "contained",
+    "remainder_km": 34.76742277851917,
+    "max_outside_plane_km": -46.13640098721601,
+    "ref_rp": 1750.7160694373263,
+    "seconds": 0.44533387501724064
+  },
+  "21.1.1.0.0.1.0.0.1": {
+    "status": "contained",
+    "remainder_km": 35.59287524104194,
+    "max_outside_plane_km": -71.25907267829766,
+    "ref_rp": 1739.6130204557114,
+    "seconds": 0.40684549999423325
+  },
+  "21.1.1.0.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 58.81033241209735,
+    "max_outside_plane_km": -52.78469749988493,
+    "ref_rp": 1722.970667304842,
+    "seconds": 0.40216454199980944
+  },
+  "21.1.1.0.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 62.160184797099774,
+    "max_outside_plane_km": -134.5585368890704,
+    "ref_rp": 1700.7842331997458,
+    "seconds": 0.5025436249561608
+  },
+  "21.1.1.0.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1678.6110491734064,
+    "support_gap_km": 15.470182566678368
+  },
+  "21.1.1.0.1.0.0": {
+    "status": "contained",
+    "remainder_km": 506.89333748976827,
+    "max_outside_plane_km": -17.905507630303646,
+    "ref_rp": 1791.2380750286013,
+    "seconds": 0.2542621670290828
+  },
+  "21.1.1.0.1.0.1": {
+    "status": "contained",
+    "remainder_km": 50.763624221788746,
+    "max_outside_plane_km": -154.82122136102453,
+    "ref_rp": 1769.2997146646192,
+    "seconds": 0.30924412491731346
+  },
+  "21.1.1.0.1.1.0": {
+    "status": "contained",
+    "remainder_km": 53.809904222232475,
+    "max_outside_plane_km": -137.1860649786695,
+    "ref_rp": 1747.3486161756748,
+    "seconds": 0.36709629197139293
+  },
+  "21.1.1.0.1.1.1": {
+    "status": "contained",
+    "remainder_km": 56.86691532216536,
+    "max_outside_plane_km": -209.0903321953904,
+    "ref_rp": 1725.3721786063365,
+    "seconds": 0.36057970800902694
+  },
+  "21.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1623.585020751794,
+    "support_gap_km": 14.313662384476004
+  },
+  "21.1.1.1.1.0.0": {
+    "status": "contained",
+    "remainder_km": 59.91276715616197,
+    "max_outside_plane_km": -319.10958007194864,
+    "ref_rp": 1703.4420839530765,
+    "seconds": 0.40283412497956306
+  },
+  "21.1.1.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 1681.4395841068178,
+    "support_gap_km": 19.389964878557635
+  },
+  "21.1.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1648.4039959365425,
+    "support_gap_km": 8.725879022654155
+  },
+  "22.0.0": {
+    "status": "collision",
+    "ref_rp": 1238.4088352000383,
+    "support_gap_km": 77.2663828058707
+  },
+  "22.0.1": {
+    "status": "collision",
+    "ref_rp": 1330.375380899892,
+    "support_gap_km": 66.10091067528481
+  },
+  "22.1.0": {
+    "status": "collision",
+    "ref_rp": 1423.6948502972896,
+    "support_gap_km": 9.44811713525283
+  },
+  "22.1.1.0": {
+    "status": "collision",
+    "ref_rp": 1560.7037599936061,
+    "support_gap_km": 19.344082975655937
+  },
+  "22.1.1.1": {
+    "status": "collision",
+    "ref_rp": 1472.0319794605316,
+    "support_gap_km": 28.281839961453045
+  },
+  "23.0": {
+    "status": "collision",
+    "ref_rp": 1117.3864851058622,
+    "support_gap_km": 87.48993782649694
+  },
+  "23.1": {
+    "status": "collision",
+    "ref_rp": 1296.6508110589014,
+    "support_gap_km": 9.99806454386328
+  },
+  "24.0": {
+    "status": "collision",
+    "ref_rp": 953.1640543867742
+  },
+  "24.1": {
+    "status": "collision",
+    "ref_rp": 1122.2473617492083,
+    "support_gap_km": 100.31820034445832
+  },
+  "25.0": {
+    "status": "collision",
+    "ref_rp": 791.0754329579596
+  },
+  "25.1": {
+    "status": "collision",
+    "ref_rp": 948.6590887055589
+  },
+  "26.0": {
+    "status": "collision",
+    "ref_rp": 632.3820063326239
+  },
+  "26.1": {
+    "status": "collision",
+    "ref_rp": 776.3793435194823
+  },
+  "27.0": {
+    "status": "collision",
+    "ref_rp": 478.6709290793376
+  },
+  "27.1": {
+    "status": "collision",
+    "ref_rp": 605.5804443541728
+  },
+  "28.0": {
+    "status": "collision",
+    "ref_rp": 333.3723325578462
+  },
+  "28.1": {
+    "status": "collision",
+    "ref_rp": 438.56472231225547
+  },
+  "29.0": {
+    "status": "collision",
+    "ref_rp": 204.80439231785965
+  },
+  "29.1": {
+    "status": "collision",
+    "ref_rp": 284.06122620032824
+  },
+  "3": {
+    "status": "contained",
+    "remainder_km": 536.5369855167203,
+    "max_outside_plane_km": -24.58159738024878
+  },
+  "30.0": {
+    "status": "collision",
+    "ref_rp": 105.32278800348153
+  },
+  "30.1": {
+    "status": "collision",
+    "ref_rp": 146.91838966175993
+  },
+  "31.0.0.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 66.97408530531712
+  },
+  "31.0.0.0.0.0.1": {
+    "status": "collision",
+    "ref_rp": 64.92228097134708
+  },
+  "31.0.0.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 63.13617749802017
+  },
+  "31.0.0.0.0.1.1": {
+    "status": "collision",
+    "ref_rp": 61.63078361291745
+  },
+  "31.0.0.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 72.83473155102747
+  },
+  "31.0.0.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 70.5412163304288
+  },
+  "31.0.0.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 68.50707831365126
+  },
+  "31.0.0.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 66.73339622264581
+  },
+  "31.0.0.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 77.32949068100012
+  },
+  "31.0.0.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 73.70373391624508
+  },
+  "31.0.0.1.0.1.0": {
+    "status": "collision",
+    "ref_rp": 70.46272538266476
+  },
+  "31.0.0.1.0.1.1": {
+    "status": "collision",
+    "ref_rp": 67.62500895448835
+  },
+  "31.0.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 81.55036897507952
+  },
+  "31.0.0.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 75.50849976510935
+  },
+  "31.0.0.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 72.34741785018505
+  },
+  "31.0.1.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 60.02291402745741
+  },
+  "31.0.1.0.0.0.1": {
+    "status": "collision",
+    "ref_rp": 59.167678977239234
+  },
+  "31.0.1.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 64.7383974573972
+  },
+  "31.0.1.0.0.1.1": {
+    "status": "collision",
+    "ref_rp": 63.542566659391845
+  },
+  "31.0.1.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 58.602187569322794
+  },
+  "31.0.1.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 58.34438565637548
+  },
+  "31.0.1.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 62.609208825450764
+  },
+  "31.0.1.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 61.91995581214305
+  },
+  "31.0.1.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 64.35067375292218
+  },
+  "31.0.1.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 62.42327434804351
+  },
+  "31.0.1.1.0.1.0": {
+    "status": "collision",
+    "ref_rp": 68.87750838875623
+  },
+  "31.0.1.1.0.1.1": {
+    "status": "collision",
+    "ref_rp": 66.56269862701737
+  },
+  "31.0.1.1.1.0.0": {
+    "status": "collision",
+    "ref_rp": 60.88243104085294
+  },
+  "31.0.1.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 59.81003732470616
+  },
+  "31.0.1.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 64.49230718318535
+  },
+  "31.0.1.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 62.778596410256604
+  },
+  "31.1.0.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 58.70052055702907
+  },
+  "31.1.0.0.0.0.1": {
+    "status": "collision",
+    "ref_rp": 58.92619364475089
+  },
+  "31.1.0.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 58.7441728499211
+  },
+  "31.1.0.0.0.1.1": {
+    "status": "collision",
+    "ref_rp": 58.828448850727824
+  },
+  "31.1.0.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 61.20100913869831
+  },
+  "31.1.0.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 61.067256732558704
+  },
+  "31.1.0.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 61.5936312227712
+  },
+  "31.1.0.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 61.35622772750303
+  },
+  "31.1.0.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 59.143426480184296
+  },
+  "31.1.0.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 59.52435504795338
+  },
+  "31.1.0.1.0.1.0": {
+    "status": "collision",
+    "ref_rp": 59.06098267038297
+  },
+  "31.1.0.1.0.1.1": {
+    "status": "collision",
+    "ref_rp": 59.4237334515235
+  },
+  "31.1.0.1.1.0.0": {
+    "status": "collision",
+    "ref_rp": 60.93459662219224
+  },
+  "31.1.0.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 60.81891360174783
+  },
+  "31.1.0.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 61.08002051681585
+  },
+  "31.1.0.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 60.878520977320754
+  },
+  "31.1.1.0.0.0.0": {
+    "status": "collision",
+    "ref_rp": 58.85567861570701
+  },
+  "31.1.1.0.0.0.1": {
+    "status": "collision",
+    "ref_rp": 58.88221408809455
+  },
+  "31.1.1.0.0.1.0": {
+    "status": "collision",
+    "ref_rp": 59.475325210379886
+  },
+  "31.1.1.0.0.1.1": {
+    "status": "collision",
+    "ref_rp": 59.334416138704434
+  },
+  "31.1.1.0.1.0.0": {
+    "status": "collision",
+    "ref_rp": 61.478154749179254
+  },
+  "31.1.1.0.1.0.1": {
+    "status": "collision",
+    "ref_rp": 61.11437278153942
+  },
+  "31.1.1.0.1.1.0": {
+    "status": "collision",
+    "ref_rp": 61.5827739086876
+  },
+  "31.1.1.0.1.1.1": {
+    "status": "collision",
+    "ref_rp": 60.93454752540257
+  },
+  "31.1.1.1.0.0.0": {
+    "status": "collision",
+    "ref_rp": 59.06343321134582
+  },
+  "31.1.1.1.0.0.1": {
+    "status": "collision",
+    "ref_rp": 59.12634049665511
+  },
+  "31.1.1.1.0.1.0": {
+    "status": "collision",
+    "ref_rp": 59.24046178703411
+  },
+  "31.1.1.1.0.1.1": {
+    "status": "collision",
+    "ref_rp": 59.38845732843373
+  },
+  "31.1.1.1.1.0.0": {
+    "status": "collision",
+    "ref_rp": 60.8191622735068
+  },
+  "31.1.1.1.1.0.1": {
+    "status": "collision",
+    "ref_rp": 60.63309704524141
+  },
+  "31.1.1.1.1.1.0": {
+    "status": "collision",
+    "ref_rp": 60.41954433204919
+  },
+  "31.1.1.1.1.1.1": {
+    "status": "collision",
+    "ref_rp": 60.18773093035536
+  },
+  "4": {
+    "status": "contained",
+    "remainder_km": 677.6865409307691,
+    "max_outside_plane_km": -131.33964875885655
+  },
+  "5": {
+    "status": "contained",
+    "remainder_km": 848.6395235918621,
+    "max_outside_plane_km": -234.93683457797584
+  },
+  "6": {
+    "status": "contained",
+    "remainder_km": 1058.214226386172,
+    "max_outside_plane_km": -329.03233843394634
+  },
+  "7": {
+    "status": "contained",
+    "remainder_km": 1318.795655920401,
+    "max_outside_plane_km": -405.2771297561209
+  },
+  "8": {
+    "status": "contained",
+    "remainder_km": 1653.4984288863304,
+    "max_outside_plane_km": -444.51106968093654
+  },
+  "9": {
+    "status": "contained",
+    "remainder_km": 2101.2693353809336,
+    "max_outside_plane_km": -410.6903888958186
+  }
+}

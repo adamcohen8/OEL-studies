@@ -1,0 +1,53 @@
+[
+  {
+    "cells": 144,
+    "threshold_km": 12000.0,
+    "physical": false,
+    "near_max_radius_km": 332832.2480215587,
+    "hit_radius_deg": 68.7343651849105,
+    "far_radius_deg": 46.22598718213331,
+    "diameter_deg": 137.468730369821,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 15.185200000007947,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 0
+  },
+  {
+    "cells": 144,
+    "threshold_km": 25000.0,
+    "physical": false,
+    "near_max_radius_km": 392452.8066272783,
+    "hit_radius_deg": 180.0,
+    "far_radius_deg": 32.36134101601722,
+    "diameter_deg": 180.0,
+    "cap_center": [
+      0.522240025028132,
+      -0.6662797337091236,
+      0.5322937842086033
+    ],
+    "earliest_possible_hit_hours_before_score": 17.101866666674614,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 70
+  },
+  {
+    "cells": 144,
+    "threshold_km": 50000.0,
+    "physical": false,
+    "near_max_radius_km": 484017.12032275967,
+    "hit_radius_deg": 180.0,
+    "far_radius_deg": 0.0,
+    "diameter_deg": 180.0,
+    "cap_center": [
+      0.522240025028132,
+      -0.6662797337091236,
+      0.5322937842086033
+    ],
+    "earliest_possible_hit_hours_before_score": 19.01853333334128,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 144
+  }
+]

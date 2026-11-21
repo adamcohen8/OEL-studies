@@ -1,0 +1,14 @@
+{
+  "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_128.img",
+  "first_byte": 1120665600,
+  "last_byte": 1333002239,
+  "band_sha256": "3378fb405606c48da0f3e1aed6ff37e384bf7eefb3cea71f32ca75b527ec5bcf",
+  "row_range": [
+    12160,
+    14464
+  ],
+  "column_range": [
+    11520,
+    15360
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "orion": {
+    "single0": {
+      "independent_fit_max_as": 0.15326972030987937,
+      "independent_first_holdout_los": [
+        0.712860236967833,
+        0.6905252661352738,
+        0.12249546676907817
+      ],
+      "max_los_replay_difference_as": 0.0009952406464082046,
+      "min_sampled_earth_radius_km": 204152.23175796532,
+      "max_sampled_earth_radius_km": 279909.0551727561,
+      "min_sampled_moon_radius_km": 216456.165024648,
+      "max_sampled_speed_km_s": 1.2811113794620077,
+      "min_elevation_deg": 36.195357848874856,
+      "min_lunar_clearance_deg": 31.677223088454216
+    },
+    "single1": {
+      "independent_fit_max_as": 0.17998629847883313,
+      "independent_first_holdout_los": [
+        0.7389106693036231,
+        0.6597195812148117,
+        0.1370441423448126
+      ],
+      "max_los_replay_difference_as": 0.0003354462755806859,
+      "min_sampled_earth_radius_km": 389890.93608389364,
+      "max_sampled_earth_radius_km": 412219.23953400186,
+      "min_sampled_moon_radius_km": 214318.56254291328,
+      "max_sampled_speed_km_s": 0.4340866442541277,
+      "min_elevation_deg": 38.03647941999564,
+      "min_lunar_clearance_deg": 31.67722106078976
+    },
+    "double0": {
+      "independent_fit_max_as": 1.6960207351810048,
+      "independent_first_holdout_los": [
+        0.7365776536754314,
+        0.6666480828122203,
+        0.11416520393179004
+      ],
+      "max_los_replay_difference_as": 0.0007173495746764894,
+      "min_sampled_earth_radius_km": 255108.1795338498,
+      "max_sampled_earth_radius_km": 389888.3738779847,
+      "min_sampled_moon_radius_km": 214318.43040880127,
+      "max_sampled_speed_km_s": 1.9315778693991144,
+      "min_elevation_deg": 36.68880501560518,
+      "min_lunar_clearance_deg": 31.677294585087918
+    },
+    "double1": {
+      "independent_fit_max_as": 0.7313905671835911,
+      "independent_first_holdout_los": [
+        0.7374145922707217,
+        0.6608466644209996,
+        0.13964743187701023
+      ],
+      "max_los_replay_difference_as": 0.0004756091045950514,
+      "min_sampled_earth_radius_km": 374924.28512634186,
+      "max_sampled_earth_radius_km": 418125.07410362136,
+      "min_sampled_moon_radius_km": 211271.475478442,
+      "max_sampled_speed_km_s": 0.6860145401500585,
+      "min_elevation_deg": 38.11973501174245,
+      "min_lunar_clearance_deg": 31.6772727926996
+    },
+    "triple0": {
+      "independent_fit_max_as": 1.9699579283527129,
+      "independent_first_holdout_los": [
+        0.7371798087622267,
+        0.662752709581088,
+        0.13162361298875283
+      ],
+      "max_los_replay_difference_as": 0.0005166646637858161,
+      "min_sampled_earth_radius_km": 349094.4230589819,
+      "max_sampled_earth_radius_km": 381263.314325538,
+      "min_sampled_moon_radius_km": 212438.85165680904,
+      "max_sampled_speed_km_s": 0.5695474569378806,
+      "min_elevation_deg": 37.66789751296434,
+      "min_lunar_clearance_deg": 31.677276987798205
+    },
+    "triple1": {
+      "independent_fit_max_as": 1.970021184982472,
+      "independent_first_holdout_los": [
+        0.7371891429453106,
+        0.6627936898248279,
+        0.13136472986288436
+      ],
+      "max_los_replay_difference_as": 0.0004271664170378737,
+      "min_sampled_earth_radius_km": 346149.95246445714,
+      "max_sampled_earth_radius_km": 381683.9475824561,
+      "min_sampled_moon_radius_km": 212523.03071853312,
+      "max_sampled_speed_km_s": 0.6117771140400466,
+      "min_elevation_deg": 37.65403804288943,
+      "min_lunar_clearance_deg": 31.67731509624537
+    }
+  },
+  "all_data_posthoc": {
+    "state": [
+      280913.4039067213,
+      248338.67190356847,
+      70187.47817697469,
+      -0.2176716937087879,
+      -0.18657635142323398,
+      -0.24793920942772393
+    ],
+    "max_as": 0.5724566848465088,
+    "rms_as": 0.2627880479270569,
+    "coast_ok": true
+  }
+}

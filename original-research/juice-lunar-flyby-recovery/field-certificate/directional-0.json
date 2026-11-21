@@ -1,0 +1,78 @@
+[
+  {
+    "turn_groups": 366,
+    "total_groups": 366,
+    "cells": 576,
+    "threshold_km": 8000.0,
+    "physical": false,
+    "near_max_radius_km": 192625.66227083796,
+    "hit_radius_deg": 32.63868647654214,
+    "far_radius_deg": 27.179342731210163,
+    "diameter_deg": 65.27737295308428,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 11.518533333341281,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 153
+  },
+  {
+    "turn_groups": 150,
+    "total_groups": 150,
+    "cells": 576,
+    "threshold_km": 12000.0,
+    "physical": false,
+    "near_max_radius_km": 188040.2807133006,
+    "hit_radius_deg": 31.769325853606322,
+    "far_radius_deg": 12.756995876196822,
+    "diameter_deg": 63.538651707212644,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 11.851866666674614,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 462
+  },
+  {
+    "turn_groups": 88,
+    "total_groups": 88,
+    "cells": 576,
+    "threshold_km": 20000.0,
+    "physical": false,
+    "near_max_radius_km": 199673.4517211232,
+    "hit_radius_deg": 33.991703332656904,
+    "far_radius_deg": 0.0,
+    "diameter_deg": 67.98340666531381,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 12.435200000007947,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 576
+  },
+  {
+    "turn_groups": 76,
+    "total_groups": 76,
+    "cells": 576,
+    "threshold_km": 30000.0,
+    "physical": false,
+    "near_max_radius_km": 220767.7674128329,
+    "hit_radius_deg": 38.180112081756455,
+    "far_radius_deg": 0.0,
+    "diameter_deg": 76.36022416351291,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 13.101866666674614,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 576
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "reference": 0,
+    "seconds": 0.6592486669542268,
+    "samples": 11925,
+    "rk4": {
+      "status": "contained",
+      "remainder_km": 41.9258251476744,
+      "max_outside_plane_km": -120.69975883606634
+    },
+    "rkf78": {
+      "status": "contained",
+      "remainder_km": 8.66129201854017,
+      "max_outside_plane_km": -158.94613418689792
+    }
+  },
+  {
+    "reference": 11,
+    "seconds": 0.20331016601994634,
+    "samples": 11925,
+    "rk4": {
+      "status": "contained",
+      "remainder_km": 2.1005810244050904,
+      "max_outside_plane_km": -166.59128282292926
+    },
+    "rkf78": {
+      "status": "contained",
+      "remainder_km": 0.9341621682303931,
+      "max_outside_plane_km": -178.7803124390741
+    }
+  }
+]

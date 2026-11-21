@@ -1,0 +1,408 @@
+{
+  "2": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.986473388897061,
+        "accepted": true,
+        "forecast_center": [
+          0.8397854413576383,
+          -0.4558178667521643,
+          -0.29494149391576424
+        ],
+        "forecast_radius_as": 0.5293008177291559,
+        "max_speed_upper": 3.6474793048770113,
+        "min_moon_floor_km": 5103.313891455214,
+        "min_earth_floor_km": 258727.1487029732,
+        "training_moon_floor_km": 842558.2973525323,
+        "steps": 16341
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.986531306277895,
+        "accepted": true,
+        "forecast_center": [
+          0.8902024304934347,
+          -0.3870027296231714,
+          -0.24035082693387186
+        ],
+        "forecast_radius_as": 5.3134774965162626,
+        "max_speed_upper": 4.218184700516606,
+        "min_moon_floor_km": 1748.657891495913,
+        "min_earth_floor_km": 242529.35766235512,
+        "training_moon_floor_km": 837160.4372538854,
+        "steps": 18863
+      }
+    ],
+    "diameter_lower_deg": 5.803747825710374
+  },
+  "3": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 2.986236276059028,
+        "accepted": true,
+        "forecast_center": [
+          0.8903579097934936,
+          -0.3860296408013573,
+          -0.2413377485826371
+        ],
+        "forecast_radius_as": 5.3262365152185875,
+        "max_speed_upper": 4.213946804765967,
+        "min_moon_floor_km": 1748.6592318875444,
+        "min_earth_floor_km": 242826.03034717156,
+        "training_moon_floor_km": 835994.6410310642,
+        "steps": 18878
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 2.986511542108047,
+        "accepted": true,
+        "forecast_center": [
+          0.8339333680228888,
+          -0.46368986185072664,
+          -0.29924379645174776
+        ],
+        "forecast_radius_as": 0.3201628088571178,
+        "max_speed_upper": 3.5560119024993937,
+        "min_moon_floor_km": 6785.315182092741,
+        "min_earth_floor_km": 265770.3699998943,
+        "training_moon_floor_km": 843850.9842062354,
+        "steps": 15630
+      }
+    ],
+    "diameter_lower_deg": 6.425050179912878
+  },
+  "shared": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.9747201097674558,
+        "accepted": true,
+        "forecast_center": [
+          0.8373358737930077,
+          -0.4590797652258464,
+          -0.2968407041149883
+        ],
+        "forecast_radius_as": 0.4479475049349142,
+        "max_speed_upper": 3.6234046857365447,
+        "min_moon_floor_km": 5586.961259298523,
+        "min_earth_floor_km": 260419.78669050938,
+        "training_moon_floor_km": 844396.7475364987,
+        "steps": 16104
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.97407396781028,
+        "accepted": true,
+        "forecast_center": [
+          0.8903579097902271,
+          -0.38602964080654073,
+          -0.2413377485863972
+        ],
+        "forecast_radius_as": 5.326253037633119,
+        "max_speed_upper": 4.213946808315243,
+        "min_moon_floor_km": 1748.6592420949767,
+        "min_earth_floor_km": 242825.83257736647,
+        "training_moon_floor_km": 835998.5498067574,
+        "steps": 18878
+      }
+    ],
+    "diameter_lower_deg": 6.07249373016051
+  },
+  "tight-0.65": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 0.636507355545045,
+        "accepted": true,
+        "forecast_center": [
+          0.8570842834483937,
+          -0.4330274646129749,
+          -0.2790945107962754
+        ],
+        "forecast_radius_as": 1.4299327394259453,
+        "max_speed_upper": 3.8544434529492264,
+        "min_moon_floor_km": 3117.3798713884285,
+        "min_earth_floor_km": 249231.2845104411,
+        "training_moon_floor_km": 840548.6356513017,
+        "steps": 17530
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 0.6366698125779718,
+        "accepted": true,
+        "forecast_center": [
+          0.8891893559143176,
+          -0.38850863733542856,
+          -0.24166780514675423
+        ],
+        "forecast_radius_as": 5.153025658215269,
+        "max_speed_upper": 4.216315090772609,
+        "min_moon_floor_km": 1769.5862015012835,
+        "min_earth_floor_km": 241988.86961237615,
+        "training_moon_floor_km": 839057.1692854459,
+        "steps": 18813
+      }
+    ],
+    "diameter_lower_deg": 3.805235204996784
+  },
+  "tight-1.0": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 0.9865393918273261,
+        "accepted": true,
+        "forecast_center": [
+          0.8497793671811922,
+          -0.44266819910081723,
+          -0.2862165135312284
+        ],
+        "forecast_radius_as": 0.9860696498563828,
+        "max_speed_upper": 3.7711861023860673,
+        "min_moon_floor_km": 3719.3806011695337,
+        "min_earth_floor_km": 252309.81752879568,
+        "training_moon_floor_km": 841182.8464650164,
+        "steps": 17111
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 0.9865243034942395,
+        "accepted": true,
+        "forecast_center": [
+          0.8898927870789622,
+          -0.3882377181331411,
+          -0.23950428330952328
+        ],
+        "forecast_radius_as": 5.29694948185515,
+        "max_speed_upper": 4.227273731541743,
+        "min_moon_floor_km": 1748.6552607969588,
+        "min_earth_floor_km": 241753.0899069265,
+        "training_moon_floor_km": 839465.6699234766,
+        "steps": 18833
+      }
+    ],
+    "diameter_lower_deg": 4.708232914362808
+  },
+  "tight-1.25": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.236521777761969,
+        "accepted": true,
+        "forecast_center": [
+          0.8462581134128051,
+          -0.44731358665933413,
+          -0.2894093306598154
+        ],
+        "forecast_radius_as": 0.8059133923510271,
+        "max_speed_upper": 3.7285650903445764,
+        "min_moon_floor_km": 4107.619497139433,
+        "min_earth_floor_km": 254239.50871547006,
+        "training_moon_floor_km": 841458.1076716857,
+        "steps": 16873
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.2360646319873436,
+        "accepted": true,
+        "forecast_center": [
+          0.8901019050903056,
+          -0.3871671607769307,
+          -0.24045828779757014
+        ],
+        "forecast_radius_as": 5.308477848783393,
+        "max_speed_upper": 4.221750803236102,
+        "min_moon_floor_km": 1748.6568245598166,
+        "min_earth_floor_km": 242212.16831320175,
+        "training_moon_floor_km": 838022.1996086616,
+        "steps": 18852
+      }
+    ],
+    "diameter_lower_deg": 5.104165438951691
+  },
+  "tight-1.5": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.2491322817230364,
+        "accepted": true,
+        "forecast_center": [
+          0.8870714730874004,
+          -0.3922336949225049,
+          -0.24342746394355078
+        ],
+        "forecast_radius_as": 4.810392533518234,
+        "max_speed_upper": 4.201334479815252,
+        "min_moon_floor_km": 1819.7922794610163,
+        "min_earth_floor_km": 241679.38131992173,
+        "training_moon_floor_km": 840903.8573002603,
+        "steps": 18729
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.486448178240174,
+        "accepted": true,
+        "forecast_center": [
+          0.8434725020605413,
+          -0.4509782755341518,
+          -0.2918436794997843
+        ],
+        "forecast_radius_as": 0.678997765885287,
+        "max_speed_upper": 3.694508799580682,
+        "min_moon_floor_km": 4479.230096035385,
+        "min_earth_floor_km": 255973.02579297248,
+        "training_moon_floor_km": 841855.4283985422,
+        "steps": 16663
+      }
+    ],
+    "diameter_lower_deg": 5.0264423410385195
+  },
+  "tess-2": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 0.7527600776482436,
+        "accepted": true,
+        "forecast_center": [
+          0.2352600997751575,
+          0.9313838028143258,
+          0.2778073024758495
+        ],
+        "forecast_radius_as": 0.056942329240113075,
+        "max_speed_upper": 2.3857265091108326,
+        "min_moon_floor_km": 492350.2790030442,
+        "min_earth_floor_km": 305373.5930040644,
+        "training_moon_floor_km": 492350.2790030442,
+        "steps": 1455
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.6756149216709053,
+        "accepted": true,
+        "forecast_center": [
+          0.04045352323592443,
+          0.9854818742572777,
+          0.16489083651969128
+        ],
+        "forecast_radius_as": 0.12141075220725335,
+        "max_speed_upper": 2.400236211141601,
+        "min_moon_floor_km": 449306.3815111439,
+        "min_earth_floor_km": 253385.7712804131,
+        "training_moon_floor_km": 563040.5479273717,
+        "steps": 1456
+      }
+    ],
+    "diameter_lower_deg": 13.297967489415687
+  },
+  "tess-3": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 0.7527600776482436,
+        "accepted": true,
+        "forecast_center": [
+          0.2352600997751575,
+          0.9313838028143258,
+          0.2778073024758495
+        ],
+        "forecast_radius_as": 0.056942329240113075,
+        "max_speed_upper": 2.3857265091108326,
+        "min_moon_floor_km": 492350.2790030442,
+        "min_earth_floor_km": 305373.5930040644,
+        "training_moon_floor_km": 492350.2790030442,
+        "steps": 1455
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.6756149216709053,
+        "accepted": true,
+        "forecast_center": [
+          0.04045352323592443,
+          0.9854818742572777,
+          0.16489083651969128
+        ],
+        "forecast_radius_as": 0.12141075220725335,
+        "max_speed_upper": 2.400236211141601,
+        "min_moon_floor_km": 449306.3815111439,
+        "min_earth_floor_km": 253385.7712804131,
+        "training_moon_floor_km": 563040.5479273717,
+        "steps": 1456
+      }
+    ],
+    "diameter_lower_deg": 13.297967489415687
+  },
+  "tess-november-2": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 2.0201884344337557,
+        "accepted": false,
+        "forecast_center": [
+          0.12048530982602103,
+          0.9745002467809735,
+          0.18929489993116375
+        ],
+        "forecast_radius_as": 1.0920464810245105,
+        "max_speed_upper": 1.1538658561521775,
+        "min_moon_floor_km": 402526.84855517774,
+        "min_earth_floor_km": 242564.59472340764,
+        "training_moon_floor_km": 402526.84855517774,
+        "steps": 3022
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 1.8358316004132784,
+        "accepted": true,
+        "forecast_center": [
+          0.20089179993897185,
+          0.9518799670343446,
+          0.23144548618621869
+        ],
+        "forecast_radius_as": 0.6002911904659328,
+        "max_speed_upper": 1.349251169413579,
+        "min_moon_floor_km": 405824.85943037336,
+        "min_earth_floor_km": 252552.23698811783,
+        "training_moon_floor_km": 405824.85943037336,
+        "steps": 3022
+      }
+    ]
+  },
+  "tess-november-3": {
+    "rows": [
+      {
+        "status": "bounded",
+        "training_max_upper_as": 2.9715109103748896,
+        "accepted": true,
+        "forecast_center": [
+          0.08042574036564125,
+          0.9822910833520271,
+          0.1692215348403957
+        ],
+        "forecast_radius_as": 1.583485767517161,
+        "max_speed_upper": 1.0944092025484724,
+        "min_moon_floor_km": 399442.2469234271,
+        "min_earth_floor_km": 232568.87561293054,
+        "training_moon_floor_km": 399442.2469234271,
+        "steps": 3022
+      },
+      {
+        "status": "bounded",
+        "training_max_upper_as": 2.867156828589524,
+        "accepted": true,
+        "forecast_center": [
+          0.22781389124172927,
+          0.9421288614416875,
+          0.24595536057563616
+        ],
+        "forecast_radius_as": 0.5113257336433992,
+        "max_speed_upper": 1.450906508317535,
+        "min_moon_floor_km": 405817.9057100043,
+        "min_earth_floor_km": 252546.15254354445,
+        "training_moon_floor_km": 405817.9057100043,
+        "steps": 3022
+      }
+    ],
+    "diameter_lower_deg": 9.80617310691383
+  }
+}

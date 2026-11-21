@@ -1,0 +1,26 @@
+{
+  "corner_deg": 3.109742606436773,
+  "witness_distance_lower_deg": 3.1801824530208602,
+  "miss_arcmin": 4.226390795045232,
+  "repointing_deg": 0.2055718835424927,
+  "nominal_witness_height_floor_km": 3520.295286025423,
+  "nominal_geometry": {
+    "success": true,
+    "roll_intervals": 4096,
+    "precision_decimal_digits": 36,
+    "minimum_width_margin": 0.0001288954899539015
+  },
+  "A_three_ray_geometry_with_5arcsec_padding": {
+    "success": true,
+    "roll_intervals": 4096,
+    "precision_decimal_digits": 36,
+    "minimum_width_margin": 0.00013770196377133287
+  },
+  "A+.003_three_ray_geometry_with_5arcsec_padding": {
+    "success": true,
+    "roll_intervals": 4096,
+    "precision_decimal_digits": 36,
+    "minimum_width_margin": 5.086404694647127e-05
+  },
+  "surviving_pair_separation_deg": 6.03562952109345
+}

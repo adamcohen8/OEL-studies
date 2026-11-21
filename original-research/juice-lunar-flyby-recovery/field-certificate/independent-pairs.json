@@ -1,0 +1,286 @@
+{
+  "juice": {
+    "2": {
+      "witnesses": [
+        {
+          "max_fit_as": 1.9273876650868322,
+          "score_los": [
+            0.8412889718089593,
+            -0.4538334298225351,
+            -0.29371428955387585
+          ],
+          "min_limb_clearance_deg": 6.4674346841328525,
+          "min_elevation_deg": 19.74019046133578
+        },
+        {
+          "max_fit_as": 1.2460219008302107,
+          "score_los": [
+            0.8870714707870425,
+            -0.39223369900457644,
+            -0.24342746574883564
+          ],
+          "min_limb_clearance_deg": 1.2111053934033258,
+          "min_elevation_deg": 19.740345352288873
+        }
+      ],
+      "lower_diameter_deg": 5.2591291434582494,
+      "geometry": [
+        {
+          "min_earth_km": 257769.71888637688,
+          "max_earth_km": 1603452.151366837,
+          "min_moon_sample_km": 4885.894638745766,
+          "max_speed_km_s": 3.658336879566411,
+          "encounter": {
+            "resolved": true,
+            "moon_radius_km": 4851.26035912396,
+            "utc": "2024-08-19T21:45:19.601068+00:00"
+          }
+        },
+        {
+          "min_earth_km": 241684.9902798151,
+          "max_earth_km": 1608785.4247340446,
+          "min_moon_sample_km": 1965.1965296528315,
+          "max_speed_km_s": 4.197035868252747,
+          "encounter": {
+            "resolved": true,
+            "moon_radius_km": 1822.2182008954924,
+            "utc": "2024-08-19T21:04:50.488521+00:00"
+          }
+        }
+      ],
+      "minimum_square_side_for_pair_deg": 3.7200716346896936,
+      "detector_side_deg": 4.4,
+      "detector_diagonal_deg": 6.219485212873546,
+      "pair_excludes_square": false
+    },
+    "3": {
+      "witnesses": [
+        {
+          "max_fit_as": 2.0313018463945953,
+          "score_los": [
+            0.8898270630050299,
+            -0.38706937269464153,
+            -0.24163008642472322
+          ],
+          "min_limb_clearance_deg": 0.8732563848994739,
+          "min_elevation_deg": 19.740136882904174
+        },
+        {
+          "max_fit_as": 2.875666454091158,
+          "score_los": [
+            0.836175375537711,
+            -0.46062453323172253,
+            -0.2977176191115093
+          ],
+          "min_limb_clearance_deg": 7.002508530475632,
+          "min_elevation_deg": 19.74022709269843
+        }
+      ],
+      "lower_diameter_deg": 6.129735131120374,
+      "geometry": [
+        {
+          "min_earth_km": 242517.62416884367,
+          "max_earth_km": 1601452.144467742,
+          "min_moon_sample_km": 1792.1052507023965,
+          "max_speed_km_s": 4.210708699682859,
+          "encounter": {
+            "resolved": true,
+            "moon_radius_km": 1761.219580737034,
+            "utc": "2024-08-19T21:06:31.254574+00:00"
+          }
+        },
+        {
+          "min_earth_km": 262299.25209263514,
+          "max_earth_km": 1604785.4826461507,
+          "min_moon_sample_km": 5972.263352192207,
+          "max_speed_km_s": 3.597458907066842,
+          "encounter": {
+            "resolved": true,
+            "moon_radius_km": 5968.528234247027,
+            "utc": "2024-08-19T21:58:50.421940+00:00"
+          }
+        }
+      ],
+      "minimum_square_side_for_pair_deg": 4.336444931845252,
+      "detector_side_deg": 4.4,
+      "detector_diagonal_deg": 6.219485212873546,
+      "pair_excludes_square": false
+    }
+  },
+  "tess": {
+    "2": {
+      "witnesses": [
+        {
+          "max_fit_as": 0.7356191617004787,
+          "score_los": [
+            0.23526009929642347,
+            0.9313838026287289,
+            0.27780730350350047
+          ],
+          "min_limb_clearance_deg": 94.68530159813145,
+          "min_elevation_deg": 53.641152246399336
+        },
+        {
+          "max_fit_as": 1.6623376598163035,
+          "score_los": [
+            0.04045352433048817,
+            0.9854818738874171,
+            0.16489083846165442
+          ],
+          "min_limb_clearance_deg": 90.72828580978528,
+          "min_elevation_deg": 40.37269506425447
+        }
+      ],
+      "lower_diameter_deg": 13.298016927393775,
+      "geometry": [
+        {
+          "min_earth_km": 305543.6789391324,
+          "max_earth_km": 490815.2230891692,
+          "min_moon_sample_km": 492640.3649381122,
+          "max_speed_km_s": 2.38476540780016
+        },
+        {
+          "min_earth_km": 253459.30263650193,
+          "max_earth_km": 405539.58247174585,
+          "min_moon_sample_km": 449506.52060023975,
+          "max_speed_km_s": 2.399406617959502
+        }
+      ],
+      "minimum_square_side_for_pair_deg": 9.424251487474836,
+      "detector_side_deg": 2.2586666666666666,
+      "detector_diagonal_deg": 3.193823500081318,
+      "pair_excludes_square": true
+    },
+    "3": {
+      "witnesses": [
+        {
+          "max_fit_as": 0.7356191617004787,
+          "score_los": [
+            0.23526009929642347,
+            0.9313838026287289,
+            0.27780730350350047
+          ],
+          "min_limb_clearance_deg": 94.68530159813145,
+          "min_elevation_deg": 53.641152246399336
+        },
+        {
+          "max_fit_as": 1.6623376598163035,
+          "score_los": [
+            0.04045352433048817,
+            0.9854818738874171,
+            0.16489083846165442
+          ],
+          "min_limb_clearance_deg": 90.72828580978528,
+          "min_elevation_deg": 40.37269506425447
+        }
+      ],
+      "lower_diameter_deg": 13.298016927393775,
+      "geometry": [
+        {
+          "min_earth_km": 305543.6789391324,
+          "max_earth_km": 490815.2230891692,
+          "min_moon_sample_km": 492640.3649381122,
+          "max_speed_km_s": 2.38476540780016
+        },
+        {
+          "min_earth_km": 253459.30263650193,
+          "max_earth_km": 405539.58247174585,
+          "min_moon_sample_km": 449506.52060023975,
+          "max_speed_km_s": 2.399406617959502
+        }
+      ],
+      "minimum_square_side_for_pair_deg": 9.424251487474836,
+      "detector_side_deg": 2.2586666666666666,
+      "detector_diagonal_deg": 3.193823500081318,
+      "pair_excludes_square": true
+    }
+  },
+  "tess-november": {
+    "2": {
+      "witnesses": [
+        {
+          "max_fit_as": 1.9997233861439216,
+          "score_los": [
+            0.12048530607075636,
+            0.974500247148818,
+            0.18929490042769
+          ],
+          "min_limb_clearance_deg": 73.8799229737708,
+          "min_elevation_deg": 58.64794910550219
+        },
+        {
+          "max_fit_as": 1.8188724131124292,
+          "score_los": [
+            0.20089179687323627,
+            0.9518799675848383,
+            0.23144548658319034
+          ],
+          "min_limb_clearance_deg": 70.36229907822614,
+          "min_elevation_deg": 63.535954976139124
+        }
+      ],
+      "lower_diameter_deg": 5.362574472003233,
+      "geometry": [
+        {
+          "min_earth_km": 242660.7584723681,
+          "max_earth_km": 301706.38311844115,
+          "min_moon_sample_km": 402743.0123041382,
+          "max_speed_km_s": 1.1527289726742942
+        },
+        {
+          "min_earth_km": 252660.12575142356,
+          "max_earth_km": 375627.641424452,
+          "min_moon_sample_km": 406052.7481936791,
+          "max_speed_km_s": 1.3481458784290399
+        }
+      ],
+      "minimum_square_side_for_pair_deg": 3.7932971163272486,
+      "detector_side_deg": 4.4,
+      "detector_diagonal_deg": 6.219485212873546,
+      "pair_excludes_square": false
+    },
+    "3": {
+      "witnesses": [
+        {
+          "max_fit_as": 2.949526469369342,
+          "score_los": [
+            0.08042573620243171,
+            0.9822910835943697,
+            0.16922153541229906
+          ],
+          "min_limb_clearance_deg": 73.87982962399408,
+          "min_elevation_deg": 56.19060332033906
+        },
+        {
+          "max_fit_as": 2.848171593260948,
+          "score_los": [
+            0.2278138883835787,
+            0.9421288620351502,
+            0.24595536094972012
+          ],
+          "min_limb_clearance_deg": 68.85303457446689,
+          "min_elevation_deg": 63.53626436745853
+        }
+      ],
+      "lower_diameter_deg": 9.806755053852203,
+      "geometry": [
+        {
+          "min_earth_km": 232661.46981655457,
+          "max_earth_km": 269013.1477325941,
+          "min_moon_sample_km": 399654.84112705116,
+          "max_speed_km_s": 1.0932365504005117
+        },
+        {
+          "min_earth_km": 252660.14062609486,
+          "max_earth_km": 403709.3276605315,
+          "min_moon_sample_km": 406051.89379255474,
+          "max_speed_km_s": 1.4498011991735353
+        }
+      ],
+      "minimum_square_side_for_pair_deg": 6.942893753605528,
+      "detector_side_deg": 4.4,
+      "detector_diagonal_deg": 6.219485212873546,
+      "pair_excludes_square": true
+    }
+  }
+}

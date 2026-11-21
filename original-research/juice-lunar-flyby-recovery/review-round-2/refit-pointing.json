@@ -1,0 +1,17 @@
+[
+  {
+    "stencil_scale": 1.0,
+    "boresight_shift_arcsec": 0.0066846289289386905,
+    "tangent_rms_arcsec": 0.26905791929730055
+  },
+  {
+    "stencil_scale": 0.5,
+    "boresight_shift_arcsec": 0.007078710323851048,
+    "tangent_rms_arcsec": 0.269057919297092
+  },
+  {
+    "stencil_scale": 2.0,
+    "boresight_shift_arcsec": 0.007036085689012225,
+    "tangent_rms_arcsec": 0.269057919297844
+  }
+]

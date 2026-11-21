@@ -1,0 +1,30 @@
+[
+  {
+    "witness": 0,
+    "r": 1.0,
+    "tested": 36,
+    "largest_offset_deg": 0.008497237155303804,
+    "bound_deg": 0.019007683897677555
+  },
+  {
+    "witness": 0,
+    "r": 10.0,
+    "tested": 36,
+    "largest_offset_deg": 0.035862421084104944,
+    "bound_deg": 0.10429973500944201
+  },
+  {
+    "witness": 1,
+    "r": 1.0,
+    "tested": 36,
+    "largest_offset_deg": 0.02385906880042342,
+    "bound_deg": 0.10004838395305214
+  },
+  {
+    "witness": 1,
+    "r": 10.0,
+    "tested": 36,
+    "largest_offset_deg": 0.1945092666621049,
+    "bound_deg": 1.0130380213999097
+  }
+]

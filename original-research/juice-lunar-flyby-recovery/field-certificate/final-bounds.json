@@ -1,0 +1,114 @@
+[
+  {
+    "global_row": 0,
+    "elapsed_seconds": 0.2813875419087708,
+    "worst_turn": {
+      "togo": 11.768533333341281,
+      "group": [
+        3.5,
+        4.25
+      ],
+      "dv": 1.9001431818755699,
+      "fallback": 31.724580522613564,
+      "velocity_error": 0.13832101000638025,
+      "base_offset": 2.234492468316263,
+      "approach_radius": 16273.413921988506,
+      "distance": 221856.76564549175
+    },
+    "turn_groups": 150,
+    "total_groups": 150,
+    "cells": 576,
+    "threshold_km": 12000,
+    "physical": false,
+    "near_max_radius_km": 188040.28145004722,
+    "hit_radius_deg": 28.096836635436077,
+    "far_radius_deg": 6.676855752367795,
+    "diameter_deg": 56.193673270872154,
+    "cap_center": [
+      0.8094064020453771,
+      -0.49256430010373664,
+      -0.31975253961661304
+    ],
+    "earliest_possible_hit_hours_before_score": 11.851866666674614,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 462
+  },
+  {
+    "global_row": 1,
+    "elapsed_seconds": 0.2812308749416843,
+    "worst_turn": {
+      "togo": 10.935200000007947,
+      "group": [
+        3.5,
+        4.25
+      ],
+      "dv": 1.8313700468998666,
+      "fallback": 30.42376404848547,
+      "velocity_error": 0.2694727076320602,
+      "base_offset": 5.1757886333996455,
+      "approach_radius": 23851.444012294116,
+      "distance": 220837.95715457987
+    },
+    "turn_groups": 182,
+    "total_groups": 182,
+    "cells": 576,
+    "threshold_km": 12000,
+    "physical": false,
+    "near_max_radius_km": 192126.38047697963,
+    "hit_radius_deg": 30.914731996761702,
+    "far_radius_deg": 7.631660223241081,
+    "diameter_deg": 61.829463993523404,
+    "cap_center": [
+      0.8094064020453771,
+      -0.49256430010373664,
+      -0.31975253961661304
+    ],
+    "earliest_possible_hit_hours_before_score": 11.935200000007947,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 450
+  },
+  {
+    "global_row": 2,
+    "elapsed_seconds": 0.31024012493435293,
+    "worst_turn": null,
+    "turn_groups": 0,
+    "total_groups": 0,
+    "cells": 1024,
+    "threshold_km": 12000,
+    "physical": true,
+    "near_max_radius_km": 215580.2816101676,
+    "hit_radius_deg": 37.1289531676051,
+    "far_radius_deg": 24.41079072080998,
+    "diameter_deg": 74.2579063352102,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 13.101866666674614,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 499
+  },
+  {
+    "global_row": 3,
+    "elapsed_seconds": 0.31293958297464997,
+    "worst_turn": null,
+    "turn_groups": 0,
+    "total_groups": 0,
+    "cells": 1024,
+    "threshold_km": 12000,
+    "physical": true,
+    "near_max_radius_km": 228339.1756773608,
+    "hit_radius_deg": 39.742252721697106,
+    "far_radius_deg": 28.16163334024197,
+    "diameter_deg": 79.48450544339421,
+    "cap_center": [
+      0.8987629214299354,
+      -0.37310608994430644,
+      -0.23025433048956698
+    ],
+    "earliest_possible_hit_hours_before_score": 13.601866666674614,
+    "earth_floor_failure": false,
+    "wholly_inside_removed": 390
+  }
+]

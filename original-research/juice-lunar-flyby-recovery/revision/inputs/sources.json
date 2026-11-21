@@ -1,0 +1,42 @@
+{
+  "ldem_16.img": {
+    "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_16.img",
+    "sha256": "a511e40d7a3ea3275945b4da2a1df377133264fab0be94b7434b1cf8907254cb"
+  },
+  "ldem_16.lbl": {
+    "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_16.lbl",
+    "sha256": "9aef29463ccc6ed3a3fbe0df3ecd830a99c69e16b564f455507dee2697096579"
+  },
+  "moon_080317.tf": {
+    "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_080317.tf",
+    "sha256": "78732477b96f9863e7b0d65bcee3c22b8707ca5ed0db56d1173319cb2e8c7993"
+  },
+  "moon_pa_de421_1900-2050.bpc": {
+    "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc",
+    "sha256": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf"
+  },
+  "naif0012.tls": {
+    "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls",
+    "sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+  },
+  "gggrx_1200a_sha.lbl": {
+    "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_1200a_sha.lbl",
+    "sha256": "c478c251e6e6bdd9fe130964e087a933c5db7f544b3f851fecd3e7a6f5729374"
+  },
+  "header.430_229": {
+    "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/ascii/de430/header.430_229",
+    "sha256": "6dbc92bfd08b49de8bd6c5c6b3397a66b3c5b89243b6d14c0a86d05d5d4f4ac8"
+  },
+  "gggrx_1200a_sha.tab": {
+    "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_1200a_sha.tab",
+    "sha256": "fa04c3dce9376948ad243f3df74144e2602f12d183ea4d179604ed0a79da7ded"
+  },
+  "ascp1950.430": {
+    "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/ascii/de430/ascp1950.430",
+    "sha256": "c58f691fe07a150eb36262ad28913c1cf54004c25eb4e328ea101bc40891110a"
+  },
+  "ldem_128.lbl": {
+    "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_128.lbl",
+    "sha256": "85b1901def6901ee8a50415384f17a71e773af2d979beb7245fd6ac4d5e1671b"
+  }
+}

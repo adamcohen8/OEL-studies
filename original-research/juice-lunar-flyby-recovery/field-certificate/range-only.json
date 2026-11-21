@@ -1,0 +1,18 @@
+[
+  {
+    "speed": 6.0,
+    "first_range_extrema_of_relaxation_km": [
+      0.0,
+      9396125.978389708
+    ],
+    "analytic_max_km": 49005486.05121568
+  },
+  {
+    "speed": 10.0,
+    "first_range_extrema_of_relaxation_km": [
+      0.0,
+      14849088.938158795
+    ],
+    "analytic_max_km": 81372062.09281422
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "witness": 0,
+    "scale": 0.0,
+    "remainder_km": 41.92811693479383,
+    "quad_contribution_km": 0.0
+  },
+  {
+    "witness": 0,
+    "scale": 0.1,
+    "remainder_km": 43.27720729440706,
+    "quad_contribution_km": 0.38108659963969993
+  },
+  {
+    "witness": 0,
+    "scale": 0.25,
+    "remainder_km": 47.54202567858176,
+    "quad_contribution_km": 2.381791247748059
+  },
+  {
+    "witness": 0,
+    "scale": 0.5,
+    "remainder_km": 70.98792267161032,
+    "quad_contribution_km": 9.527164990992237
+  },
+  {
+    "witness": 0,
+    "scale": 1.0,
+    "remainder_km": 285.13610054076196,
+    "quad_contribution_km": 38.10865996396895
+  },
+  {
+    "witness": 11,
+    "scale": 0.0,
+    "remainder_km": 2.1008156916795517,
+    "quad_contribution_km": 0.0
+  },
+  {
+    "witness": 11,
+    "scale": 0.1,
+    "remainder_km": 2.1224529638300154,
+    "quad_contribution_km": 0.01964131392309354
+  },
+  {
+    "witness": 11,
+    "scale": 0.25,
+    "remainder_km": 2.1661385707557064,
+    "quad_contribution_km": 0.12275821201933586
+  },
+  {
+    "witness": 11,
+    "scale": 0.5,
+    "remainder_km": 2.312767388870627,
+    "quad_contribution_km": 0.49103284807734343
+  },
+  {
+    "witness": 11,
+    "scale": 1.0,
+    "remainder_km": 3.2137444224405542,
+    "quad_contribution_km": 1.9641313923093737
+  }
+]

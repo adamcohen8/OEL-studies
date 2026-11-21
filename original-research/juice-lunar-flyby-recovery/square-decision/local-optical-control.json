@@ -1,0 +1,86 @@
+[
+  {
+    "witness": 0,
+    "largest_constraint_excess_km": -0.18317363556930566,
+    "max_reference_and_affine_radius_km": 0.01467775743372925,
+    "observations": 25
+  },
+  {
+    "witness": 1,
+    "largest_constraint_excess_km": -0.1827141296130429,
+    "max_reference_and_affine_radius_km": 0.014692868027944554,
+    "observations": 25
+  },
+  {
+    "witness": 2,
+    "largest_constraint_excess_km": -0.1025852584485678,
+    "max_reference_and_affine_radius_km": 0.014542810351024837,
+    "observations": 25
+  },
+  {
+    "witness": 3,
+    "largest_constraint_excess_km": -0.10048012185812283,
+    "max_reference_and_affine_radius_km": 0.014515075250972512,
+    "observations": 25
+  },
+  {
+    "witness": 4,
+    "largest_constraint_excess_km": -0.09778632818755906,
+    "max_reference_and_affine_radius_km": 0.014516553290216354,
+    "observations": 25
+  },
+  {
+    "witness": 5,
+    "largest_constraint_excess_km": -0.10015529937877865,
+    "max_reference_and_affine_radius_km": 0.014505352140860722,
+    "observations": 25
+  },
+  {
+    "witness": 6,
+    "largest_constraint_excess_km": -0.10183129103834077,
+    "max_reference_and_affine_radius_km": 0.014531251660014939,
+    "observations": 25
+  },
+  {
+    "witness": 7,
+    "largest_constraint_excess_km": -0.10378015913767902,
+    "max_reference_and_affine_radius_km": 0.014493830466887582,
+    "observations": 25
+  },
+  {
+    "witness": 8,
+    "largest_constraint_excess_km": -0.1578833098670973,
+    "max_reference_and_affine_radius_km": 0.014749216659337984,
+    "observations": 25
+  },
+  {
+    "witness": 9,
+    "largest_constraint_excess_km": -0.10826883892389993,
+    "max_reference_and_affine_radius_km": 0.014527445907928207,
+    "observations": 25
+  },
+  {
+    "witness": 10,
+    "largest_constraint_excess_km": -0.10300542833119425,
+    "max_reference_and_affine_radius_km": 0.014542466558608429,
+    "observations": 25
+  },
+  {
+    "witness": 11,
+    "largest_constraint_excess_km": -0.10666619649704856,
+    "max_reference_and_affine_radius_km": 0.014486061816149106,
+    "observations": 25
+  },
+  {
+    "witness": 12,
+    "largest_constraint_excess_km": -0.10011611802375198,
+    "max_reference_and_affine_radius_km": 0.014504594539265253,
+    "observations": 25
+  },
+  {
+    "witness": 13,
+    "largest_constraint_excess_km": -0.11023878035565193,
+    "max_reference_and_affine_radius_km": 0.01449678433622747,
+    "observations": 25
+  }
+]

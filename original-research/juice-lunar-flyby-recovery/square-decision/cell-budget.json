@@ -1,0 +1,176 @@
+[
+  {
+    "witness": 0,
+    "reference_seconds": 7.130084875039756,
+    "steps": 15968,
+    "results": [
+      {
+        "radius_km": 0.001,
+        "velocity_radius_km_s": 1e-08,
+        "seconds": 0.1520049999235198,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 0.01,
+        "velocity_radius_km_s": 1e-07,
+        "seconds": 0.15112508402671665,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 0.03,
+        "velocity_radius_km_s": 3e-07,
+        "seconds": 0.14962008292786777,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 0.1,
+        "velocity_radius_km_s": 1e-06,
+        "seconds": 0.1481790830148384,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 0.3,
+        "velocity_radius_km_s": 3e-06,
+        "seconds": 0.14977487490978092,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 1.0,
+        "velocity_radius_km_s": 1e-05,
+        "seconds": 0.14787091605830938,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 3.0,
+        "velocity_radius_km_s": 3e-05,
+        "seconds": 0.1477802919689566,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 10.0,
+        "velocity_radius_km_s": 0.0001,
+        "seconds": 0.1456555420299992,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 30.0,
+        "velocity_radius_km_s": 0.0003,
+        "seconds": 0.14203954103868455,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      },
+      {
+        "radius_km": 100.0,
+        "velocity_radius_km_s": 0.001,
+        "seconds": 0.1485442080302164,
+        "status": "unresolved",
+        "reason": "distance tube intersects a domain boundary"
+      }
+    ]
+  },
+  {
+    "witness": 11,
+    "reference_seconds": 6.231326707988046,
+    "steps": 13365,
+    "results": [
+      {
+        "radius_km": 0.001,
+        "velocity_radius_km_s": 1e-08,
+        "seconds": 0.2242522919550538,
+        "status": "bounded",
+        "sky_ball_deg": 0.009683227215089608,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 0.01,
+        "velocity_radius_km_s": 1e-07,
+        "seconds": 0.22515937499701977,
+        "status": "bounded",
+        "sky_ball_deg": 0.009736181623248656,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 0.03,
+        "velocity_radius_km_s": 3e-07,
+        "seconds": 0.22930624999571592,
+        "status": "bounded",
+        "sky_ball_deg": 0.00985386389356215,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 0.1,
+        "velocity_radius_km_s": 1e-06,
+        "seconds": 0.23418570798821747,
+        "status": "bounded",
+        "sky_ball_deg": 0.010265814933991603,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 0.3,
+        "velocity_radius_km_s": 3e-06,
+        "seconds": 0.22590158297680318,
+        "status": "bounded",
+        "sky_ball_deg": 0.011443358973508382,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 1.0,
+        "velocity_radius_km_s": 1e-05,
+        "seconds": 0.22658454102929682,
+        "status": "bounded",
+        "sky_ball_deg": 0.015571085654287917,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 3.0,
+        "velocity_radius_km_s": 3e-05,
+        "seconds": 0.22030270902905613,
+        "status": "bounded",
+        "sky_ball_deg": 0.027419043642184508,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": true
+      },
+      {
+        "radius_km": 10.0,
+        "velocity_radius_km_s": 0.0001,
+        "seconds": 0.20807708299253136,
+        "status": "bounded",
+        "sky_ball_deg": 0.06953249384691722,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": false
+      },
+      {
+        "radius_km": 30.0,
+        "velocity_radius_km_s": 0.0003,
+        "seconds": 0.20979245891794562,
+        "status": "bounded",
+        "sky_ball_deg": 0.19566791979241094,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": false
+      },
+      {
+        "radius_km": 100.0,
+        "velocity_radius_km_s": 0.001,
+        "seconds": 0.2100807500537485,
+        "status": "bounded",
+        "sky_ball_deg": 0.7178613226537299,
+        "face_clearance_deg": 0.043464895816423876,
+        "contained": false
+      }
+    ]
+  }
+]

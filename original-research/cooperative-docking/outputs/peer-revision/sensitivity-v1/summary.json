@@ -1,0 +1,130 @@
+{
+  "runs": 78,
+  "failures": [],
+  "plan_sha256": "f19bcca7008492926a1a7bbd9b5d17d8ae09d6a33b27f08a44b99a0daa35f4d3",
+  "runs_sha256": "ea1269f5e909037bbb6859b10e3761294ab5f3be213874783f5980be819bf507",
+  "s_": {
+    "fixed_adaptive": {
+      "captures": 18,
+      "retreats": 6,
+      "renewal_requests": 12,
+      "receiver_occupied_s": 35.950771070592246
+    },
+    "corrected_adaptive": {
+      "captures": 22,
+      "retreats": 2,
+      "renewal_requests": 4,
+      "receiver_occupied_s": 31.998401316974565
+    }
+  },
+  "b_": {
+    "fixed_adaptive": {
+      "captures": 10,
+      "retreats": 2,
+      "renewal_requests": 4,
+      "receiver_occupied_s": 18.649408759482018
+    },
+    "corrected_adaptive": {
+      "captures": 10,
+      "retreats": 2,
+      "renewal_requests": 3,
+      "receiver_occupied_s": 18.042468030342455
+    }
+  },
+  "strata": {
+    "1.10/0.85": {
+      "fixed_adaptive": {
+        "captures": 0,
+        "retreats": 6,
+        "renewal_requests": 6,
+        "receiver_occupied_s": 6.60488761683646
+      },
+      "corrected_adaptive": {
+        "captures": 4,
+        "retreats": 2,
+        "renewal_requests": 2,
+        "receiver_occupied_s": 6.60488761683646
+      }
+    },
+    "1.10/1.90": {
+      "fixed_adaptive": {
+        "captures": 6,
+        "retreats": 0,
+        "renewal_requests": 6,
+        "receiver_occupied_s": 12.533442247262972
+      },
+      "corrected_adaptive": {
+        "captures": 6,
+        "retreats": 0,
+        "renewal_requests": 2,
+        "receiver_occupied_s": 8.581072493645298
+      }
+    },
+    "1.40/0.85": {
+      "fixed_adaptive": {
+        "captures": 6,
+        "retreats": 0,
+        "renewal_requests": 0,
+        "receiver_occupied_s": 8.406220603246402
+      },
+      "corrected_adaptive": {
+        "captures": 6,
+        "retreats": 0,
+        "renewal_requests": 0,
+        "receiver_occupied_s": 8.406220603246402
+      }
+    },
+    "1.40/1.90": {
+      "fixed_adaptive": {
+        "captures": 6,
+        "retreats": 0,
+        "renewal_requests": 0,
+        "receiver_occupied_s": 8.406220603246402
+      },
+      "corrected_adaptive": {
+        "captures": 6,
+        "retreats": 0,
+        "renewal_requests": 0,
+        "receiver_occupied_s": 8.406220603246402
+      }
+    }
+  },
+  "convergence": [
+    {
+      "case": "s_level_1p10_0p85_late",
+      "refinement": 2,
+      "delta_s": 0.0,
+      "matches": true
+    },
+    {
+      "case": "s_level_1p10_0p85_late",
+      "refinement": 4,
+      "delta_s": 0.0,
+      "matches": true
+    },
+    {
+      "case": "s_moving_1p10_0p85_late",
+      "refinement": 2,
+      "delta_s": 0.0,
+      "matches": true
+    },
+    {
+      "case": "s_moving_1p10_0p85_late",
+      "refinement": 4,
+      "delta_s": 0.0,
+      "matches": true
+    },
+    {
+      "case": "s_tilted_1p10_0p85_late",
+      "refinement": 2,
+      "delta_s": null,
+      "matches": true
+    },
+    {
+      "case": "s_tilted_1p10_0p85_late",
+      "refinement": 4,
+      "delta_s": null,
+      "matches": true
+    }
+  ]
+}

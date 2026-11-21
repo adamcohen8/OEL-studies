@@ -1,0 +1,16 @@
+{
+  "grid_points": 1080,
+  "admissions": {
+    "measured_round_trip_admits": 453,
+    "turnaround_corrected_admits": 543,
+    "combined_admits": 549,
+    "oracle_admits": 558,
+    "fixed_reverse_admits": 495,
+    "fixed_round_trip_admits": 333
+  },
+  "piecewise_profiles_checked": 21720,
+  "max_time_violation_s": 4.440892098500626e-16,
+  "max_speed_violation_m_s": 6.938893903907228e-18,
+  "clock_rate_and_latency_trials": 20000,
+  "smallest_remaining_time_slack_s": 0.0003889965694954256
+}

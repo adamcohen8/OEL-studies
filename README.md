@@ -6,7 +6,9 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 
 ## Original research
 
-[Cohen, *One-exposure recovery bounds after the 2024 Juice lunar flyby*](original-research/juice-lunar-flyby-recovery/) — A least-squares pointing misses a compatible orbit, while a 0.20557° shift covers the nominal family at a 2.00″ observation-error cap.
+[Cooperative Spacecraft Docking with Time-Limited Readiness Guarantees](original-research/cooperative-docking/) examines when receiver timing can certify a docking approach. The workspace includes the paper, supplement and offline evidence checks.
+
+[One-exposure recovery bounds after the 2024 Juice lunar flyby](original-research/juice-lunar-flyby-recovery/) — Adam Cohen. A 4.4° square centered on the least-squares prediction misses a compatible orbit. Moving the boresight by 0.20557° covers the nominal family at a 2.00″ observation-error cap.
 
 ## Reproductions
 

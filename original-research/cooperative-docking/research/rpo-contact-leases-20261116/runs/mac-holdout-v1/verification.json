@@ -1,0 +1,28 @@
+{
+  "frozen_plan_sha256": "6d7f28eff9f973f368094b44c848567f7677b891080621a8f10f2952b60cbbec",
+  "freeze_time_utc": "2026-11-16T20:07:54Z",
+  "oel_cases_matched_prospective_scores": 36,
+  "oel_validated_capture_total": 28,
+  "oel_retreat_count": 8,
+  "minimum_retreat_gap_mm": 29.110456122829696,
+  "oel_ports_with_geometry_correction_containing_contact": 10,
+  "center_only_planned_misses": 5,
+  "center_only_miss_range_ms": [
+    16.088185406209597,
+    20.74200076435595
+  ],
+  "maximum_scalar_forecast_error_ms": 0.010920521324564447,
+  "maximum_nominal_lead_residual_mm": 3.6286511035515945e-07,
+  "ipc_cases_matching_measured_time_classification": 12,
+  "ipc_accepts": 2,
+  "ipc_expected_inside_but_measured_outside_cases": [
+    "ipc_03_inside",
+    "ipc_02_inside",
+    "ipc_01_inside",
+    "ipc_04_inside"
+  ],
+  "ipc_minimum_accepted_slack_after_handoff_ms": 22.613000827922647,
+  "oel_results_sha256": "fed44576cd738fe4d1b95677442e162d51e43d1207372924a24b93ce106c7353",
+  "ipc_results_sha256": "206af3e6bd6897ba93b101cff27c4f96554e25eadc1619c82edb1b4b2c566242",
+  "archival_frozen_plan_sha256": "9ae81cd9219230cf98e74f9851c717a278353f084ccbb906917222382086aa25"
+}

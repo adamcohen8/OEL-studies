@@ -1,0 +1,332 @@
+[
+  {
+    "name": "ipc_03_inside",
+    "side": "inside",
+    "lease_s": 0.8613086456023682,
+    "reverse_s": 0.2958127701750175,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481955217639208,
+      "decision_ns": 481955648778666,
+      "ignored": 0,
+      "decision": "commit",
+      "receiver_processing_s": 0.105133652,
+      "local_elapsed_s": 0.43070832,
+      "certified_remaining_s": 0.5343373617193619,
+      "latest_contact_delay_s": 0.4943373617193619
+    },
+    "receiver": {
+      "rx_ns": 481955242732333,
+      "issued_ns": 481955347760958,
+      "expiry_ns": 481956208209155,
+      "disarm_ns": 481956213242666
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.534337364802198,
+    "margin_to_expiry_after_handoff_s": 0.02509312728063815,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_02_inside",
+    "side": "inside",
+    "lease_s": 0.8700075780876145,
+    "reverse_s": 0.3075030124180208,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481956263144666,
+      "decision_ns": 481956701941666,
+      "ignored": 0,
+      "decision": "commit",
+      "receiver_processing_s": 0.105129691,
+      "local_elapsed_s": 0.438358204,
+      "certified_remaining_s": 0.5353661048931049,
+      "latest_contact_delay_s": 0.4953661048931049
+    },
+    "receiver": {
+      "rx_ns": 481956288243541,
+      "issued_ns": 481956393268208,
+      "expiry_ns": 481957262406647,
+      "disarm_ns": 481957267375875
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5353661065604396,
+    "margin_to_expiry_after_handoff_s": 0.025098876106895075,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_05_outside",
+    "side": "outside",
+    "lease_s": 0.790224180365964,
+    "reverse_s": 0.26279931839039794,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 481957314747916,
+      "decision_ns": 481957711192500,
+      "ignored": 1,
+      "decision": "reject",
+      "receiver_processing_s": 0.103372143,
+      "local_elapsed_s": 0.39604814,
+      "certified_remaining_s": 0.496259034796035
+    },
+    "receiver": {
+      "rx_ns": 481957339866625,
+      "issued_ns": 481957443135500,
+      "expiry_ns": 481958232570245,
+      "disarm_ns": 481958237150083
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.49625903625474543,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_02_outside",
+    "side": "outside",
+    "lease_s": 0.8700075780876145,
+    "reverse_s": 0.3315030124180208,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 481958277566333,
+      "decision_ns": 481958737355375,
+      "ignored": 1,
+      "decision": "reject",
+      "receiver_processing_s": 0.10237498,
+      "local_elapsed_s": 0.459329254,
+      "certified_remaining_s": 0.5116221038101039
+    },
+    "receiver": {
+      "rx_ns": 481958298422583,
+      "issued_ns": 481958400695291,
+      "expiry_ns": 481959269833730,
+      "disarm_ns": 481959271853041
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5116221055604395,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_05_inside",
+    "side": "inside",
+    "lease_s": 0.790224180365964,
+    "reverse_s": 0.21679931839039793,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481959315214041,
+      "decision_ns": 481959660497583,
+      "ignored": 0,
+      "decision": "commit",
+      "receiver_processing_s": 0.105144454,
+      "local_elapsed_s": 0.34493826,
+      "certified_remaining_s": 0.5491906162966165,
+      "latest_contact_delay_s": 0.5091906162966164
+    },
+    "receiver": {
+      "rx_ns": 481959337798250,
+      "issued_ns": 481959442837666,
+      "expiry_ns": 481960232272411,
+      "disarm_ns": 481960237320333
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5491906192547454,
+    "margin_to_expiry_after_handoff_s": 0.022584211703383573,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_01_inside",
+    "side": "inside",
+    "lease_s": 0.7835215051670088,
+    "reverse_s": 0.2271033391706624,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 481960289181166,
+      "decision_ns": 481960643184291,
+      "ignored": 1,
+      "decision": "commit",
+      "receiver_processing_s": 0.102557496,
+      "local_elapsed_s": 0.353649123,
+      "certified_remaining_s": 0.5311906810666811,
+      "latest_contact_delay_s": 0.4911906810666811
+    },
+    "receiver": {
+      "rx_ns": 481960312631666,
+      "issued_ns": 481960415086708,
+      "expiry_ns": 481961197825474,
+      "disarm_ns": 481961201722416
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5311906832337663,
+    "margin_to_expiry_after_handoff_s": 0.02345050193331886,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_04_outside",
+    "side": "outside",
+    "lease_s": 0.8094991640173943,
+    "reverse_s": 0.27805504631390465,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481961256898958,
+      "decision_ns": 481961665239375,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.104462692,
+      "local_elapsed_s": 0.407932077,
+      "certified_remaining_s": 0.5047083897753899
+    },
+    "receiver": {
+      "rx_ns": 481961282039666,
+      "issued_ns": 481961386398000,
+      "expiry_ns": 481962195088473,
+      "disarm_ns": 481962200135125
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5047083905264735,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_06_inside",
+    "side": "inside",
+    "lease_s": 0.8300446478967882,
+    "reverse_s": 0.25058000523437807,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481962255180916,
+      "decision_ns": 481962635336416,
+      "ignored": 0,
+      "decision": "commit",
+      "receiver_processing_s": 0.101277842,
+      "local_elapsed_s": 0.379775345,
+      "certified_remaining_s": 0.5502365974015975,
+      "latest_contact_delay_s": 0.5102365974015974
+    },
+    "receiver": {
+      "rx_ns": 481962280337500,
+      "issued_ns": 481962381514166,
+      "expiry_ns": 481963210729598,
+      "disarm_ns": 481963215762250
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5502365985674327,
+    "margin_to_expiry_after_handoff_s": 0.025156584598402566,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_06_outside",
+    "side": "outside",
+    "lease_s": 0.8300446478967882,
+    "reverse_s": 0.3085800052343781,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481963270284750,
+      "decision_ns": 481963706834791,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.100598705,
+      "local_elapsed_s": 0.436113492,
+      "certified_remaining_s": 0.4931635973185975
+    },
+    "receiver": {
+      "rx_ns": 481963295394333,
+      "issued_ns": 481963395892541,
+      "expiry_ns": 481964225107973,
+      "disarm_ns": 481964225947166
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.4931635995674327,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_04_inside",
+    "side": "inside",
+    "lease_s": 0.8094991640173943,
+    "reverse_s": 0.24005504631390465,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 481964276518416,
+      "decision_ns": 481964646161708,
+      "ignored": 1,
+      "decision": "commit",
+      "receiver_processing_s": 0.102041856,
+      "local_elapsed_s": 0.36927365,
+      "certified_remaining_s": 0.5409870963170964,
+      "latest_contact_delay_s": 0.5009870963170964
+    },
+    "receiver": {
+      "rx_ns": 481964301616291,
+      "issued_ns": 481964403556208,
+      "expiry_ns": 481965212246681,
+      "disarm_ns": 481965213396125
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5409870985264735,
+    "margin_to_expiry_after_handoff_s": 0.025097876682903676,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_01_outside",
+    "side": "outside",
+    "lease_s": 0.7835215051670088,
+    "reverse_s": 0.2391033391706624,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481965264559791,
+      "decision_ns": 481965634242750,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.105116885,
+      "local_elapsed_s": 0.369313277,
+      "certified_remaining_s": 0.5180676794006794
+    },
+    "receiver": {
+      "rx_ns": 481965287364041,
+      "issued_ns": 481965392375916,
+      "expiry_ns": 481966175114682,
+      "disarm_ns": 481966179761750
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5180676822337663,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_03_outside",
+    "side": "outside",
+    "lease_s": 0.8613086456023682,
+    "reverse_s": 0.32581277017501753,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 481966232475166,
+      "decision_ns": 481966693559083,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.105001939,
+      "local_elapsed_s": 0.460622834,
+      "certified_remaining_s": 0.504261321842322
+    },
+    "receiver": {
+      "rx_ns": 481966257642958,
+      "issued_ns": 481966362540000,
+      "expiry_ns": 481967222988197,
+      "disarm_ns": 481967224238208
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5042613228021979,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "abstract_receiver_traces": 117649,
+  "scalar": {
+    "sampled_states": 512,
+    "admitted_and_integrated": 296,
+    "violations": 0,
+    "min_time_slack_s": 0.015847573821050842,
+    "min_speed_slack_m_s": 0.0004657229372172639
+  },
+  "nominal_reference": {
+    "grid_points": 1080,
+    "exact_expiry_certificate_refusals": 522,
+    "nominal_witnesses_among_refusals": 153
+  }
+}

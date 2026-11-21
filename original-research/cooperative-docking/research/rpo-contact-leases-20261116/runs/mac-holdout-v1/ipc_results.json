@@ -1,0 +1,328 @@
+[
+  {
+    "name": "ipc_03_inside",
+    "side": "inside",
+    "lease_s": 0.8613086456023682,
+    "reverse_s": 0.2958127701750175,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 66225541,
+      "decision_ns": 512205666,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.11011834,
+      "local_elapsed_s": 0.445534146,
+      "certified_remaining_s": 0.5244764033444035
+    },
+    "receiver": {
+      "rx_ns": 97056250,
+      "issued_ns": 207064583,
+      "expiry_ns": 1067512780,
+      "disarm_ns": 1069104375
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.524476405802198,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_02_inside",
+    "side": "inside",
+    "lease_s": 0.8700075780876145,
+    "reverse_s": 0.3075030124180208,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 67701250,
+      "decision_ns": 521080791,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.110123887,
+      "local_elapsed_s": 0.452926163,
+      "certified_remaining_s": 0.5257727701447702
+    },
+    "receiver": {
+      "rx_ns": 97724041,
+      "issued_ns": 207737916,
+      "expiry_ns": 1076876355,
+      "disarm_ns": 1086891916
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5257727735604396,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_05_outside",
+    "side": "outside",
+    "lease_s": 0.790224180365964,
+    "reverse_s": 0.26279931839039794,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 65673083,
+      "decision_ns": 471108500,
+      "ignored": 1,
+      "decision": "reject",
+      "receiver_processing_s": 0.110127225,
+      "local_elapsed_s": 0.405029983,
+      "certified_remaining_s": 0.49401653462853484
+    },
+    "receiver": {
+      "rx_ns": 96345041,
+      "issued_ns": 206362250,
+      "expiry_ns": 995796995,
+      "disarm_ns": 1002939041
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.4940165372547454,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_02_outside",
+    "side": "outside",
+    "lease_s": 0.8700075780876145,
+    "reverse_s": 0.3315030124180208,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 66469375,
+      "decision_ns": 545160833,
+      "ignored": 1,
+      "decision": "reject",
+      "receiver_processing_s": 0.10904677,
+      "local_elapsed_s": 0.478212768,
+      "certified_remaining_s": 0.49938481226881226
+    },
+    "receiver": {
+      "rx_ns": 97146458,
+      "issued_ns": 206084291,
+      "expiry_ns": 1075222730,
+      "disarm_ns": 1085240416
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.49938481456043954,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_05_inside",
+    "side": "inside",
+    "lease_s": 0.790224180365964,
+    "reverse_s": 0.21679931839039793,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 66373958,
+      "decision_ns": 425343333,
+      "ignored": 0,
+      "decision": "commit",
+      "receiver_processing_s": 0.110120718,
+      "local_elapsed_s": 0.358610406,
+      "certified_remaining_s": 0.5404760771720774,
+      "latest_contact_delay_s": 0.5004760771720773
+    },
+    "receiver": {
+      "rx_ns": 88986958,
+      "issued_ns": 198997666,
+      "expiry_ns": 988432411,
+      "disarm_ns": 998448875
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5404760782547455,
+    "margin_to_expiry_after_handoff_s": 0.022613000827922648,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_01_inside",
+    "side": "inside",
+    "lease_s": 0.7835215051670088,
+    "reverse_s": 0.2271033391706624,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 66798541,
+      "decision_ns": 440722125,
+      "ignored": 1,
+      "decision": "reject",
+      "receiver_processing_s": 0.110121177,
+      "local_elapsed_s": 0.373549661,
+      "certified_remaining_s": 0.5188263474833475
+    },
+    "receiver": {
+      "rx_ns": 94030791,
+      "issued_ns": 204041958,
+      "expiry_ns": 986780724,
+      "disarm_ns": 993996625
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5188263492337664,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_04_outside",
+    "side": "outside",
+    "lease_s": 0.8094991640173943,
+    "reverse_s": 0.27805504631390465,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 67418083,
+      "decision_ns": 486881166,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.110131395,
+      "local_elapsed_s": 0.419043621,
+      "certified_remaining_s": 0.4992487630687632
+    },
+    "receiver": {
+      "rx_ns": 89317416,
+      "issued_ns": 199338791,
+      "expiry_ns": 1008029264,
+      "disarm_ns": 1018045958
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.49924876552647357,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_06_inside",
+    "side": "inside",
+    "lease_s": 0.8300446478967882,
+    "reverse_s": 0.25058000523437807,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 66346000,
+      "decision_ns": 466009708,
+      "ignored": 0,
+      "decision": "commit",
+      "receiver_processing_s": 0.10902992,
+      "local_elapsed_s": 0.399264045,
+      "certified_remaining_s": 0.538472722859723,
+      "latest_contact_delay_s": 0.49847272285972305
+    },
+    "receiver": {
+      "rx_ns": 96506625,
+      "issued_ns": 205427625,
+      "expiry_ns": 1034643057,
+      "disarm_ns": 1039915208
+    },
+    "measured_expected": "commit",
+    "reference_remaining_s": 0.5384727245674327,
+    "margin_to_expiry_after_handoff_s": 0.030160626140276904,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_06_outside",
+    "side": "outside",
+    "lease_s": 0.8300446478967882,
+    "reverse_s": 0.3085800052343781,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 66024583,
+      "decision_ns": 516139083,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.110121177,
+      "local_elapsed_s": 0.449664386,
+      "certified_remaining_s": 0.489112097901098
+    },
+    "receiver": {
+      "rx_ns": 87854666,
+      "issued_ns": 197865833,
+      "expiry_ns": 1027081265,
+      "disarm_ns": 1037098625
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.48911209956743273,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_04_inside",
+    "side": "inside",
+    "lease_s": 0.8094991640173943,
+    "reverse_s": 0.24005504631390465,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "reordered",
+    "chaser": {
+      "tx_ns": 66879166,
+      "decision_ns": 456274208,
+      "ignored": 1,
+      "decision": "reject",
+      "receiver_processing_s": 0.109323171,
+      "local_elapsed_s": 0.389005648,
+      "certified_remaining_s": 0.5285093875263877
+    },
+    "receiver": {
+      "rx_ns": 97272583,
+      "issued_ns": 206486541,
+      "expiry_ns": 1015177014,
+      "disarm_ns": 1025192791
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5285093895264736,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_01_outside",
+    "side": "outside",
+    "lease_s": 0.7835215051670088,
+    "reverse_s": 0.2391033391706624,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 61610458,
+      "decision_ns": 449472250,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.108587019,
+      "local_elapsed_s": 0.387473931,
+      "certified_remaining_s": 0.5033555139005139
+    },
+    "receiver": {
+      "rx_ns": 92190500,
+      "issued_ns": 200669041,
+      "expiry_ns": 983407807,
+      "disarm_ns": 984030083
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5033555152337663,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  },
+  {
+    "name": "ipc_03_outside",
+    "side": "outside",
+    "lease_s": 0.8613086456023682,
+    "reverse_s": 0.32581277017501753,
+    "required_remaining_s": 0.5296354272299458,
+    "mode": "normal",
+    "chaser": {
+      "tx_ns": 71456541,
+      "decision_ns": 540341833,
+      "ignored": 0,
+      "decision": "reject",
+      "receiver_processing_s": 0.11013519,
+      "local_elapsed_s": 0.468416408,
+      "certified_remaining_s": 0.5015880693440695
+    },
+    "receiver": {
+      "rx_ns": 94278375,
+      "issued_ns": 204303541,
+      "expiry_ns": 1064751738,
+      "disarm_ns": 1074785708
+    },
+    "measured_expected": "reject",
+    "reference_remaining_s": 0.5015880718021979,
+    "margin_to_expiry_after_handoff_s": null,
+    "score_failures": []
+  }
+]

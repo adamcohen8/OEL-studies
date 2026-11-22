@@ -1,0 +1,4 @@
+# Tested Apple Silicon macOS and CPython 3.11; use the SHA-256 pinned release bundle.
+orbital-engineering-lab==1.1.0 --hash=sha256:d99bd0826f3928bbfe13a73b5714f3c3629b0a8d75ba2f24acee1f2ee8142c2e
+numpy==2.4.6 --hash=sha256:4cfe66903cc32a9921a6733d96b19bb6abf310397581bbad89c228f5abaf0ee8
+matplotlib==3.11.1 --hash=sha256:d2ace7273b9a5061a3b420918a16fae1f2dc5dfee1abcc13aba71b5d94b1820c

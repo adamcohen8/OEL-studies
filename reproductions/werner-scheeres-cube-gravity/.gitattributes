@@ -1,0 +1,2 @@
+# Preserve replay-generated CSV bytes and their standard CRLF record endings.
+results/*.csv -text whitespace=cr-at-eol

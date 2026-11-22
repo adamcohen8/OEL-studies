@@ -1,0 +1,26 @@
+[
+  {
+    "x": 0.8,
+    "paper_y": 0.684,
+    "magnitude_difference_y": 0.5081851124115588,
+    "vector_difference_y": 0.6820094142811401
+  },
+  {
+    "x": 1.0,
+    "paper_y": 0.695,
+    "magnitude_difference_y": 0.5304598586022735,
+    "vector_difference_y": 0.6928024312936827
+  },
+  {
+    "x": 1.2,
+    "paper_y": 0.64,
+    "magnitude_difference_y": 0.5042516628852469,
+    "vector_difference_y": 0.6365650538370007
+  },
+  {
+    "x": 1.4,
+    "paper_y": 0.501,
+    "magnitude_difference_y": 0.4103102067502163,
+    "vector_difference_y": 0.5006460211306263
+  }
+]

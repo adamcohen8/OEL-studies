@@ -1,0 +1,21 @@
+schema_version: oel.workspace.v1
+workspace_id: werner_scheeres_cube_gravity
+created_with: 1.1.0
+engine:
+  channel: stable
+  requirement: '==1.1.0'
+  locked_version: 1.1.0
+contracts:
+  scenario: oel.scenario.v1
+  fsw: oel.fsw.boundary.v2
+  candidate: oel.fswdk.candidate.v1
+paths:
+  configs: configs
+  flight_software: fsw
+  tests: tests
+  outputs: outputs
+dependencies:
+  lock: requirements.lock
+policy:
+  network: explicit_only
+  trust_user_code: false

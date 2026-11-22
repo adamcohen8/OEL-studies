@@ -18,6 +18,7 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 | [Chesley et al. (2014), *Orbit and bulk density of the OSIRIS-REx target Asteroid (101955) Bennu*](reproductions/chesley-2014-bennu/) | Can optical and radar astrometry recover Bennu’s inward orbital drift? | GRSS with an OEL 1.1.0 cross-check gives **−282.90 ± 1.48 m/year** using an independent optical selection. The paper reports −284 ± 1.5 m/year. |
 | [Izzo (2015), *Revisiting Lambert’s Problem*](reproductions/izzo-2015-lambert/) | Can two one-revolution transfers connect the same endpoints in 550 days? | Both branches closed within 0.22 m at the finer integration step. The minimum flight time was 479.07047 days. |
 | [Vallado et al. (2006), *Revisiting Spacetrack Report #3*](reproductions/vallado-2006-vanguard/) | Can OEL reproduce the archived 72-hour Vanguard 1 trajectory? | Across 13 epochs the submitted Python trajectory missed the 1 m and 1 mm/s limits. The default Rust backend met both. |
+| [Werner & Scheeres, *Exterior Gravitation of a Polyhedron*, Fig. 15](reproductions/werner-scheeres-cube-gravity/) | Where does replacing a homogeneous cube with one spherical mass distort gravity? | 54.03% at the face center. The sampled 0.1% crossing was 2.9092 side lengths. The vector-error interpretation matched the sampled published contours. |
 
 ## Replay the first reproduction
 

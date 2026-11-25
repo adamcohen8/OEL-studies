@@ -1,0 +1,4 @@
+# Additional version pins for the scientific driver in the tested CPython 3.11 environment.
+# Install OEL and its native wheels from the revision in oel-revision.lock.json.
+numpy==2.4.6
+scipy==1.17.1

@@ -1,0 +1,8 @@
+{
+  "version": "1.2.0+preview.1",
+  "development_branch": "v1.2.0",
+  "development_commit": "b619c3b790206ef629b3e6121e45ee5a20186857",
+  "public_repository": "https://github.com/adamcohen8/orbital-engineering-lab",
+  "public_commit": "e3b0e7620d4ae616d01da10b7ee23ff282d17800",
+  "public_branch": "preview/v1.2.0-central-body-relativity"
+}

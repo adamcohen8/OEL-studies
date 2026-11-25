@@ -1,0 +1,651 @@
+{
+  "baseline": {
+    "annualization": "Divide the per-Julian-century rate by 100 for arcseconds per Julian year. The reported annualized value uses the rounded century-unit result; it is not a separate annual fit.",
+    "coverage": "Both endpoints are interior to the published 1972\u20132030 Sun rotation implementation envelope. Normal OEL environment preparation and validation apply.",
+    "duration_julian_days": 7305.0,
+    "duration_julian_years": 20,
+    "duration_s": 631152000,
+    "end_jd_utc": 2458850.0,
+    "first_second_half_boundary_s": 315576000.0,
+    "initial_jd_utc": 2451545.0,
+    "kepler_expected_perihelia_by_half": [
+      41,
+      42
+    ],
+    "limitations": "The century unit expresses a slope measured over 20 Julian years; no century-long trajectory or long-term constancy is tested. The shorter baseline is more sensitive to endpoint selection and numerical drift in the fitted slope. Split halves and refinements are diagnostics, not error bounds.",
+    "rate_scale_from_rad_per_s": 650922224962336.9,
+    "rate_scaling": "Fit unwrapped perihelion angle in radians against elapsed seconds. Multiply each slope by arcseconds per radian and seconds per Julian century. Residuals are angles, so convert them only by arcseconds per radian.",
+    "split_definition": "Two 10-Julian-year halves of the 20-Julian-year integration, not half centuries. An event at the midpoint belongs to the second half."
+  },
+  "body_catalog_solar_mu_km3_s2": 132712440041.27942,
+  "constants": {
+    "arcsec_per_rad": 206264.80624709636,
+    "au_m": 149597870700,
+    "c_m_s": 299792458,
+    "day_s": 86400,
+    "julian_century_s": 3155760000,
+    "julian_year_s": 31557600,
+    "solar_mu_m3_s2": 1.3271244004127942e+20
+  },
+  "convergence": {
+    "checks": {
+      "event_counts_match": true,
+      "finest_newtonian_absolute_rate": true,
+      "finest_output_refinement": true,
+      "finest_sampled_vs_native_root_agreement": true,
+      "last_two_step_refinements": true,
+      "last_two_tolerance_refinements": true,
+      "split_half_counts_match_kepler_expectation": true
+    },
+    "finest_output_shift": 0.00014543493156082832,
+    "finest_sampled_minus_native": -8.223786711880621e-05,
+    "last_two_step_shifts": [
+      7.928167775617112e-07,
+      -2.329476380680262e-06
+    ],
+    "last_two_tolerance_shifts": [
+      0.0,
+      0.0
+    ],
+    "observed_numerical_scale_not_an_error_bound": 0.00014543493156082832,
+    "passed": true,
+    "rate_unit": "arcsec per Julian century",
+    "threshold": 0.001
+  },
+  "force_model_provenance": {
+    "configuration_documentation": "https://github.com/adamcohen8/orbital-engineering-lab/blob/e3b0e7620d4ae616d01da10b7ee23ff282d17800/docs/planetary-onp.md",
+    "native_c_km_s": 299792.458,
+    "native_source_path": "rust/oel-orbit/src/precision_forces.rs",
+    "schwarzschild_switch": "simulator.dynamics.orbit.schwarzschild.enabled"
+  },
+  "independent_check": {
+    "advance_rad_per_orbit": 5.01866043967899e-07,
+    "c_m_s": 299792458,
+    "interpretation": "Leading-order comparison using Newtonian elements and period; not an exact reference for evolution under a truncated force law.",
+    "kepler_period_s": 7600561.85648129,
+    "native_minus_weak_field_arcsec_per_julian_century": -2.238955030264833e-05,
+    "weak_field_rate_arcsec_per_julian_century": 42.980475409730644
+  },
+  "initial_elements": {
+    "a_au": 0.38709927,
+    "a_m": 57909226541.52439,
+    "eccentricity": 0.20563593,
+    "source": "NASA JPL Solar System Dynamics, J2000 Mercury mean elements, Table 1",
+    "url": "https://ssd.jpl.nasa.gov/planets/approx_pos.html",
+    "use": "initial-state inputs only; no trajectory or apsidal rate fitted to JPL data"
+  },
+  "initial_state_km_km_s": [
+    46001008.88607734,
+    0.0,
+    0.0,
+    0.0,
+    58.976667626023044,
+    0.0
+  ],
+  "integration_sweep": [
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.85648019,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": -2.728233961751502e-06,
+          "last_event_s": 630846634.0808741,
+          "rate_arcsec_per_julian_century": -2.729911130014299e-06,
+          "residual_max_abs_arcsec": 4.634899782397301e-08,
+          "residual_rms_arcsec": 6.31629093129886e-09,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": -2.721475737084164e-06,
+          "second_minus_first_arcsec_per_julian_century": 6.758224667338036e-09
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849130652,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.9804515630633,
+          "last_event_s": 630846882.4708616,
+          "rate_arcsec_per_julian_century": 42.98045163419057,
+          "residual_max_abs_arcsec": 4.092006710197108e-08,
+          "residual_rms_arcsec": 6.7835912487702e-09,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.980451542669854,
+          "second_minus_first_arcsec_per_julian_century": -2.0393443378452503e-08
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.9804543641017,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 64,
+      "outer_step_count": 5315,
+      "outer_step_s": 118749.2003762935
+    },
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481268,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 1.8243698697615559e-07,
+          "last_event_s": 630846634.0878512,
+          "rate_arcsec_per_julian_century": -3.512564270401777e-08,
+          "residual_max_abs_arcsec": 3.511554772432553e-08,
+          "residual_rms_arcsec": 8.744214399347208e-09,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": -3.91543775602117e-08,
+          "second_minus_first_arcsec_per_julian_century": -2.215913645363673e-07
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.84913173,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045401657124,
+          "last_event_s": 630846882.4779435,
+          "rate_arcsec_per_julian_century": 42.980454296011025,
+          "residual_max_abs_arcsec": 5.087927771943542e-08,
+          "residual_rms_arcsec": 1.01883530167374e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.98045452190474,
+          "second_minus_first_arcsec_per_julian_century": 5.053335030424932e-07
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045433113667,
+      "difference_shift_from_previous": -3.296503336969181e-08,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 128,
+      "outer_step_count": 10630,
+      "outer_step_s": 59374.60018814675
+    },
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481327,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": -7.542789492973362e-08,
+          "last_event_s": 630846634.0879108,
+          "rate_arcsec_per_julian_century": 1.2186818145985354e-07,
+          "residual_max_abs_arcsec": 4.5809421329159136e-08,
+          "residual_rms_arcsec": 1.683636303096374e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": -6.229208284029377e-08,
+          "second_minus_first_arcsec_per_julian_century": 1.3135812089439849e-08
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131876,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045500104726,
+          "last_event_s": 630846882.477964,
+          "rate_arcsec_per_julian_century": 42.98045468242909,
+          "residual_max_abs_arcsec": 7.589310968781317e-08,
+          "residual_rms_arcsec": 1.8387935430841745e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.980454729997234,
+          "second_minus_first_arcsec_per_julian_century": -2.7105002686766966e-07
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045456056091,
+      "difference_shift_from_previous": 2.294242378297895e-07,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 256,
+      "outer_step_count": 21260,
+      "outer_step_s": 29687.300094073376
+    },
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481304,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 3.3165266665004023e-08,
+          "last_event_s": 630846634.0879498,
+          "rate_arcsec_per_julian_century": 2.9582891965986595e-07,
+          "residual_max_abs_arcsec": 7.450459611366799e-08,
+          "residual_rms_arcsec": 4.20241707435445e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 2.0669902016626458e-07,
+          "second_minus_first_arcsec_per_julian_century": 1.7353375350126055e-07
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131872,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045393003336,
+          "last_event_s": 630846882.4779427,
+          "rate_arcsec_per_julian_century": 42.98045444762058,
+          "residual_max_abs_arcsec": 8.251050255227125e-08,
+          "residual_rms_arcsec": 4.2856946254040514e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.9804543278128,
+          "second_minus_first_arcsec_per_julian_century": 3.977794378329236e-07
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045415179166,
+      "difference_shift_from_previous": -4.087692460075232e-07,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 512,
+      "outer_step_count": 42520,
+      "outer_step_s": 14843.650047036688
+    },
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481361,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 3.780607294993758e-07,
+          "last_event_s": 630846634.0879456,
+          "rate_arcsec_per_julian_century": 6.067270936692223e-08,
+          "residual_max_abs_arcsec": 3.664135329420336e-08,
+          "residual_rms_arcsec": 1.1827019253059242e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 8.356160040057237e-09,
+          "second_minus_first_arcsec_per_julian_century": -3.6970456945931853e-07
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131815,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045465285308,
+          "last_event_s": 630846882.4779019,
+          "rate_arcsec_per_julian_century": 42.980454617512656,
+          "residual_max_abs_arcsec": 3.6460705650507665e-08,
+          "residual_rms_arcsec": 1.369437733763862e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.98045488296941,
+          "second_minus_first_arcsec_per_julian_century": 2.301163277707019e-07
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.980454556839945,
+      "difference_shift_from_previous": 4.0504828291432204e-07,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 1024,
+      "outer_step_count": 85040,
+      "outer_step_s": 7421.825023518344
+    },
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.85648127,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": -6.0367041928844e-07,
+          "last_event_s": 630846634.0878688,
+          "rate_arcsec_per_julian_century": -6.257028688563534e-07,
+          "residual_max_abs_arcsec": 4.727852340977772e-08,
+          "residual_rms_arcsec": 1.5534144849615678e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": -5.36526101759054e-07,
+          "second_minus_first_arcsec_per_julian_century": 6.714431752938606e-08
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131852,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045497189362,
+          "last_event_s": 630846882.4778961,
+          "rate_arcsec_per_julian_century": 42.980454723953855,
+          "residual_max_abs_arcsec": 7.62689848019515e-08,
+          "residual_rms_arcsec": 2.4122216799697185e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.980453924907316,
+          "second_minus_first_arcsec_per_julian_century": -1.0469863056528084e-06
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045534965672,
+      "difference_shift_from_previous": 7.928167775617112e-07,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 2048,
+      "outer_step_count": 170080,
+      "outer_step_s": 3710.912511759172
+    },
+    {
+      "adaptive_atol": 1e-11,
+      "adaptive_rtol": 1e-11,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481571,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 9.127958163351718e-07,
+          "last_event_s": 630846634.0877668,
+          "rate_arcsec_per_julian_century": 7.534150136240728e-07,
+          "residual_max_abs_arcsec": 7.028667856191796e-08,
+          "residual_rms_arcsec": 2.334259918605935e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 2.228019893291622e-07,
+          "second_minus_first_arcsec_per_julian_century": -6.899938270060096e-07
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131783,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045273899312,
+          "last_event_s": 630846882.4780053,
+          "rate_arcsec_per_julian_century": 42.98045377359536,
+          "residual_max_abs_arcsec": 6.860427468839483e-08,
+          "residual_rms_arcsec": 3.381372476914655e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.98045395332429,
+          "second_minus_first_arcsec_per_julian_century": 1.2143311707291105e-06
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045302018034,
+      "difference_shift_from_previous": -2.329476380680262e-06,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 4096,
+      "outer_step_count": 340160,
+      "outer_step_s": 1855.456255879586
+    },
+    {
+      "adaptive_atol": 1e-12,
+      "adaptive_rtol": 1e-12,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481571,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 9.127958163351718e-07,
+          "last_event_s": 630846634.0877668,
+          "rate_arcsec_per_julian_century": 7.534150136240728e-07,
+          "residual_max_abs_arcsec": 7.028667856191796e-08,
+          "residual_rms_arcsec": 2.334259918605935e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 2.228019893291622e-07,
+          "second_minus_first_arcsec_per_julian_century": -6.899938270060096e-07
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131783,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045273899312,
+          "last_event_s": 630846882.4780053,
+          "rate_arcsec_per_julian_century": 42.98045377359536,
+          "residual_max_abs_arcsec": 6.860427468839483e-08,
+          "residual_rms_arcsec": 3.381372476914655e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.98045395332429,
+          "second_minus_first_arcsec_per_julian_century": 1.2143311707291105e-06
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045302018034,
+      "difference_shift_from_previous": 0.0,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 4096,
+      "outer_step_count": 340160,
+      "outer_step_s": 1855.456255879586
+    },
+    {
+      "adaptive_atol": 1e-13,
+      "adaptive_rtol": 1e-13,
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856481571,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 9.127958163351718e-07,
+          "last_event_s": 630846634.0877668,
+          "rate_arcsec_per_julian_century": 7.534150136240728e-07,
+          "residual_max_abs_arcsec": 7.028667856191796e-08,
+          "residual_rms_arcsec": 2.334259918605935e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 2.228019893291622e-07,
+          "second_minus_first_arcsec_per_julian_century": -6.899938270060096e-07
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849131783,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98045273899312,
+          "last_event_s": 630846882.4780053,
+          "rate_arcsec_per_julian_century": 42.98045377359536,
+          "residual_max_abs_arcsec": 6.860427468839483e-08,
+          "residual_rms_arcsec": 3.381372476914655e-08,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.98045395332429,
+          "second_minus_first_arcsec_per_julian_century": 1.2143311707291105e-06
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98045302018034,
+      "difference_shift_from_previous": 0.0,
+      "effective_mu_km3_s2": {
+        "newtonian": 132712440041.27942,
+        "schwarzschild": 132712440041.27942
+      },
+      "kepler_period_divisor": 4096,
+      "outer_step_count": 340160,
+      "outer_step_s": 1855.456255879586
+    }
+  ],
+  "invocation": {
+    "advance": "prop.propagate(x.copy(), t_next - t, t)",
+    "integration_events": "Native partial-step roots; no independent output interpolation on this sweep.",
+    "output_events": "Cubic Hermite roots on decimations of the same finest native trajectory.",
+    "public_step_limit": "Maximum outer native call span; not a claim about an internal max_step knob.",
+    "root_trial": "prop.propagate(x.copy(), s, t), 0 < s < t_next - t",
+    "setup": [
+      "cfg = scenario_config_from_dict(input_config)",
+      "env = prepare_environment(cfg)",
+      "plan = PlanetaryForcePlan(env, mass_kg=1.0)",
+      "prop = PlanetaryPropagator(plan, cfg.simulator.dynamics['orbit'])"
+    ],
+    "state_frame": "Sun-relative inertial",
+    "state_units": [
+      "km",
+      "km",
+      "km",
+      "km/s",
+      "km/s",
+      "km/s"
+    ],
+    "time_origin": "scenario start",
+    "time_unit": "s"
+  },
+  "native_result": {
+    "branches": {
+      "newtonian": {
+        "event_count": 83,
+        "first_event_s": 7600561.856481571,
+        "first_half_event_count": 41,
+        "first_half_rate_arcsec_per_julian_century": 9.127958163351718e-07,
+        "last_event_s": 630846634.0877668,
+        "rate_arcsec_per_julian_century": 7.534150136240728e-07,
+        "residual_max_abs_arcsec": 7.028667856191796e-08,
+        "residual_rms_arcsec": 2.334259918605935e-08,
+        "second_half_event_count": 42,
+        "second_half_rate_arcsec_per_julian_century": 2.228019893291622e-07,
+        "second_minus_first_arcsec_per_julian_century": -6.899938270060096e-07
+      },
+      "schwarzschild": {
+        "event_count": 83,
+        "first_event_s": 7600564.849131783,
+        "first_half_event_count": 41,
+        "first_half_rate_arcsec_per_julian_century": 42.98045273899312,
+        "last_event_s": 630846882.4780053,
+        "rate_arcsec_per_julian_century": 42.98045377359536,
+        "residual_max_abs_arcsec": 6.860427468839483e-08,
+        "residual_rms_arcsec": 3.381372476914655e-08,
+        "second_half_event_count": 42,
+        "second_half_rate_arcsec_per_julian_century": 42.98045395332429,
+        "second_minus_first_arcsec_per_julian_century": 1.2143311707291105e-06
+      }
+    },
+    "difference_arcsec_per_julian_century": 42.98045302018034,
+    "difference_arcsec_per_julian_year": 0.4298045302018034,
+    "reported_decimal_places": 3,
+    "reported_difference_arcsec_per_julian_century": 42.98,
+    "reported_difference_arcsec_per_julian_year": 0.42979999999999996,
+    "sign": "Schwarzschild minus Newtonian; positive is prograde",
+    "status": "converged"
+  },
+  "output_sweep": [
+    {
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.879584391,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": -0.004316165334816675,
+          "last_event_s": 630846634.0556846,
+          "rate_arcsec_per_julian_century": -0.01233770352396383,
+          "residual_max_abs_arcsec": 0.010179107182829694,
+          "residual_rms_arcsec": 0.006676214359498799,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": -0.0008782399870203786,
+          "second_minus_first_arcsec_per_julian_century": 0.003437925347796296
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.872314626,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.97682616050415,
+          "last_event_s": 630846882.4499897,
+          "rate_arcsec_per_julian_century": 42.96724313999559,
+          "residual_max_abs_arcsec": 0.010296859949495649,
+          "residual_rms_arcsec": 0.006667113606650804,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.97740148432445,
+          "second_minus_first_arcsec_per_julian_century": 0.0005753238202999
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.97958084351955,
+      "sample_interval_s": 7421.825023518344,
+      "stride": 4
+    },
+    {
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.860697344,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": -0.0026898752706631074,
+          "last_event_s": 630846634.0838046,
+          "rate_arcsec_per_julian_century": -0.00043624213135715653,
+          "residual_max_abs_arcsec": 0.0011930618595689315,
+          "residual_rms_arcsec": 0.0008360795398893585,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": -0.0012221541331512626,
+          "second_minus_first_arcsec_per_julian_century": 0.0014677211375118447
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.853353775,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.977451015265856,
+          "last_event_s": 630846882.4736209,
+          "rate_arcsec_per_julian_century": 42.979789105250305,
+          "residual_max_abs_arcsec": 0.0011833152370494264,
+          "residual_rms_arcsec": 0.0008338913632390609,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.97821334642866,
+          "second_minus_first_arcsec_per_julian_century": 0.0007623311628037754
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98022534738166,
+      "difference_shift_from_previous": 0.0006445038621123444,
+      "sample_interval_s": 3710.912511759172,
+      "stride": 2
+    },
+    {
+      "branches": {
+        "newtonian": {
+          "event_count": 83,
+          "first_event_s": 7600561.856910319,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": -4.384284160539588e-05,
+          "last_event_s": 630846634.087982,
+          "rate_arcsec_per_julian_century": 5.9458805319690815e-05,
+          "residual_max_abs_arcsec": 0.0001495299064436126,
+          "residual_rms_arcsec": 0.00010641901587014245,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 0.0002286014225671805,
+          "second_minus_first_arcsec_per_julian_century": 0.0002724442641725764
+        },
+        "schwarzschild": {
+          "event_count": 83,
+          "first_event_s": 7600564.849556915,
+          "first_half_event_count": 41,
+          "first_half_rate_arcsec_per_julian_century": 42.98033738566144,
+          "last_event_s": 630846882.4778457,
+          "rate_arcsec_per_julian_century": 42.98043024111854,
+          "residual_max_abs_arcsec": 0.00015041383656980332,
+          "residual_rms_arcsec": 9.956756525581899e-05,
+          "second_half_event_count": 42,
+          "second_half_rate_arcsec_per_julian_century": 42.98049444425815,
+          "second_minus_first_arcsec_per_julian_century": 0.00015705859670589462
+        }
+      },
+      "difference_arcsec_per_julian_century": 42.98037078231322,
+      "difference_shift_from_previous": 0.00014543493156082832,
+      "sample_interval_s": 1855.456255879586,
+      "stride": 1
+    }
+  ],
+  "requested_build": {
+    "identity_verification": "Replay launcher, not this script",
+    "public_preview_revision": "e3b0e7620d4ae616d01da10b7ee23ff282d17800",
+    "revision": "b619c3b790206ef629b3e6121e45ee5a20186857",
+    "version": "1.2.0+preview.1"
+  },
+  "root_finding": {
+    "accepted_events": "Negative-to-nonnegative radial sign brackets only; converged roots must remain inside their bracket. Exclude both integration endpoints. Root tolerances govern localization, not trajectory or rate accuracy.",
+    "hermite_bracket": "Dimensionless sample-interval coordinate: [0, 1], with t = t_i + h*u.",
+    "hermite_xtol_u": 1e-13,
+    "max_iterations": 100,
+    "native_bracket": "Elapsed seconds within the current native step: [0, h].",
+    "native_xtol_s": 1e-06,
+    "rtol": 8.881784197001252e-16
+  },
+  "schema": "mercury_apsidal_convergence.v1",
+  "scope": {
+    "excluded": [
+      "planetary perturbations",
+      "solar oblateness",
+      "solar spin and frame dragging",
+      "finite Mercury mass and solar recoil",
+      "higher-order relativistic force terms",
+      "reference-frame precession"
+    ],
+    "included": [
+      "stationary point-Sun Newtonian monopole",
+      "leading nonspinning solar Schwarzschild correction in the enabled branch"
+    ],
+    "interpretation": "Isolated test-particle difference, not the total observed motion or an ephemeris fit."
+  },
+  "status": "converged"
+}

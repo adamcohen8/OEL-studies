@@ -20,6 +20,7 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 | [Vallado et al. (2006), *Revisiting Spacetrack Report #3*](reproductions/vallado-2006-vanguard/) | Can OEL reproduce the archived 72-hour Vanguard 1 trajectory? | Across 13 epochs the submitted Python trajectory missed the 1 m and 1 mm/s limits. The default Rust backend met both. |
 | [Werner & Scheeres, *Exterior Gravitation of a Polyhedron*, Fig. 15](reproductions/werner-scheeres-cube-gravity/) | Where does replacing a homogeneous cube with one spherical mass distort gravity? | 54.03% at the face center. The sampled 0.1% crossing was 2.9092 side lengths. The vector-error interpretation matched the sampled published contours. |
 | [Burns, Lamy & Soter (1979), *Radiation Forces on Small Particles in the Solar System*](reproductions/burns-lamy-soter-1979-dust-drag/) | How long does sunlight take to draw a circular dust orbit inward? | The circular estimate gives **400.494 R²/β years**, within 0.13% of Eq. (50). Full trajectories test where the approximation breaks down. |
+| [Einstein (1915), *Explanation of the Perihelion Motion of Mercury*](reproductions/einstein-1915-mercury-perihelion/) | How much does solar relativity advance Mercury’s perihelion? | The paired trajectories give **+42.98 arcseconds per Julian century**, matching the paper’s rounded +43. |
 
 ## Replay the first reproduction
 

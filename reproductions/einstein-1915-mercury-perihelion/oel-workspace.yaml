@@ -1,0 +1,21 @@
+schema_version: oel.workspace.v1
+workspace_id: einstein_1915_mercury
+created_with: 1.2.0+preview.1
+engine:
+  channel: stable
+  requirement: ==1.2.0
+  locked_version: 1.2.0+preview.1
+contracts:
+  scenario: oel.scenario.v1
+  fsw: oel.fsw.boundary.v2
+  candidate: oel.fswdk.candidate.v1
+paths:
+  configs: configs
+  flight_software: fsw
+  tests: tests
+  outputs: outputs
+dependencies:
+  lock: requirements.lock
+policy:
+  network: explicit_only
+  trust_user_code: false

@@ -1,0 +1,38 @@
+objects:
+  probe:
+    initial_state:
+      position_inertial_km:
+      - 46001008.88607734
+      - 0.0
+      - 0.0
+      velocity_inertial_km_s:
+      - 0.0
+      - 58.976667626023044
+      - 0.0
+    kind: satellite
+    runtime_profile: trajectory_only
+    specs:
+      mass_kg: 1.0
+outputs:
+  output_dir: outputs/mercury_apsidal_convergence
+  stats:
+    save_csv: false
+    save_full_log: false
+scenario_description: Isolated heliocentric point-Sun test particle
+scenario_name: mercury_apsidal_convergence
+simulator:
+  central_body: sun
+  dt_s: 1855.456255879586
+  duration_s: 631152000.0
+  dynamics:
+    orbit:
+      adaptive_atol: 1.0e-13
+      adaptive_rtol: 1.0e-13
+      integrator: rkf78
+      numeric_backend: rust
+      schwarzschild:
+        enabled: false
+  initial_jd_utc: 2451545.0
+  planetary:
+    gravity:
+      model: point_mass

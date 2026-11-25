@@ -1,0 +1,19 @@
+{
+  "source": "Burns, Lamy and Soter (1979), Eq. (50), p. 31",
+  "expected_zero_cutoff": {
+    "K_years": 400.0,
+    "r0_au_exponent": 2.0,
+    "beta_exponent": -1.0
+  },
+  "measured_fit": {
+    "K_years": 400.4939266874034,
+    "r0_au_exponent": 2.000000000000636,
+    "beta_exponent": -1.0000000000013338
+  },
+  "coefficient_relative_difference": 0.0012348167185085401,
+  "tolerances": {
+    "coefficient_relative": 0.02,
+    "exponents_absolute": 0.03
+  },
+  "within_preselected_tolerances": true
+}

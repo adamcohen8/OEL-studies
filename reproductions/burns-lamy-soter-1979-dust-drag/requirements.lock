@@ -1,0 +1,4 @@
+# Apple Silicon macOS, CPython 3.11. The README pins the complete wheelhouse.
+orbital-engineering-lab==1.1.0 --hash=sha256:d99bd0826f3928bbfe13a73b5714f3c3629b0a8d75ba2f24acee1f2ee8142c2e
+numpy==2.4.6 --hash=sha256:4cfe66903cc32a9921a6733d96b19bb6abf310397581bbad89c228f5abaf0ee8
+scipy==1.17.1 --hash=sha256:a3472cfbca0a54177d0faa68f697d8ba4c80bbdc19908c3465556d9f7efce9ee

@@ -19,6 +19,7 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 | [Izzo (2015), *Revisiting Lambert’s Problem*](reproductions/izzo-2015-lambert/) | Can two one-revolution transfers connect the same endpoints in 550 days? | Both branches closed within 0.22 m at the finer integration step. The minimum flight time was 479.07047 days. |
 | [Vallado et al. (2006), *Revisiting Spacetrack Report #3*](reproductions/vallado-2006-vanguard/) | Can OEL reproduce the archived 72-hour Vanguard 1 trajectory? | Across 13 epochs the submitted Python trajectory missed the 1 m and 1 mm/s limits. The default Rust backend met both. |
 | [Werner & Scheeres, *Exterior Gravitation of a Polyhedron*, Fig. 15](reproductions/werner-scheeres-cube-gravity/) | Where does replacing a homogeneous cube with one spherical mass distort gravity? | 54.03% at the face center. The sampled 0.1% crossing was 2.9092 side lengths. The vector-error interpretation matched the sampled published contours. |
+| [Burns, Lamy & Soter (1979), *Radiation Forces on Small Particles in the Solar System*](reproductions/burns-lamy-soter-1979-dust-drag/) | How long does sunlight take to draw a circular dust orbit inward? | The circular estimate gives **400.494 R²/β years**, within 0.13% of Eq. (50). Full trajectories test where the approximation breaks down. |
 
 ## Replay the first reproduction
 

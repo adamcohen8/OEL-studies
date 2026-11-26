@@ -1,0 +1,53 @@
+objects:
+  probe:
+    initial_state:
+      angular_rate_body_rad_s:
+      - 0.0
+      - 0.0
+      - 0.00010601356479853108
+      attitude_quat_bn:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      position_inertial_km:
+      - 135000.0
+      - 0.0
+      - 0.0
+      velocity_inertial_km_s:
+      - 0.0
+      - 17.580360856237835
+      - 0.0
+    kind: satellite
+    runtime_profile: trajectory_only
+    specs:
+      mass_kg: 100.0
+      mass_properties:
+        inertia_kg_m2:
+        - - 0.55
+          - 0.0
+          - 0.0
+        - - 0.0
+          - 0.8140333333333334
+          - 0.0
+        - - 0.0
+          - 0.0
+          - 1.0
+        inertia_reference_point: center_of_mass
+simulator:
+  central_body: saturn
+  dt_s: 3704.2342878009263
+  duration_s: 22818083.212853707
+  dynamics:
+    attitude:
+      attitude_substep_s: 231.5146429875579
+      disturbance_torques:
+        gravity_gradient: true
+      enabled: true
+    orbit:
+      integrator: rkf78
+      numeric_backend: rust
+  initial_jd_utc: 2451545.0
+  planetary:
+    gravity:
+      model: point_mass

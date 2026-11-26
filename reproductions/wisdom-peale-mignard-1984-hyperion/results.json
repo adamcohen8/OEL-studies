@@ -1,0 +1,4260 @@
+{
+  "production": {
+    "physics": {
+      "a_km": 150000.0,
+      "apsidal_direction": "+J2000 X",
+      "e": 0.1,
+      "mean_motion_rad_s": 0.00010601356479853108,
+      "mu_km3_s2": 37931206.23436167,
+      "period_s": 59267.74860481482,
+      "sigma": 0.89
+    },
+    "settings": {
+      "attitude_substep_s": 463.0292859751158,
+      "event_every": 4,
+      "grid_chunks_per_orbit": 16,
+      "lyap": false,
+      "orbit_integrator": "rkf78",
+      "orbits": 64,
+      "periodic": false,
+      "search_min_max_grid": null
+    },
+    "calibration": {
+      "angle_sign": 1,
+      "instantaneous_euler_accel_over_n2": -0.38415588571869985,
+      "native_small_step_accel_over_n2": -0.3841262342198701,
+      "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998
+    },
+    "tracks": [
+      {
+        "data": "track_000.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.5301142619511103,
+          "theta_shift": 1.978642760747107e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 0.498398283209072,
+          "w_shift": 3.7124947283029286e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          -0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.1968905319596064,
+          0.8781660540123415,
+          0.3281336062070105,
+          1.5029511666166573,
+          0.5581742164447216,
+          0.6559038925280746,
+          1.399466120747394,
+          0.22997257772042348
+        ],
+        "tail_spin_range": [
+          -0.49845335319473755,
+          -0.14067976347950997
+        ],
+        "turns_per_orbit_in_halves": [
+          -0.31712782614526086,
+          -0.3164403648434842
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_001.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.1364940588459875,
+          "theta_shift": 1.0159522556563161e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 0.4448164897966357,
+          "w_shift": 1.6953757368256758e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          0.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.178542208965637,
+          1.181031531177979,
+          0.0027961527450469812,
+          1.1759087882864958,
+          1.1838032693980096,
+          0.005526505786121008,
+          1.1732557861708606,
+          1.186430909216618
+        ],
+        "tail_spin_range": [
+          0.00017259754950613366,
+          0.44806363887062567
+        ],
+        "turns_per_orbit_in_halves": [
+          0.3336871680340683,
+          0.33292147265188266
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_002.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 0.06708393264520907,
+          "theta_shift": 5.763077570719588e-09,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 0.6050793594389453,
+          "w_shift": 3.3309291991301393e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.08844399557058506,
+          0.12317031250408572,
+          0.07687427900172507,
+          0.013464185958117795,
+          0.09769097054611894,
+          0.12036862656440511,
+          0.06606461271543435,
+          0.026859381253053614
+        ],
+        "tail_spin_range": [
+          0.5001258806682289,
+          0.605079356755658
+        ],
+        "turns_per_orbit_in_halves": [
+          1.000320994441354,
+          0.9995187770835559
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_003.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 0.4687316724417996,
+          "theta_shift": 1.1926033050002616e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 1.1825748231193431,
+          "w_shift": 9.548259571889872e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          1.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.7072668331098935,
+          0.8675912983552269,
+          0.47906619073653134,
+          0.30955839825545217,
+          0.8398227623246142,
+          0.7693880812422043,
+          0.24037930057382084,
+          0.5486356031159346
+        ],
+        "tail_spin_range": [
+          0.24762589490863204,
+          1.1689545901866814
+        ],
+        "turns_per_orbit_in_halves": [
+          1.0015048031105163,
+          1.0006643609434362
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_004.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.5574501898244266,
+          "theta_shift": 3.7091084870155555e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 1.9998166496315386,
+          "w_shift": 7.93528517895048e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          1.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.127190386992284,
+          1.0399356872674188,
+          0.89409311308514,
+          1.1681697261023982,
+          1.1895798208717596,
+          1.0458584621291533,
+          1.3439424488447984,
+          1.2849501151832563
+        ],
+        "tail_spin_range": [
+          0.2355997437539471,
+          2.4462709677862793
+        ],
+        "turns_per_orbit_in_halves": [
+          1.2053654440230082,
+          1.2581921830963423
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_005.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.5445255491443168,
+          "theta_shift": 8.473925650065439e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 2.4538056958510275,
+          "w_shift": 2.492724382463507e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          2.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.044679148136729,
+          1.1016548437339018,
+          0.6949868561025303,
+          0.6653867520090685,
+          1.1309612301977556,
+          1.1087080369877467,
+          0.8174490618644487,
+          1.0401067062567309
+        ],
+        "tail_spin_range": [
+          0.15128045244618385,
+          2.4854401728978295
+        ],
+        "turns_per_orbit_in_halves": [
+          2.068465090381673,
+          1.7472317762066227
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_006.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.004470246775572,
+          "theta_shift": 1.2469105636903066e-07,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 2.7784927821883,
+          "w_shift": 8.866267453555565e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.0,
+          2.65
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.4144790101558994,
+          0.7971631391895077,
+          1.179041172954339,
+          1.244077988036231,
+          1.1735693017990063,
+          1.200061582601011,
+          1.3080840140997103,
+          1.028807377653458
+        ],
+        "tail_spin_range": [
+          2.4106016040218075,
+          2.7964608942931863
+        ],
+        "turns_per_orbit_in_halves": [
+          2.497710185802865,
+          2.4984672586066106
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_007.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.5139631701054048,
+          "theta_shift": 4.087794991392002e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 0.6529226481436884,
+          "w_shift": 4.8375704109204776e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          -0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.06827515556011296,
+          0.13654512891127651,
+          0.2046801847144567,
+          0.2728000044007305,
+          0.3406543016913959,
+          0.4084842252086828,
+          0.4759264167106126,
+          0.5433365734314226
+        ],
+        "tail_spin_range": [
+          -0.6529226965193925,
+          -0.3324991244772528
+        ],
+        "turns_per_orbit_in_halves": [
+          -0.490874092086822,
+          -0.4898773229065019
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_008.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.521335231071129,
+          "theta_shift": 2.39625181919223e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 0.2546234161836616,
+          "w_shift": 2.382108757470469e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          0.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.22111021466116842,
+          0.4485318587185363,
+          0.6665996928036059,
+          0.9036827251934662,
+          1.1191189960400403,
+          1.3300456587120222,
+          1.5072391295917509,
+          1.4675760033741068
+        ],
+        "tail_spin_range": [
+          -0.20869393379458615,
+          0.25575543734187106
+        ],
+        "turns_per_orbit_in_halves": [
+          0.032671945583028834,
+          0.032530295481375766
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_009.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.3470942951416145,
+          "theta_shift": 7.536628965354453e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 2.4699410012835012,
+          "w_shift": 4.603269365688334e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.1877218817819584,
+          0.699317969989447,
+          1.0641366177114668,
+          0.7206502454554435,
+          1.0894627221988744,
+          0.92455070826855,
+          0.8447834896409442,
+          1.0746638611546597
+        ],
+        "tail_spin_range": [
+          0.5723702347802291,
+          2.469941024371146
+        ],
+        "turns_per_orbit_in_halves": [
+          1.1852030212663556,
+          1.5093187038355638
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_010.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.4795744982047019,
+          "theta_shift": 8.455647293459378e-09,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 1.8693226889480976,
+          "w_shift": 1.4359685662768129e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          1.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.6520096607663957,
+          0.8595702009117523,
+          0.9580321440696444,
+          1.0115154515615108,
+          1.0182722673675675,
+          0.9921450018318912,
+          0.8170256525189185,
+          0.8099079631121602
+        ],
+        "tail_spin_range": [
+          0.44434703925738117,
+          2.4448218786285407
+        ],
+        "turns_per_orbit_in_halves": [
+          1.2192587172791414,
+          0.9916187821852862
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_011.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.458753881085456,
+          "theta_shift": 3.6384629087393705e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 2.032117964486253,
+          "w_shift": 7.014916203473831e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          1.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.8722461832879056,
+          1.1156288764328661,
+          0.8961140562691919,
+          1.2043697533576905,
+          0.9442713165922275,
+          1.117986037944666,
+          0.9768220188707599,
+          0.8435284568620434
+        ],
+        "tail_spin_range": [
+          0.3647817858468845,
+          2.0321179715011692
+        ],
+        "turns_per_orbit_in_halves": [
+          1.129463649971348,
+          1.150619685525862
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_012.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.5238845986535652,
+          "theta_shift": 1.9893299452178326e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 2.0948040120962994,
+          "w_shift": 1.873874722058133e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          2.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.9301343232647512,
+          0.9254996177213455,
+          0.9091040808927349,
+          1.0045876485023082,
+          1.1557740602802526,
+          1.0986445603830268,
+          1.2311821892603627,
+          1.167537123864292
+        ],
+        "tail_spin_range": [
+          0.09233941069617722,
+          2.4290222976951235
+        ],
+        "turns_per_orbit_in_halves": [
+          1.377327071605381,
+          1.4593448891223444
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_013.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.5317359911302084e-15,
+          "theta": 1.5453663679083154,
+          "theta_shift": 3.775641044256872e-08,
+          "time_shift_s": 2.514570951461792e-08,
+          "w": 2.6101102621445613,
+          "w_shift": 5.509394362945841e-08
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.5865333815530955e-12,
+          "peri_velocity_error_over_vp": 2.574692405945954e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.4210854715202004e-14,
+          "relative_specific_energy_error": 2.5979218776228663e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          2.65
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.8286245332899924,
+          1.3542555869352741,
+          0.71042634578111,
+          0.08664872797809547,
+          0.9120331541956286,
+          1.352752781704527,
+          0.6101035787639457,
+          0.1780595565874804
+        ],
+        "tail_spin_range": [
+          2.4003306014655688,
+          2.849928951757226
+        ],
+        "turns_per_orbit_in_halves": [
+          2.6278867576772518,
+          2.6272827504517746
+        ],
+        "unbracketed_events": 0
+      }
+    ],
+    "periodic_orbits": []
+  },
+  "refine": {
+    "physics": {
+      "a_km": 150000.0,
+      "apsidal_direction": "+J2000 X",
+      "e": 0.1,
+      "mean_motion_rad_s": 0.00010601356479853108,
+      "mu_km3_s2": 37931206.23436167,
+      "period_s": 59267.74860481482,
+      "sigma": 0.89
+    },
+    "settings": {
+      "attitude_substep_s": 231.5146429875579,
+      "event_every": 4,
+      "grid_chunks_per_orbit": 16,
+      "lyap": false,
+      "orbit_integrator": "rkf78",
+      "orbits": 64,
+      "periodic": false,
+      "search_min_max_grid": null
+    },
+    "calibration": {
+      "angle_sign": 1,
+      "instantaneous_euler_accel_over_n2": -0.38415588571869985,
+      "native_small_step_accel_over_n2": -0.3841262342198701,
+      "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998
+    },
+    "tracks": [
+      {
+        "data": "track_000.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.2936285089296964e-15,
+          "theta": 1.1363456341338232,
+          "theta_shift": 3.31796146113561e-10,
+          "time_shift_s": 6.658956408500671e-08,
+          "w": 0.4447371760069175,
+          "w_shift": 6.255315056083802e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 7.913552704447778e-12,
+          "peri_velocity_error_over_vp": 8.005603018603691e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "reference_comparison": {
+          "common_orbits": 64,
+          "common_tail_median_distance": 0.00012281479949317358,
+          "common_tail_spin_quantiles_fine_reference": [
+            [
+              0.0003263362474328926,
+              0.41075792238742026,
+              0.4429899218167148
+            ],
+            [
+              0.000328919092142079,
+              0.41069374706174744,
+              0.44305907222975216
+            ]
+          ],
+          "common_tail_turns_per_orbit_fine_reference": [
+            0.3329206807971814,
+            0.33292147265188266
+          ],
+          "first_8_orbits_max_distance": 5.715528181723146e-06,
+          "first_orbit_distance_exceeds": {
+            "0.001": null,
+            "0.01": null,
+            "0.1": null
+          }
+        },
+        "seed": [
+          0.0,
+          0.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.1785585582455316,
+          1.181033656276715,
+          0.002780117153568704,
+          1.1759401674856458,
+          1.183789633597646,
+          0.00549482029912079,
+          1.1733023312436721,
+          1.1864023182454786
+        ],
+        "tail_spin_range": [
+          0.00017136471388465584,
+          0.44796517672128444
+        ],
+        "turns_per_orbit_in_halves": [
+          0.3336869263092882,
+          0.3329206807971814
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_001.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.2936285089296964e-15,
+          "theta": 1.4096606376644312,
+          "theta_shift": 1.9343016077755237e-10,
+          "time_shift_s": 6.658956408500671e-08,
+          "w": 1.779427910883888,
+          "w_shift": 1.202073995898445e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 7.913552704447778e-12,
+          "peri_velocity_error_over_vp": 8.005603018603691e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "reference_comparison": {
+          "common_orbits": 64,
+          "common_tail_median_distance": 1.1941025058932555,
+          "common_tail_spin_quantiles_fine_reference": [
+            [
+              0.46934332958825403,
+              1.1972979975975933,
+              1.8426577167628146
+            ],
+            [
+              0.9836886782752361,
+              1.5693551047845005,
+              2.123045625315316
+            ]
+          ],
+          "common_tail_turns_per_orbit_fine_reference": [
+            1.2184729752067875,
+            1.5093187038355638
+          ],
+          "first_8_orbits_max_distance": 0.00594773829004322,
+          "first_orbit_distance_exceeds": {
+            "0.001": 7,
+            "0.01": 12,
+            "0.1": 13
+          }
+        },
+        "seed": [
+          0.7853981633974483,
+          0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.0279324992390628,
+          0.9845893893713075,
+          0.5762328731736226,
+          0.9187054814105384,
+          1.0746305524641873,
+          0.8131468389596761,
+          0.9687002569476668,
+          1.1195161108422775
+        ],
+        "tail_spin_range": [
+          0.22704674525042462,
+          2.2199504180355536
+        ],
+        "turns_per_orbit_in_halves": [
+          1.033837070827591,
+          1.2184729752067875
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_002.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.2936285089296964e-15,
+          "theta": 1.5074680385452854,
+          "theta_shift": 2.641594498697941e-09,
+          "time_shift_s": 6.658956408500671e-08,
+          "w": 2.4343699055455867,
+          "w_shift": 7.786393751985088e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 7.913552704447778e-12,
+          "peri_velocity_error_over_vp": 8.005603018603691e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "reference_comparison": {
+          "common_orbits": 64,
+          "common_tail_median_distance": 1.2006649742908817,
+          "common_tail_spin_quantiles_fine_reference": [
+            [
+              0.12930234946607255,
+              1.00773841433567,
+              1.9287705700162265
+            ],
+            [
+              0.7591855247535233,
+              1.5699060116093972,
+              1.8879237740761812
+            ]
+          ],
+          "common_tail_turns_per_orbit_fine_reference": [
+            1.067746606922214,
+            1.4593448891223444
+          ],
+          "first_8_orbits_max_distance": 3.455141534505869e-05,
+          "first_orbit_distance_exceeds": {
+            "0.001": 15,
+            "0.01": 18,
+            "0.1": 21
+          }
+        },
+        "seed": [
+          0.7853981633974483,
+          2.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.841815752192596,
+          1.378968257415721,
+          1.0821895527119239,
+          1.0415886109046553,
+          1.263862416840914,
+          1.0309002301642949,
+          1.2429397570930196,
+          1.4961940640664717
+        ],
+        "tail_spin_range": [
+          0.06965238887349205,
+          2.434369906324226
+        ],
+        "turns_per_orbit_in_halves": [
+          1.2260546046013014,
+          1.067746606922214
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_003.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.2936285089296964e-15,
+          "theta": 1.5303669401381148,
+          "theta_shift": 7.025384718417627e-10,
+          "time_shift_s": 6.658956408500671e-08,
+          "w": 0.498383045810639,
+          "w_shift": 1.3657431296998368e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 7.913552704447778e-12,
+          "peri_velocity_error_over_vp": 8.005603018603691e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "reference_comparison": {
+          "common_orbits": 64,
+          "common_tail_median_distance": 0.00022359844054427064,
+          "common_tail_spin_quantiles_fine_reference": [
+            [
+              -0.48729574705614165,
+              -0.3116715970002104,
+              -0.14925121007973374
+            ],
+            [
+              -0.4873030647986452,
+              -0.3117331387962237,
+              -0.14925333630492113
+            ]
+          ],
+          "common_tail_turns_per_orbit_fine_reference": [
+            -0.31644149912976655,
+            -0.3164403648434842
+          ],
+          "first_8_orbits_max_distance": 1.1328704092444888e-05,
+          "first_orbit_distance_exceeds": {
+            "0.001": null,
+            "0.01": null,
+            "0.1": null
+          }
+        },
+        "seed": [
+          0.0,
+          -0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.1969010484329266,
+          0.878129204092576,
+          0.3281239891644432,
+          1.5029630844401396,
+          0.5581916382202043,
+          0.6558858185757086,
+          1.399521966370877,
+          0.23003911358190093
+        ],
+        "tail_spin_range": [
+          -0.4984622558379119,
+          -0.14067306927063317
+        ],
+        "turns_per_orbit_in_halves": [
+          -0.3171283199755239,
+          -0.31644149912976655
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_004.npz",
+        "event_samples": 16,
+        "ftle_per_orbit_in_halves": null,
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.2936285089296964e-15,
+          "theta": 1.5444516558530652,
+          "theta_shift": 9.053033878103633e-10,
+          "time_shift_s": 6.658956408500671e-08,
+          "w": 2.6101036694777187,
+          "w_shift": 1.1604202043713485e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 7.913552704447778e-12,
+          "peri_velocity_error_over_vp": 8.005603018603691e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "reference_comparison": {
+          "common_orbits": 64,
+          "common_tail_median_distance": 0.0013403865960093097,
+          "common_tail_spin_quantiles_fine_reference": [
+            [
+              2.4059846078226568,
+              2.5556310035445056,
+              2.828157452895872
+            ],
+            [
+              2.405991574490338,
+              2.5551154152274087,
+              2.8284244055257237
+            ]
+          ],
+          "common_tail_turns_per_orbit_fine_reference": [
+            2.6272885032611937,
+            2.6272827504517746
+          ],
+          "first_8_orbits_max_distance": 5.835510479655594e-05,
+          "first_orbit_distance_exceeds": {
+            "0.001": 38,
+            "0.01": null,
+            "0.1": null
+          }
+        },
+        "seed": [
+          0.7853981633974483,
+          2.65
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.8286495581332198,
+          1.352732025007337,
+          0.7106483452681767,
+          0.08672903554025647,
+          0.912277137869637,
+          1.3531143920487123,
+          0.6100557818706724,
+          0.1786242891546174
+        ],
+        "tail_spin_range": [
+          2.400368162841191,
+          2.84994323207589
+        ],
+        "turns_per_orbit_in_halves": [
+          2.6278888708965384,
+          2.6272885032611937
+        ],
+        "unbracketed_events": 0
+      }
+    ],
+    "periodic_orbits": []
+  },
+  "targeted": {
+    "physics": {
+      "a_km": 150000.0,
+      "apsidal_direction": "+J2000 X",
+      "e": 0.1,
+      "mean_motion_rad_s": 0.00010601356479853108,
+      "mu_km3_s2": 37931206.23436167,
+      "period_s": 59267.74860481482,
+      "sigma": 0.89
+    },
+    "settings": {
+      "attitude_substep_s": 231.5146429875579,
+      "event_every": 1,
+      "grid_chunks_per_orbit": 16,
+      "lyap": true,
+      "orbit_integrator": "rkf78",
+      "orbits": 96,
+      "periodic": true,
+      "search_min_max_grid": [
+        -1.15,
+        2.9,
+        33
+      ]
+    },
+    "calibration": {
+      "angle_sign": 1,
+      "instantaneous_euler_accel_over_n2": -0.38415588571869985,
+      "native_small_step_accel_over_n2": -0.3841262342198701,
+      "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998
+    },
+    "tracks": [
+      {
+        "data": "track_000.npz",
+        "event_samples": 96,
+        "ftle_per_orbit_in_halves": [
+          0.01218102545050062,
+          0.02278428876701485
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 4.760864780252387e-15,
+          "theta": 1.1954570642537399,
+          "theta_shift": 3.31796146113561e-10,
+          "time_shift_s": 6.798654794692993e-08,
+          "w": 0.475175817531158,
+          "w_shift": 6.303990955549427e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 8.03198672724224e-12,
+          "peri_velocity_error_over_vp": 8.126222043790331e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "seed": [
+          0.0,
+          0.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.1751786276668046,
+          1.1796287427876015,
+          0.004720815708858487,
+          1.1707273133223208,
+          1.1840950989444412,
+          0.0093417033875373,
+          1.166237804403387,
+          1.1888539398163487
+        ],
+        "tail_spin_range": [
+          0.00045089583209034735,
+          0.4751758177559079
+        ],
+        "turns_per_orbit_in_halves": [
+          0.33343500526733827,
+          0.3335944400463773
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_001.npz",
+        "event_samples": 96,
+        "ftle_per_orbit_in_halves": [
+          -0.0028332511842678767,
+          -0.00041843121247427004
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 4.760864780252387e-15,
+          "theta": 0.06722481508114608,
+          "theta_shift": 2.4357404981856234e-10,
+          "time_shift_s": 6.798654794692993e-08,
+          "w": 0.605120517281193,
+          "w_shift": 1.5732293245918072e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 8.03198672724224e-12,
+          "peri_velocity_error_over_vp": 8.126222043790331e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "seed": [
+          0.0,
+          0.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.08808553989186249,
+          0.12226126911772213,
+          0.07701225401564776,
+          0.013633432454918047,
+          0.09701253565570134,
+          0.12125685981122715,
+          0.06661364809438791,
+          0.026666391367682264
+        ],
+        "tail_spin_range": [
+          0.5001258345971287,
+          0.6051205172811839
+        ],
+        "turns_per_orbit_in_halves": [
+          1.0000875076944185,
+          0.9997434052296424
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_002.npz",
+        "event_samples": 96,
+        "ftle_per_orbit_in_halves": [
+          0.17025586125972517,
+          0.6154494386070288
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 4.760864780252387e-15,
+          "theta": 1.4393462135871884,
+          "theta_shift": 5.310429873617295e-10,
+          "time_shift_s": 6.798654794692993e-08,
+          "w": 2.155433151189399,
+          "w_shift": 1.594941401172889e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 8.03198672724224e-12,
+          "peri_velocity_error_over_vp": 8.126222043790331e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "seed": [
+          0.0,
+          1.0
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.8922996447162598,
+          0.9181610378856588,
+          0.6661514779636761,
+          0.5240341264200338,
+          1.0175041382356302,
+          0.8890118064699751,
+          0.9503574018066491,
+          0.8979407275704927
+        ],
+        "tail_spin_range": [
+          0.17722061702571046,
+          2.155433151187533
+        ],
+        "turns_per_orbit_in_halves": [
+          0.9985484255778961,
+          1.1586683795640709
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_003.npz",
+        "event_samples": 96,
+        "ftle_per_orbit_in_halves": [
+          0.9819375969987112,
+          0.6298395383715112
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 4.760864780252387e-15,
+          "theta": 1.557464522773341,
+          "theta_shift": 2.185140957067233e-09,
+          "time_shift_s": 6.798654794692993e-08,
+          "w": 2.359165449743304,
+          "w_shift": 1.4337788734053447e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 8.03198672724224e-12,
+          "peri_velocity_error_over_vp": 8.126222043790331e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "seed": [
+          0.0,
+          1.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.8767791602829398,
+          1.0795435294426912,
+          0.6875142800379882,
+          0.6638924855596842,
+          1.104289134639858,
+          1.0502628872164383,
+          1.0055342918780226,
+          1.1858046780391107
+        ],
+        "tail_spin_range": [
+          0.09859286748474001,
+          2.3591654511770828
+        ],
+        "turns_per_orbit_in_halves": [
+          1.2393097945158331,
+          1.3025072465675864
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_004.npz",
+        "event_samples": 96,
+        "ftle_per_orbit_in_halves": [
+          -0.007368716008319491,
+          -0.02368571838682812
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 4.760864780252387e-15,
+          "theta": 1.0067643362924388,
+          "theta_shift": 4.715222434725774e-09,
+          "time_shift_s": 6.798654794692993e-08,
+          "w": 2.7971999397352034,
+          "w_shift": 3.2235725200280285e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 8.03198672724224e-12,
+          "peri_velocity_error_over_vp": 8.126222043790331e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "seed": [
+          0.0,
+          2.65
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.39677846730654054,
+          0.8002064373779222,
+          1.1977738252666086,
+          1.2430664793992952,
+          1.1878192027002115,
+          1.206439123377188,
+          1.3089699572104831,
+          1.0060057880939117
+        ],
+        "tail_spin_range": [
+          2.4106493081330567,
+          2.797199939735298
+        ],
+        "turns_per_orbit_in_halves": [
+          2.5019673948321377,
+          2.4949008620176865
+        ],
+        "unbracketed_events": 0
+      },
+      {
+        "data": "track_005.npz",
+        "event_samples": 96,
+        "ftle_per_orbit_in_halves": [
+          0.09797040185262003,
+          0.025783558646370594
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 4.760864780252387e-15,
+          "theta": 1.563463630738614,
+          "theta_shift": 5.068148567488606e-09,
+          "time_shift_s": 6.798654794692993e-08,
+          "w": 2.8499432286830855,
+          "w_shift": 3.79185483012634e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 8.03198672724224e-12,
+          "peri_velocity_error_over_vp": 8.126222043790331e-12,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 2.5757174171303632e-14,
+          "relative_specific_energy_error": 5.3179682879545e-14
+        },
+        "seed": [
+          0.7853981633974483,
+          2.65
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          0.8284554555972656,
+          1.3518531252709929,
+          0.7467035899171918,
+          0.09134905910691093,
+          0.9104337254721774,
+          1.359296456808382,
+          0.6648364176532469,
+          0.18270371693438567
+        ],
+        "tail_spin_range": [
+          2.400075137344445,
+          2.849518463933952
+        ],
+        "turns_per_orbit_in_halves": [
+          2.6276915184292435,
+          2.627791110793756
+        ],
+        "unbracketed_events": 0
+      }
+    ],
+    "periodic_orbits": [
+      {
+        "apo_axis_index_unwrapped": -2,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 4.017621097417816e-09,
+        "integer_pi_winding_residual": 9.582241666805658e-10,
+        "seed": [
+          0.0,
+          -1.1244275708606168
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.9998632100670652,
+            0.9999999964334546
+          ],
+          [
+            1.9998632093010114,
+            0.9999999960591288
+          ]
+        ],
+        "turns_per_orbit": -0.9999999995208879
+      },
+      {
+        "apo_axis_index_unwrapped": -1,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 1.5664347995067524e-09,
+        "integer_pi_winding_residual": 3.6262037816925385e-10,
+        "seed": [
+          0.0,
+          -0.6624924788091509
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.9992789746459125,
+            1.000000000301052
+          ],
+          [
+            1.9992789737410808,
+            0.9999999985456115
+          ]
+        ],
+        "turns_per_orbit": -0.4999999998186898
+      },
+      {
+        "apo_axis_index_unwrapped": 0,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 4.92630273648854e-10,
+        "integer_pi_winding_residual": 9.749969172328534e-11,
+        "seed": [
+          0.0,
+          -0.2353193624621375
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.999880183638225,
+            1.0000000082740852
+          ],
+          [
+            1.9998801785214846,
+            1.0000000014103883
+          ]
+        ],
+        "turns_per_orbit": 4.874984586164267e-11
+      },
+      {
+        "apo_axis_index_unwrapped": 1,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 2.5812261835421046e-10,
+        "integer_pi_winding_residual": 4.387490371016156e-11,
+        "seed": [
+          0.0,
+          0.0452365795497347
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            4.342230586339493,
+            1.0000096978180038
+          ],
+          [
+            4.342227293244877,
+            1.000002424476838
+          ]
+        ],
+        "turns_per_orbit": 0.5000000000219375
+      },
+      {
+        "apo_axis_index_unwrapped": 2,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 2.8256031000454447e-10,
+        "integer_pi_winding_residual": 6.336886571034483e-11,
+        "seed": [
+          0.0,
+          0.5515368682945105
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -0.11145916017918366,
+            0.9999999992001636
+          ],
+          [
+            -0.11145915985721898,
+            0.9999999993527297
+          ]
+        ],
+        "turns_per_orbit": 0.9999999999683156
+      },
+      {
+        "apo_axis_index_unwrapped": 3,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 1.0460097494453908e-09,
+        "integer_pi_winding_residual": 2.233964124798149e-10,
+        "seed": [
+          0.0,
+          1.9714627373070117
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -11.641998574962729,
+            0.9999966874963045
+          ],
+          [
+            -11.641998980937982,
+            0.9999991667437201
+          ]
+        ],
+        "turns_per_orbit": 1.4999999998883018
+      },
+      {
+        "apo_axis_index_unwrapped": 4,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 2.6908535560076754e-09,
+        "integer_pi_winding_residual": 6.987295186888787e-10,
+        "seed": [
+          0.0,
+          2.3221298376177972
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -0.7630293630600525,
+            0.9999999765870983
+          ],
+          [
+            -0.7630293986649049,
+            0.9999999916654793
+          ]
+        ],
+        "turns_per_orbit": 1.9999999996506352
+      },
+      {
+        "apo_axis_index_unwrapped": 5,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 6.117874929112281e-09,
+        "integer_pi_winding_residual": 1.5988304014058485e-09,
+        "seed": [
+          0.0,
+          2.721608046487209
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.4450930703624463,
+            1.0000000004674812
+          ],
+          [
+            1.4450930651666025,
+            0.9999999964546687
+          ]
+        ],
+        "turns_per_orbit": 2.499999999200585
+      },
+      {
+        "apo_axis_index_unwrapped": -1,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 4.090262181677688e-09,
+        "integer_pi_winding_residual": 8.938736417718474e-10,
+        "seed": [
+          1.5707963267948966,
+          -0.8770551273414475
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.000136781066253,
+            0.999999995875196
+          ],
+          [
+            2.0001367808664128,
+            0.9999999951762981
+          ]
+        ],
+        "turns_per_orbit": -0.9999999995530632
+      },
+      {
+        "apo_axis_index_unwrapped": 0,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 1.6881837981648632e-09,
+        "integer_pi_winding_residual": 3.53741813619024e-10,
+        "seed": [
+          1.5707963267948966,
+          -0.3415214965512563
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.000720882316953,
+            0.9999999983543303
+          ],
+          [
+            2.0007208834493806,
+            0.9999999979219928
+          ]
+        ],
+        "turns_per_orbit": -0.4999999998231291
+      },
+      {
+        "apo_axis_index_unwrapped": 1,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 5.861593466187159e-10,
+        "integer_pi_winding_residual": 1.2165211718439008e-10,
+        "seed": [
+          1.5707963267948966,
+          0.21841536241357715
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.000119674559764,
+            0.9999999999025388
+          ],
+          [
+            2.000119674966383,
+            0.9999999991400602
+          ]
+        ],
+        "turns_per_orbit": 6.082605859219504e-11
+      },
+      {
+        "apo_axis_index_unwrapped": 2,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 1.6445312832285444e-10,
+        "integer_pi_winding_residual": 4.072475690009014e-11,
+        "seed": [
+          1.5707963267948966,
+          0.8712620232055885
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -0.1164521801821916,
+            1.0000000036596606
+          ],
+          [
+            -0.11645218191969063,
+            1.0000000009838614
+          ]
+        ],
+        "turns_per_orbit": 0.5000000000203624
+      },
+      {
+        "apo_axis_index_unwrapped": 3,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 4.513572621296049e-12,
+        "integer_pi_winding_residual": 1.3744561044859438e-12,
+        "seed": [
+          1.5707963267948966,
+          1.0991051762654784
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            263.76733923392237,
+            1.0000220256026868
+          ],
+          [
+            263.7674008622914,
+            1.0000055150964309
+          ]
+        ],
+        "turns_per_orbit": 1.0000000000006872
+      },
+      {
+        "apo_axis_index_unwrapped": 4,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 2.305532417377353e-09,
+        "integer_pi_winding_residual": 5.170659456155136e-10,
+        "seed": [
+          1.5707963267948966,
+          1.2942194685439903
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            26.846132229574323,
+            0.9999999099539295
+          ],
+          [
+            26.84613232348809,
+            0.9999999756120727
+          ]
+        ],
+        "turns_per_orbit": 1.499999999741467
+      },
+      {
+        "apo_axis_index_unwrapped": 5,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 3.968809823991044e-09,
+        "integer_pi_winding_residual": 8.888614289048746e-10,
+        "seed": [
+          1.5707963267948966,
+          1.7113705945649271
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            5.392491756073259,
+            0.9999999991584354
+          ],
+          [
+            5.392491757683082,
+            0.999999999130299
+          ]
+        ],
+        "turns_per_orbit": 1.9999999995555693
+      },
+      {
+        "apo_axis_index_unwrapped": 6,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 7.1629753692644845e-09,
+        "integer_pi_winding_residual": 1.6590178120168275e-09,
+        "seed": [
+          1.5707963267948966,
+          2.276456604437501
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.5737558083660517,
+            0.999999995625574
+          ],
+          [
+            2.5737558103422487,
+            0.9999999961175174
+          ]
+        ],
+        "turns_per_orbit": 2.499999999170491
+      },
+      {
+        "apo_axis_index_unwrapped": 7,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 1.2594709972289625e-08,
+        "integer_pi_winding_residual": 2.971498602732936e-09,
+        "seed": [
+          1.5707963267948966,
+          2.8384588281687644
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.1039754165119717,
+            0.9999999911644846
+          ],
+          [
+            2.1039754177554215,
+            0.999999991189878
+          ]
+        ],
+        "turns_per_orbit": 2.9999999985142507
+      }
+    ]
+  },
+  "long": {
+    "physics": {
+      "a_km": 150000.0,
+      "apsidal_direction": "+J2000 X",
+      "e": 0.1,
+      "mean_motion_rad_s": 0.00010601356479853108,
+      "mu_km3_s2": 37931206.23436167,
+      "period_s": 59267.74860481482,
+      "sigma": 0.89
+    },
+    "settings": {
+      "attitude_substep_s": 231.5146429875579,
+      "event_every": 1,
+      "grid_chunks_per_orbit": 16,
+      "lyap": true,
+      "orbit_integrator": "rkf78",
+      "orbits": 384,
+      "periodic": false,
+      "search_min_max_grid": null
+    },
+    "calibration": {
+      "angle_sign": 1,
+      "instantaneous_euler_accel_over_n2": -0.38415588571869985,
+      "native_small_step_accel_over_n2": -0.3841262342198701,
+      "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998
+    },
+    "tracks": [
+      {
+        "data": "track_000.npz",
+        "event_samples": 384,
+        "ftle_per_orbit_in_halves": [
+          0.8434062993350011,
+          0.9058042585916969
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 2.0173230082455112e-14,
+          "theta": 1.5628914875913784,
+          "theta_shift": 2.905784501905373e-09,
+          "time_shift_s": 1.125037670135498e-06,
+          "w": 2.4249455206307737,
+          "w_shift": 1.6121766144294725e-09
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 1.3267787057376003e-10,
+          "peri_velocity_error_over_vp": 1.3411209153391075e-10,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 6.59472476627343e-14,
+          "relative_specific_energy_error": 1.4521717162097048e-13
+        },
+        "seed": [
+          0.0,
+          1.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.0020320736380444,
+          0.9885185486156675,
+          0.7527122338724994,
+          0.9229314318112553,
+          1.0306158447666405,
+          0.8961282384190807,
+          0.9632847322281979,
+          1.0472716015733807
+        ],
+        "tail_spin_range": [
+          0.09182607521718762,
+          2.408093830945521
+        ],
+        "turns_per_orbit_in_halves": [
+          1.1316146262159774,
+          1.16750998578496
+        ],
+        "unbracketed_events": 0
+      }
+    ],
+    "periodic_orbits": [],
+    "windows": [
+      {
+        "first_orbit": 1,
+        "last_orbit": 96,
+        "mean_growth_per_orbit": 0.8058885676851112,
+        "min_spin_over_n": 0.09859286748474001,
+        "max_spin_over_n": 2.3591654511770828,
+        "occupied_of_144_cells": 55
+      },
+      {
+        "first_orbit": 97,
+        "last_orbit": 192,
+        "mean_growth_per_orbit": 0.880924030984891,
+        "min_spin_over_n": 0.07777579880262823,
+        "max_spin_over_n": 2.4249455205367414,
+        "occupied_of_144_cells": 55
+      },
+      {
+        "first_orbit": 193,
+        "last_orbit": 288,
+        "mean_growth_per_orbit": 1.0034533231639153,
+        "min_spin_over_n": 0.09182607521718762,
+        "max_spin_over_n": 2.202111695049214,
+        "occupied_of_144_cells": 48
+      },
+      {
+        "first_orbit": 289,
+        "last_orbit": 384,
+        "mean_growth_per_orbit": 0.8081551940194786,
+        "min_spin_over_n": 0.12150556887242438,
+        "max_spin_over_n": 2.408093830945521,
+        "occupied_of_144_cells": 45
+      }
+    ]
+  },
+  "halfstep": {
+    "physics": {
+      "a_km": 150000.0,
+      "apsidal_direction": "+J2000 X",
+      "e": 0.1,
+      "mean_motion_rad_s": 0.00010601356479853108,
+      "mu_km3_s2": 37931206.23436167,
+      "period_s": 59267.74860481482,
+      "sigma": 0.89
+    },
+    "settings": {
+      "attitude_substep_s": 115.75732149377895,
+      "event_every": 1,
+      "grid_chunks_per_orbit": 16,
+      "lyap": true,
+      "orbit_integrator": "rkf78",
+      "orbits": 192,
+      "periodic": true,
+      "search_min_max_grid": [
+        -1.15,
+        2.9,
+        33
+      ]
+    },
+    "calibration": {
+      "angle_sign": 1,
+      "instantaneous_euler_accel_over_n2": -0.38415588571869985,
+      "native_small_step_accel_over_n2": -0.3841262342198701,
+      "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998
+    },
+    "tracks": [
+      {
+        "data": "track_000.npz",
+        "event_samples": 192,
+        "ftle_per_orbit_in_halves": [
+          0.8706241271025776,
+          0.85767458890325
+        ],
+        "max_abs_event_minus_nominal": {
+          "radial_product_over_a_vp": 9.543407120769763e-15,
+          "theta": 1.5690740373687895,
+          "theta_shift": 6.092757409703609e-10,
+          "time_shift_s": 2.119690179824829e-06,
+          "w": 2.4506644808929403,
+          "w_shift": 1.2077583377845258e-10
+        },
+        "max_diagnostics": {
+          "out_of_plane_q_norm": 0.0,
+          "out_of_plane_spin_over_n": 0.0,
+          "peri_position_error_over_a": 2.4769116348023194e-10,
+          "peri_velocity_error_over_vp": 2.501215403599382e-10,
+          "quaternion_norm_error": 2.220446049250313e-16,
+          "relative_angular_momentum_error": 1.2967404927621828e-13,
+          "relative_specific_energy_error": 2.4713564528155985e-13
+        },
+        "seed": [
+          0.0,
+          1.5
+        ],
+        "tail_median_return_distances_periods_1_up": [
+          1.3732251167741742,
+          0.9903911306900262,
+          0.9928635155964849,
+          0.8987711466442989,
+          1.0585906215546284,
+          1.1728886137142822,
+          0.9390976621061666,
+          1.1391835766749594
+        ],
+        "tail_spin_range": [
+          0.11730745858779383,
+          2.36697413121247
+        ],
+        "turns_per_orbit_in_halves": [
+          1.2564931326124082,
+          1.26529274338002
+        ],
+        "unbracketed_events": 0
+      }
+    ],
+    "periodic_orbits": [
+      {
+        "apo_axis_index_unwrapped": -2,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 1.1924835391328616e-10,
+        "integer_pi_winding_residual": 2.7191582319119334e-11,
+        "seed": [
+          0.0,
+          -1.124427558280974
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.999863205093266,
+            1.0000000011765122
+          ],
+          [
+            1.999863204704688,
+            1.0000000005529917
+          ]
+        ],
+        "turns_per_orbit": -0.9999999999864042
+      },
+      {
+        "apo_axis_index_unwrapped": -1,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 5.7609409357538684e-11,
+        "integer_pi_winding_residual": 1.4892642674624312e-11,
+        "seed": [
+          0.0,
+          -0.6624924717650993
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.9992789716205548,
+            1.000000002480804
+          ],
+          [
+            1.9992789701550604,
+            0.9999999999946467
+          ]
+        ],
+        "turns_per_orbit": -0.4999999999925537
+      },
+      {
+        "apo_axis_index_unwrapped": 0,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 1.4604918476469674e-11,
+        "integer_pi_winding_residual": 2.620494341554252e-12,
+        "seed": [
+          0.0,
+          -0.23531935864517023
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.999880181530189,
+            1.0000000093047807
+          ],
+          [
+            1.9998801764786742,
+            1.000000002440117
+          ]
+        ],
+        "turns_per_orbit": 1.310247170777126e-12
+      },
+      {
+        "apo_axis_index_unwrapped": 1,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 1.2515198892886263e-10,
+        "integer_pi_winding_residual": 3.9716008259915725e-11,
+        "seed": [
+          0.0,
+          0.045236581666540654
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            4.342230586754092,
+            1.0000096983861375
+          ],
+          [
+            4.342227297264579,
+            1.0000024237873655
+          ]
+        ],
+        "turns_per_orbit": 0.500000000019858
+      },
+      {
+        "apo_axis_index_unwrapped": 2,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 8.807808523599044e-12,
+        "integer_pi_winding_residual": 1.956212969389526e-12,
+        "seed": [
+          0.0,
+          0.5515368656125381
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -0.11145916837818069,
+            0.9999999999313821
+          ],
+          [
+            -0.11145916817278943,
+            1.0000000000425764
+          ]
+        ],
+        "turns_per_orbit": 0.9999999999990219
+      },
+      {
+        "apo_axis_index_unwrapped": 3,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 3.026826981485576e-10,
+        "integer_pi_winding_residual": 9.353762209229899e-11,
+        "seed": [
+          0.0,
+          1.9714627322464005
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -11.641998840616894,
+            0.9999966895510556
+          ],
+          [
+            -11.64199924874598,
+            0.999999174814091
+          ]
+        ],
+        "turns_per_orbit": 1.4999999999532312
+      },
+      {
+        "apo_axis_index_unwrapped": 4,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 8.399197707655234e-11,
+        "integer_pi_winding_residual": 2.1791013438132723e-11,
+        "seed": [
+          0.0,
+          2.3221298226097784
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -0.7630294497573685,
+            0.999999980367024
+          ],
+          [
+            -0.7630294870164532,
+            0.9999999960749334
+          ]
+        ],
+        "turns_per_orbit": 1.9999999999891045
+      },
+      {
+        "apo_axis_index_unwrapped": 5,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 1.7191726091805933e-10,
+        "integer_pi_winding_residual": 4.205347181596153e-11,
+        "seed": [
+          0.0,
+          2.7216080121565316
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            1.445093019913912,
+            1.0000000064176013
+          ],
+          [
+            1.4450930140963434,
+            0.9999999992002467
+          ]
+        ],
+        "turns_per_orbit": 2.4999999999789733
+      },
+      {
+        "apo_axis_index_unwrapped": -1,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 1.2810810000332614e-10,
+        "integer_pi_winding_residual": 2.8046454048080705e-11,
+        "seed": [
+          1.5707963267948966,
+          -0.8770551279435654
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.0001367934396885,
+            1.0000000000163598
+          ],
+          [
+            2.0001367938116132,
+            1.0000000002011844
+          ]
+        ],
+        "turns_per_orbit": -0.9999999999859768
+      },
+      {
+        "apo_axis_index_unwrapped": 0,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 4.34904208238394e-11,
+        "integer_pi_winding_residual": 5.633271626948044e-12,
+        "seed": [
+          1.5707963267948966,
+          -0.34152149534715337
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.000720888634122,
+            1.0000000002857132
+          ],
+          [
+            2.0007208893224604,
+            1.0000000000033522
+          ]
+        ],
+        "turns_per_orbit": -0.49999999999718336
+      },
+      {
+        "apo_axis_index_unwrapped": 1,
+        "classification": "near_marginal_or_unresolved",
+        "full_map_closure_distance": 1.8320643939728536e-11,
+        "integer_pi_winding_residual": 3.803236609101152e-12,
+        "seed": [
+          1.5707963267948966,
+          0.2184153640916559
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.0001196780569663,
+            1.0000000007321677
+          ],
+          [
+            2.000119678480239,
+            1.000000000054766
+          ]
+        ],
+        "turns_per_orbit": 1.901618304550576e-12
+      },
+      {
+        "apo_axis_index_unwrapped": 2,
+        "classification": "elliptic_linearization",
+        "full_map_closure_distance": 5.182714761443619e-12,
+        "integer_pi_winding_residual": 1.290967333034132e-12,
+        "seed": [
+          1.5707963267948966,
+          0.8712620244793258
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            -0.1164521847729638,
+            1.0000000037423618
+          ],
+          [
+            -0.11645218619404928,
+            1.000000001197873
+          ]
+        ],
+        "turns_per_orbit": 0.5000000000006455
+      },
+      {
+        "apo_axis_index_unwrapped": 3,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 2.862852874517515e-12,
+        "integer_pi_winding_residual": 6.052935930256353e-13,
+        "seed": [
+          1.5707963267948966,
+          1.0991051769887514
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            263.76734055427727,
+            1.000022035127469
+          ],
+          [
+            263.76740215863225,
+            1.0000055014374016
+          ]
+        ],
+        "turns_per_orbit": 0.9999999999996974
+      },
+      {
+        "apo_axis_index_unwrapped": 4,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 7.226949626220761e-11,
+        "integer_pi_winding_residual": 1.6197265750861334e-11,
+        "seed": [
+          1.5707963267948966,
+          1.2942194685908293
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            26.846132431856958,
+            0.9999999108641657
+          ],
+          [
+            26.846132526858742,
+            0.9999999766570868
+          ]
+        ],
+        "turns_per_orbit": 1.4999999999919014
+      },
+      {
+        "apo_axis_index_unwrapped": 5,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 1.2411421630127296e-10,
+        "integer_pi_winding_residual": 2.7787550038738118e-11,
+        "seed": [
+          1.5707963267948966,
+          1.7113705913646577
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            5.392491844669056,
+            1.000000001476718
+          ],
+          [
+            5.392491846345493,
+            0.9999999993293444
+          ]
+        ],
+        "turns_per_orbit": 1.9999999999861062
+      },
+      {
+        "apo_axis_index_unwrapped": 6,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 2.240217714399169e-10,
+        "integer_pi_winding_residual": 5.1882054208363115e-11,
+        "seed": [
+          1.5707963267948966,
+          2.276456592641717
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.5737558628557977,
+            1.0000000007458927
+          ],
+          [
+            2.573755860835192,
+            1.0000000011300834
+          ]
+        ],
+        "turns_per_orbit": 2.499999999974059
+      },
+      {
+        "apo_axis_index_unwrapped": 7,
+        "classification": "hyperbolic_linearization",
+        "full_map_closure_distance": 4.0288713789773357e-10,
+        "integer_pi_winding_residual": 9.668976730381473e-11,
+        "seed": [
+          1.5707963267948966,
+          2.8384587973672666
+        ],
+        "trace_det_at_two_fd_scales": [
+          [
+            2.1039754655394205,
+            1.000000000173743
+          ],
+          [
+            2.103975465894692,
+            0.999999996792155
+          ]
+        ],
+        "turns_per_orbit": 2.999999999951655
+      }
+    ],
+    "windows": [
+      {
+        "first_orbit": 1,
+        "last_orbit": 96,
+        "mean_growth_per_orbit": 0.8706241271025776,
+        "min_spin_over_n": 0.1305372151466623,
+        "max_spin_over_n": 2.450664480901329,
+        "occupied_of_144_cells": 55
+      },
+      {
+        "first_orbit": 97,
+        "last_orbit": 192,
+        "mean_growth_per_orbit": 0.85767458890325,
+        "min_spin_over_n": 0.11730745858779383,
+        "max_spin_over_n": 2.36697413121247,
+        "occupied_of_144_cells": 49
+      }
+    ]
+  },
+  "multiple_returns": [
+    {
+      "p": 3,
+      "target_pi_winding": 2,
+      "start": [
+        0.0,
+        0.0
+      ],
+      "coarse_fit": {
+        "x": [
+          -0.00012639619078625453,
+          -4.456137293272618e-05
+        ],
+        "residual": [
+          -7.045494365977436e-14,
+          2.1008680363941712e-14
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 14
+      },
+      "coarse_cycle": {
+        "cycle_theta_w": [
+          [
+            -0.00012639619078624875,
+            -4.456137293272618e-05
+          ],
+          [
+            -1.10249674381522,
+            0.42639980196150506
+          ],
+          [
+            1.102272184624355,
+            0.42627706882437527
+          ]
+        ],
+        "return_distances_1_up": [
+          1.1819793476796998,
+          1.1819614051894114,
+          7.36692798041176e-14
+        ],
+        "turns_per_orbit": 0.3333333333333296,
+        "fundamental_period": 3,
+        "trace_det": [
+          [
+            2.0055358604810958,
+            0.9999995290177153
+          ],
+          [
+            2.005536216873054,
+            0.9999998525003612
+          ]
+        ],
+        "unbracketed_events": 0,
+        "event_columns": [
+          "orbit_index",
+          "time_shift_s",
+          "theta",
+          "w",
+          "theta_shift",
+          "w_shift",
+          "radial_product_over_a_vp"
+        ],
+        "events": [
+          [
+            1.0,
+            1.0913936421275139e-10,
+            -1.1024967438152142,
+            0.4263998019615103,
+            5.773159728050814e-15,
+            5.218048215738236e-15,
+            -5.607202391725117e-17
+          ],
+          [
+            2.0,
+            -8.294591680169106e-10,
+            1.1022721846243178,
+            0.42627706882441374,
+            -3.730349362740526e-14,
+            3.8469227803261674e-14,
+            -8.59357121244604e-18
+          ],
+          [
+            3.0,
+            -1.57160684466362e-09,
+            -0.00012639619085685894,
+            -4.4561372911743717e-05,
+            0.0,
+            -2.6217363783415104e-17,
+            -3.4726090433814726e-16
+          ]
+        ]
+      },
+      "fine_fit": {
+        "x": [
+          -3.954357747928755e-06,
+          -4.4531489355678176e-05
+        ],
+        "residual": [
+          -9.068458094822443e-15,
+          -6.240328891647662e-16
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 5
+      },
+      "fine_at_coarse_residual": [
+        -1.6089642819578512e-06,
+        -1.966446898444738e-08
+      ],
+      "fine_cycle": {
+        "cycle_theta_w": [
+          [
+            -3.954357747915083e-06,
+            -4.4531489355678176e-05
+          ],
+          [
+            -1.1023879880581227,
+            0.4263403625758535
+          ],
+          [
+            1.1023809626314094,
+            0.4263365228184187
+          ]
+        ],
+        "return_distances_1_up": [
+          1.1819706576918518,
+          1.1819700963551492,
+          8.903679439920359e-15
+        ],
+        "turns_per_orbit": 0.33333333333333287,
+        "fundamental_period": 3,
+        "trace_det": [
+          [
+            2.0055358855880163,
+            0.9999995657028602
+          ],
+          [
+            2.0055362396084777,
+            0.999999893080987
+          ]
+        ],
+        "unbracketed_events": 0,
+        "event_columns": [
+          "orbit_index",
+          "time_shift_s",
+          "theta",
+          "w",
+          "theta_shift",
+          "w_shift",
+          "radial_product_over_a_vp"
+        ],
+        "events": [
+          [
+            1.0,
+            -2.255546860396862e-10,
+            -1.1023879880581329,
+            0.4263403625758432,
+            -1.021405182655144e-14,
+            -1.0325074129013956e-14,
+            -1.080952326794164e-15
+          ],
+          [
+            2.0,
+            -6.83940015733242e-10,
+            1.1023809626313792,
+            0.42633652281845025,
+            -3.019806626980426e-14,
+            3.1530333899354446e-14,
+            -6.735092209953594e-16
+          ],
+          [
+            3.0,
+            -9.89530235528946e-10,
+            -3.954357756796867e-06,
+            -4.45314893562391e-05,
+            0.0,
+            6.310734270223439e-17,
+            -7.709459358008773e-16
+          ]
+        ]
+      },
+      "coarse_at_fine_residual": [
+        1.6089728265380977e-06,
+        1.984099194231266e-08
+      ],
+      "root_shift": 0.00012244183668507817,
+      "classification": "hyperbolic_linearization"
+    },
+    {
+      "p": 3,
+      "target_pi_winding": 2,
+      "start": [
+        0.14,
+        0.08
+      ],
+      "coarse_fit": {
+        "x": [
+          0.22147923842748812,
+          0.02146092764251419
+        ],
+        "residual": [
+          -5.900748310080957e-06,
+          2.6214227656622818e-05
+        ],
+        "closed": false,
+        "solver_status": 0,
+        "nfev": 20
+      }
+    },
+    {
+      "p": 3,
+      "target_pi_winding": 2,
+      "start": [
+        -0.14,
+        0.08
+      ],
+      "coarse_fit": {
+        "x": [
+          -0.1370950479013215,
+          0.08103741935909317
+        ],
+        "residual": [
+          4.831656973350319,
+          0.6528336267920986
+        ],
+        "closed": false,
+        "solver_status": 0,
+        "nfev": 20
+      }
+    },
+    {
+      "p": 3,
+      "target_pi_winding": 2,
+      "start": [
+        0.09,
+        -0.1
+      ],
+      "coarse_fit": {
+        "x": [
+          -0.07961198583116709,
+          0.002760276800278736
+        ],
+        "residual": [
+          -1.3739508787274906e-06,
+          -1.2288682858962573e-05
+        ],
+        "closed": false,
+        "solver_status": 0,
+        "nfev": 20
+      }
+    },
+    {
+      "p": 3,
+      "target_pi_winding": 2,
+      "start": [
+        -0.09,
+        -0.1
+      ],
+      "coarse_fit": {
+        "x": [
+          -0.046413093460805126,
+          0.0009109210917847039
+        ],
+        "residual": [
+          -5.654135008210668e-07,
+          -7.347515285666237e-06
+        ],
+        "closed": false,
+        "solver_status": 0,
+        "nfev": 20
+      }
+    },
+    {
+      "p": 4,
+      "target_pi_winding": 8,
+      "start": [
+        0.0,
+        0.5
+      ],
+      "coarse_fit": {
+        "x": [
+          -7.052177040747323e-09,
+          0.5515369115259707
+        ],
+        "residual": [
+          1.9035391114731907e-11,
+          4.995226454695967e-12
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 5
+      },
+      "coarse_cycle": {
+        "cycle_theta_w": [
+          [
+            -7.052177064537091e-09,
+            0.5515369115259707
+          ],
+          [
+            -6.985190204034097e-09,
+            0.5515369116128467
+          ],
+          [
+            -7.1000292312106694e-09,
+            0.5515369116601889
+          ],
+          [
+            -7.1541714774525644e-09,
+            0.5515369115680521
+          ]
+        ],
+        "return_distances_1_up": [
+          1.0970264500431025e-10,
+          1.4249334352960447e-10,
+          1.1033448830114551e-10,
+          1.9682737668967557e-11
+        ],
+        "turns_per_orbit": 1.0000000000007574,
+        "fundamental_period": 1,
+        "trace_det": [
+          [
+            -0.1114590365492979,
+            0.9999999740380037
+          ],
+          [
+            -0.11145903605849092,
+            0.9999999741866163
+          ]
+        ],
+        "unbracketed_events": 0,
+        "event_columns": [
+          "orbit_index",
+          "time_shift_s",
+          "theta",
+          "w",
+          "theta_shift",
+          "w_shift",
+          "radial_product_over_a_vp"
+        ],
+        "events": [
+          [
+            1.0,
+            1.0913936421275139e-10,
+            -6.9851839867851595e-09,
+            0.5515369116128468,
+            6.217248937900877e-15,
+            1.1102230246251565e-16,
+            -5.607202391725117e-17
+          ],
+          [
+            2.0,
+            -8.294591680169106e-10,
+            -7.100077636934543e-09,
+            0.5515369116601889,
+            -4.8405723873656825e-14,
+            0.0,
+            -8.59357121244604e-18
+          ],
+          [
+            3.0,
+            -1.57160684466362e-09,
+            -7.154263848008213e-09,
+            0.5515369115680521,
+            -9.237055564881302e-14,
+            0.0,
+            -3.4726090433814726e-16
+          ],
+          [
+            4.0,
+            -2.35741026699543e-09,
+            -7.033276627765872e-09,
+            0.5515369115309661,
+            -1.3788969965844444e-13,
+            1.1102230246251565e-16,
+            -5.400024788377576e-16
+          ]
+        ]
+      },
+      "fine_fit": {
+        "x": [
+          -2.0136544154386608e-10,
+          0.5515368682528914
+        ],
+        "residual": [
+          1.906887465231279e-11,
+          5.149880522026251e-12
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 5
+      },
+      "fine_at_coarse_residual": [
+        -1.2080363686708422e-08,
+        -2.2488406692389162e-09
+      ],
+      "fine_cycle": {
+        "cycle_theta_w": [
+          [
+            -2.0136536882375822e-10,
+            0.5515368682528914
+          ],
+          [
+            -1.3459100500767818e-10,
+            0.5515368683405039
+          ],
+          [
+            -2.503739437997865e-10,
+            0.5515368683875996
+          ],
+          [
+            -3.04159364361567e-10,
+            0.5515368682947469
+          ]
+        ],
+        "return_distances_1_up": [
+          1.1015789149584868e-10,
+          1.433462645951038e-10,
+          1.109886930891076e-10,
+          1.9751491825637586e-11
+        ],
+        "turns_per_orbit": 1.0000000000007587,
+        "fundamental_period": 1,
+        "trace_det": [
+          [
+            -0.11145916103614519,
+            0.9999999988352626
+          ],
+          [
+            -0.11145916094649233,
+            0.9999999992373281
+          ]
+        ],
+        "unbracketed_events": 0,
+        "event_columns": [
+          "orbit_index",
+          "time_shift_s",
+          "theta",
+          "w",
+          "theta_shift",
+          "w_shift",
+          "radial_product_over_a_vp"
+        ],
+        "events": [
+          [
+            1.0,
+            -2.255546860396862e-10,
+            -1.3460432768397368e-10,
+            0.5515368683405042,
+            -1.3322676295501878e-14,
+            3.3306690738754696e-16,
+            -1.080952326794164e-15
+          ],
+          [
+            2.0,
+            -6.83940015733242e-10,
+            -2.50413911828673e-10,
+            0.5515368683876,
+            -3.9968028886505635e-14,
+            3.3306690738754696e-16,
+            -6.735092209953594e-16
+          ],
+          [
+            3.0,
+            -9.89530235528946e-10,
+            -3.042170959588475e-10,
+            0.5515368682947469,
+            -5.773159728050814e-14,
+            0.0,
+            -7.709459358008773e-16
+          ],
+          [
+            4.0,
+            -2.1827872842550278e-09,
+            -1.824245199344432e-10,
+            0.5515368682580413,
+            -1.27675647831893e-13,
+            0.0,
+            -5.399908098021957e-16
+          ]
+        ]
+      },
+      "coarse_at_fine_residual": [
+        1.2118451210706675e-08,
+        2.2589865533717557e-09
+      ],
+      "root_shift": 4.381201908874887e-08,
+      "classification": "elliptic_linearization"
+    },
+    {
+      "p": 4,
+      "target_pi_winding": 8,
+      "start": [
+        0.14,
+        0.58
+      ],
+      "coarse_fit": {
+        "x": [
+          -7.070927874681265e-09,
+          0.5515369115947331
+        ],
+        "residual": [
+          5.580589596813811e-15,
+          5.706546346573305e-14
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 6
+      },
+      "duplicate_of_row_zero_based": 5
+    },
+    {
+      "p": 4,
+      "target_pi_winding": 8,
+      "start": [
+        -0.14,
+        0.58
+      ],
+      "coarse_fit": {
+        "x": [
+          -7.071419414603393e-09,
+          0.5515369115949894
+        ],
+        "residual": [
+          -5.580589596813811e-14,
+          -3.5416114485542494e-14
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 6
+      },
+      "duplicate_of_row_zero_based": 5
+    },
+    {
+      "p": 4,
+      "target_pi_winding": 8,
+      "start": [
+        0.09,
+        0.4
+      ],
+      "coarse_fit": {
+        "x": [
+          -7.071291933826512e-09,
+          0.551536911594924
+        ],
+        "residual": [
+          -3.6273832379289773e-14,
+          -1.0658141036401503e-14
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 7
+      },
+      "duplicate_of_row_zero_based": 5
+    },
+    {
+      "p": 4,
+      "target_pi_winding": 8,
+      "start": [
+        -0.09,
+        0.4
+      ],
+      "coarse_fit": {
+        "x": [
+          -7.071320252944943e-09,
+          0.5515369115934675
+        ],
+        "residual": [
+          3.7948009258333916e-13,
+          2.0539125955565396e-14
+        ],
+        "closed": true,
+        "solver_status": 1,
+        "nfev": 7
+      },
+      "duplicate_of_row_zero_based": 5
+    }
+  ],
+  "source_guided_followup": {
+    "study": "source_informed_followup_not_independent_discovery",
+    "prior_recognition": "The supplied Figure 2 comparison identifies 9/4, 3 and 7/2 as targets.",
+    "evidence": "Native OEL Saturn point-mass orbit and passive attitude, via validated locked replay.",
+    "orbit_integrator": "rkf78",
+    "chunks": 16,
+    "attitude_steps_per_orbit": [
+      128,
+      256
+    ],
+    "calibration": [
+      {
+        "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998,
+        "angle_sign": 1,
+        "native_small_step_accel_over_n2": -0.3841262342198701,
+        "instantaneous_euler_accel_over_n2": -0.38415588571869985
+      },
+      {
+        "unsigned_convention_raw_angle_rate_over_n": 0.9999999999999998,
+        "angle_sign": 1,
+        "native_small_step_accel_over_n2": -0.3841262342198701,
+        "instantaneous_euler_accel_over_n2": -0.38415588571869985
+      }
+    ],
+    "closure_tol": 1e-08,
+    "period_gap": 1e-05,
+    "match_tol": 0.001,
+    "unique_cycle_tol": 2e-06,
+    "max_brackets_per_line": 2,
+    "cpu_limit_s": 165.0,
+    "targets": [
+      {
+        "winding_turns_per_orbit": "9/4",
+        "target_lift_pi_two_orbits": 9,
+        "scans": [
+          {
+            "theta_rad": 0.0,
+            "samples_w_lift_error_pi": [
+              [
+                1.77,
+                -2.75594964389986
+              ],
+              [
+                1.93,
+                -1.9202386166853143
+              ],
+              [
+                2.09,
+                -1.241467830607971
+              ],
+              [
+                2.25,
+                -0.8147736756949024
+              ],
+              [
+                2.41,
+                -0.24627877602575232
+              ],
+              [
+                2.57,
+                0.07435078151256302
+              ],
+              [
+                2.73,
+                0.5238724163095991
+              ]
+            ],
+            "brackets": [
+              [
+                2.41,
+                2.57
+              ]
+            ],
+            "shots": [
+              {
+                "bracket": [
+                  2.41,
+                  2.57
+                ],
+                "w": 2.5365606363856763,
+                "lift_error_pi": -1.9278800778010918e-11
+              }
+            ]
+          },
+          {
+            "theta_rad": 1.5707963267948966,
+            "samples_w_lift_error_pi": [
+              [
+                1.77,
+                -0.40251819963955526
+              ],
+              [
+                1.93,
+                -0.06291114687559585
+              ],
+              [
+                2.09,
+                0.2377964007003781
+              ],
+              [
+                2.25,
+                0.4627744714969868
+              ],
+              [
+                2.41,
+                0.7152035089158177
+              ],
+              [
+                2.57,
+                1.0296370251666298
+              ],
+              [
+                2.73,
+                1.3223632270404764
+              ]
+            ],
+            "brackets": [
+              [
+                1.93,
+                2.09
+              ]
+            ],
+            "shots": [
+              {
+                "bracket": [
+                  1.93,
+                  2.09
+                ],
+                "w": 1.9593371470492527,
+                "lift_error_pi": 8.261835660050565e-12
+              }
+            ]
+          }
+        ],
+        "trials": [
+          {
+            "seed_theta_w": [
+              0.0,
+              2.5365606363856763
+            ],
+            "method": "symmetry_shot",
+            "status": "matched_two_cycle",
+            "bracket": [
+              2.41,
+              2.57
+            ],
+            "coarse_fit": {
+              "theta_w": [
+                3.141589571380413,
+                2.536560590306977
+              ],
+              "seed_residual": [
+                -5.447403133884461e-07,
+                -1.1092948781765699e-07
+              ],
+              "residual": [
+                0.0,
+                0.0
+              ],
+              "solver_status": 1,
+              "nfev": 3,
+              "closed": true
+            },
+            "fine_fit": {
+              "theta_w": [
+                3.1415925570250787,
+                2.5365602303895494
+              ],
+              "seed_residual": [
+                1.5451828876230593e-05,
+                -1.8720374095337888e-07
+              ],
+              "residual": [
+                1.1161179193627622e-14,
+                2.3092638912203256e-14
+              ],
+              "solver_status": 1,
+              "nfev": 3,
+              "closed": true
+            },
+            "root_shift": 3.0072603184923238e-06,
+            "coarse_at_fine_residual": [
+              -1.5451885781502713e-05,
+              1.870368864231864e-07
+            ],
+            "coarse_cycle": {
+              "fundamental_period": 2,
+              "first_return_gap": 1.67349380654316,
+              "first_return_lift_pi": 4.500000661718548,
+              "first_return_half_target_error_rad": 2.078850130398668e-06,
+              "cycle_theta_w": [
+                [
+                  3.141589571380413,
+                  2.536560590306977
+                ],
+                [
+                  1.5707953234356467,
+                  1.959337105717211
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 0.543601637678969,
+                  "determinant": 0.9999999740516753,
+                  "multipliers_re_im": [
+                    [
+                      0.2718008188394845,
+                      0.9623535155699601
+                    ],
+                    [
+                      0.2718008188394845,
+                      -0.9623535155699601
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 0.5436009728825304,
+                  "determinant": 0.9999997887097501,
+                  "multipliers_re_im": [
+                    [
+                      0.2718004864412652,
+                      0.9623535131541016
+                    ],
+                    [
+                      0.2718004864412652,
+                      -0.9623535131541016
+                    ]
+                  ]
+                }
+              ]
+            },
+            "fine_cycle": {
+              "fundamental_period": 2,
+              "first_return_gap": 1.6734956077940621,
+              "first_return_lift_pi": 4.500000020731524,
+              "first_return_half_target_error_rad": 6.513000366268538e-08,
+              "cycle_theta_w": [
+                [
+                  3.1415925570250787,
+                  2.5365602303895494
+                ],
+                [
+                  1.5707962953601884,
+                  1.9593370035131328
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 0.5436001231181611,
+                  "determinant": 1.0000002438962132,
+                  "multipliers_re_im": [
+                    [
+                      0.2718000615590806,
+                      0.9623538696512285
+                    ],
+                    [
+                      0.2718000615590806,
+                      -0.9623538696512285
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 0.5435994591906441,
+                  "determinant": 1.000000042429206,
+                  "multipliers_re_im": [
+                    [
+                      0.27179972959532206,
+                      0.9623538587344657
+                    ],
+                    [
+                      0.27179972959532206,
+                      -0.9623538587344657
+                    ]
+                  ]
+                }
+              ]
+            },
+            "classification": "elliptic_linearization",
+            "neighborhood_columns": [
+              "orbit",
+              "theta_mod_pi_rad",
+              "omega_over_n",
+              "distance_to_center_at_same_phase"
+            ],
+            "neighborhood": [
+              {
+                "initial_offset": [
+                  0.002,
+                  0.0
+                ],
+                "samples": [
+                  [
+                    0,
+                    0.001999903435285333,
+                    2.5365602303895494,
+                    0.0019999999999997797
+                  ],
+                  [
+                    1,
+                    1.5712617787513352,
+                    1.9592315391839434,
+                    0.00047728137630218383
+                  ],
+                  [
+                    2,
+                    0.0006079734354342836,
+                    2.5365103430224574,
+                    0.0006101130013989035
+                  ],
+                  [
+                    3,
+                    1.57060679626785,
+                    1.9591641169664455,
+                    0.00025651445187843187
+                  ],
+                  [
+                    4,
+                    3.139922528599074,
+                    2.5365302426201537,
+                    0.0016702976411335777
+                  ],
+                  [
+                    5,
+                    1.5702276444513554,
+                    1.9593490666514428,
+                    0.0005687788457937191
+                  ],
+                  [
+                    6,
+                    3.1400775668208833,
+                    2.536593329978859,
+                    0.0015153517418804892
+                  ],
+                  [
+                    7,
+                    1.5706767058996771,
+                    1.9595162440346323,
+                    0.00021547344062042135
+                  ],
+                  [
+                    8,
+                    0.0008453991087336021,
+                    2.536607239683355,
+                    0.0008468015160139206
+                  ],
+                  [
+                    9,
+                    1.5713000376568873,
+                    1.9594230151314969,
+                    0.0005110325821091133
+                  ],
+                  [
+                    10,
+                    0.001975263773045244,
+                    2.5365501578416803,
+                    0.001975386018026294
+                  ],
+                  [
+                    11,
+                    1.5711895171833463,
+                    1.9592045060597187,
+                    0.0004149445473419929
+                  ],
+                  [
+                    12,
+                    0.00022791021706591863,
+                    2.5365083556202177,
+                    0.00023383345404593472
+                  ],
+                  [
+                    13,
+                    1.5705065563957978,
+                    1.9591792218417734,
+                    0.0003299147212584923
+                  ],
+                  [
+                    14,
+                    3.139740916121431,
+                    2.536538921884089,
+                    0.0018517635077045986
+                  ],
+                  [
+                    15,
+                    1.5702453539855172,
+                    1.9593841794694684,
+                    0.0005529574750202071
+                  ],
+                  [
+                    16,
+                    3.140358686765314,
+                    2.5366006653784825,
+                    0.0012345326266494211
+                  ]
+                ],
+                "completed": true,
+                "max_phase_matched_distance": 0.0019999999999997797
+              },
+              {
+                "initial_offset": [
+                  0.0,
+                  0.002
+                ],
+                "samples": [
+                  [
+                    0,
+                    3.1415925570250787,
+                    2.538560230389549,
+                    0.0019999999999997797
+                  ],
+                  [
+                    1,
+                    1.5840124851348252,
+                    1.9650494332969062,
+                    0.014397900061944986
+                  ],
+                  [
+                    2,
+                    0.0727922104611316,
+                    2.534806045103094,
+                    0.07281344057359386
+                  ],
+                  [
+                    3,
+                    1.5909722260042276,
+                    1.9572904507662454,
+                    0.02027946142033543
+                  ],
+                  [
+                    4,
+                    0.04092350872658157,
+                    2.5341569201506147,
+                    0.04099411384750693
+                  ],
+                  [
+                    5,
+                    1.5688902480099816,
+                    1.9523415398915536,
+                    0.007250484658425851
+                  ],
+                  [
+                    6,
+                    3.0897779526065694,
+                    2.533926878749246,
+                    0.05188147811992339
+                  ],
+                  [
+                    7,
+                    1.5494985563728725,
+                    1.9585351177744332,
+                    0.021312829627005554
+                  ],
+                  [
+                    8,
+                    3.073793711091045,
+                    2.5354445634194422,
+                    0.0678080247668005
+                  ],
+                  [
+                    9,
+                    1.5608962639136283,
+                    1.965622309062026,
+                    0.011726708339761206
+                  ],
+                  [
+                    10,
+                    0.013369588164522384,
+                    2.5384509492825695,
+                    0.013502714086124017
+                  ],
+                  [
+                    11,
+                    1.5869006525280058,
+                    1.96431209183984,
+                    0.01685532033653385
+                  ],
+                  [
+                    12,
+                    0.07553418457834948,
+                    2.534278895394583,
+                    0.0755687244642825
+                  ],
+                  [
+                    13,
+                    1.5892207055465057,
+                    1.9560956040236557,
+                    0.018707366499966186
+                  ],
+                  [
+                    14,
+                    0.028659489266650295,
+                    2.5343719804304823,
+                    0.028743004329901435
+                  ],
+                  [
+                    15,
+                    1.5651360380435326,
+                    1.9525996960399403,
+                    0.008799421849138156
+                  ],
+                  [
+                    16,
+                    3.0806133436123204,
+                    2.533733598402694,
+                    0.06104469114368448
+                  ]
+                ],
+                "completed": true,
+                "max_phase_matched_distance": 0.0755687244642825
+              }
+            ]
+          },
+          {
+            "seed_theta_w": [
+              1.5707963267948966,
+              1.9593371470492527
+            ],
+            "method": "symmetry_shot",
+            "status": "duplicate",
+            "bracket": [
+              1.93,
+              2.09
+            ],
+            "coarse_fit": {
+              "theta_w": [
+                1.5707953234353913,
+                1.959337105717188
+              ],
+              "seed_residual": [
+                -6.070231365126694e-07,
+                -3.4078612554111487e-07
+              ],
+              "residual": [
+                0.0,
+                -2.220446049250313e-16
+              ],
+              "solver_status": 1,
+              "nfev": 3,
+              "closed": true
+            },
+            "duplicate_of_trial": 0
+          },
+          {
+            "seed_theta_w": [
+              0.7853981633974483,
+              2.2479488917174644
+            ],
+            "method": "off_axis",
+            "status": "coarse_closure_not_found",
+            "coarse_fit": {
+              "theta_w": [
+                0.8629639434897811,
+                2.258426394289327
+              ],
+              "seed_residual": [
+                -2.0268849940042077,
+                -0.30103731725111627
+              ],
+              "residual": [
+                -0.005985291856597635,
+                -0.011329764006101417
+              ],
+              "solver_status": 0,
+              "nfev": 8,
+              "closed": false
+            }
+          },
+          {
+            "seed_theta_w": [
+              2.356194490192345,
+              2.2479488917174644
+            ],
+            "method": "off_axis",
+            "status": "coarse_closure_not_found",
+            "coarse_fit": {
+              "theta_w": [
+                2.233463428943251,
+                2.219792161570886
+              ],
+              "seed_residual": [
+                -0.6683256483064508,
+                -0.380948973868783
+              ],
+              "residual": [
+                -0.005692449427117595,
+                0.008802730904391876
+              ],
+              "solver_status": 0,
+              "nfev": 8,
+              "closed": false
+            }
+          }
+        ]
+      },
+      {
+        "winding_turns_per_orbit": "3",
+        "target_lift_pi_two_orbits": 12,
+        "scans": [
+          {
+            "theta_rad": 0.0,
+            "samples_w_lift_error_pi": [
+              [
+                2.52,
+                -1.5338277261037918
+              ],
+              [
+                2.68,
+                -1.1224174736416144
+              ],
+              [
+                2.84,
+                -0.7049022944564447
+              ],
+              [
+                3.0,
+                -0.3788009099079881
+              ],
+              [
+                3.16,
+                -0.0002495468061480821
+              ],
+              [
+                3.32,
+                0.35865787726190046
+              ],
+              [
+                3.48,
+                0.6834881324367625
+              ]
+            ],
+            "brackets": [
+              [
+                3.16,
+                3.32
+              ]
+            ],
+            "shots": [
+              {
+                "bracket": [
+                  3.16,
+                  3.32
+                ],
+                "w": 3.160102245359778,
+                "lift_error_pi": 3.552713678800501e-15
+              }
+            ]
+          },
+          {
+            "theta_rad": 1.5707963267948966,
+            "samples_w_lift_error_pi": [
+              [
+                2.52,
+                -0.5707621341836058
+              ],
+              [
+                2.68,
+                -0.26342231222607193
+              ],
+              [
+                2.84,
+                0.0025301631801557534
+              ],
+              [
+                3.0,
+                0.2851255908499679
+              ],
+              [
+                3.16,
+                0.6018120059050007
+              ],
+              [
+                3.32,
+                0.899966319285844
+              ],
+              [
+                3.48,
+                1.1885492364951604
+              ]
+            ],
+            "brackets": [
+              [
+                2.68,
+                2.84
+              ]
+            ],
+            "shots": [
+              {
+                "bracket": [
+                  2.68,
+                  2.84
+                ],
+                "w": 2.8384594148353797,
+                "lift_error_pi": 9.059419880941277e-14
+              }
+            ]
+          }
+        ],
+        "trials": [
+          {
+            "seed_theta_w": [
+              0.0,
+              3.160102245359778
+            ],
+            "method": "symmetry_shot",
+            "status": "short_return_rejected",
+            "bracket": [
+              3.16,
+              3.32
+            ],
+            "coarse_fit": {
+              "theta_w": [
+                3.1415760260086785,
+                3.1601021330804255
+              ],
+              "seed_residual": [
+                -1.720557918143448e-06,
+                -4.3719121567420416e-07
+              ],
+              "residual": [
+                2.7902947984069054e-14,
+                1.7763568394002505e-15
+              ],
+              "solver_status": 1,
+              "nfev": 3,
+              "closed": true
+            },
+            "fine_fit": {
+              "theta_w": [
+                3.141592131363075,
+                3.160101030784343
+              ],
+              "seed_residual": [
+                1.9276874376604056e-05,
+                1.7939143015510695e-07
+              ],
+              "residual": [
+                -1.6741768790441432e-14,
+                -4.440892098500626e-16
+              ],
+              "solver_status": 1,
+              "nfev": 4,
+              "closed": true
+            },
+            "root_shift": 1.6143032456511065e-05,
+            "coarse_at_fine_residual": [
+              -1.927682188557831e-05,
+              -1.7942526975289752e-07
+            ],
+            "coarse_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 2.1579491493389703e-14,
+              "first_return_lift_pi": 6.000000000000008,
+              "first_return_half_target_error_rad": 2.511265318566215e-14,
+              "cycle_theta_w": [
+                [
+                  3.1415760260086785,
+                  3.1601021330804255
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 1.8965235835889749,
+                  "determinant": 0.9999997177991043,
+                  "multipliers_re_im": [
+                    [
+                      0.9482617917944876,
+                      0.317489042364949
+                    ],
+                    [
+                      0.9482617917944876,
+                      -0.317489042364949
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 1.8965235797136089,
+                  "determinant": 0.9999997160317933,
+                  "multipliers_re_im": [
+                    [
+                      0.9482617898568043,
+                      0.3174890453690689
+                    ],
+                    [
+                      0.9482617898568043,
+                      -0.3174890453690689
+                    ]
+                  ]
+                }
+              ]
+            },
+            "fine_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 5.7902148899581444e-15,
+              "first_return_lift_pi": 6.000000000000001,
+              "first_return_half_target_error_rad": 2.7902947984069054e-15,
+              "cycle_theta_w": [
+                [
+                  3.141592131363075,
+                  3.160101030784343
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 1.896523715684507,
+                  "determinant": 0.999999994675969,
+                  "multipliers_re_im": [
+                    [
+                      0.9482618578422535,
+                      0.3174892811380045
+                    ],
+                    [
+                      0.9482618578422535,
+                      -0.3174892811380045
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 1.8965237152651766,
+                  "determinant": 0.9999999924000906,
+                  "multipliers_re_im": [
+                    [
+                      0.9482618576325883,
+                      0.317489278180041
+                    ],
+                    [
+                      0.9482618576325883,
+                      -0.317489278180041
+                    ]
+                  ]
+                }
+              ]
+            },
+            "classification": "elliptic_linearization"
+          },
+          {
+            "seed_theta_w": [
+              1.5707963267948966,
+              2.8384594148353797
+            ],
+            "method": "symmetry_shot",
+            "status": "short_return_rejected",
+            "bracket": [
+              2.68,
+              2.84
+            ],
+            "coarse_fit": {
+              "theta_w": [
+                1.5708095306112901,
+                2.8384592818062755
+              ],
+              "seed_residual": [
+                -1.3728702993978276e-06,
+                -5.462070840067668e-07
+              ],
+              "residual": [
+                -5.580589596813811e-15,
+                -1.7763568394002505e-15
+              ],
+              "solver_status": 1,
+              "nfev": 3,
+              "closed": true
+            },
+            "fine_fit": {
+              "theta_w": [
+                1.5707967415076254,
+                2.8384588257985772
+              ],
+              "seed_residual": [
+                7.676308660898063e-06,
+                6.539287142892647e-07
+              ],
+              "residual": [
+                -5.580589596813811e-14,
+                -5.773159728050814e-15
+              ],
+              "solver_status": 1,
+              "nfev": 3,
+              "closed": true
+            },
+            "root_shift": 1.2797230777350549e-05,
+            "coarse_at_fine_residual": [
+              -7.676284100723247e-06,
+              -6.538164258884649e-07
+            ],
+            "coarse_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 1.468183375303104e-14,
+              "first_return_lift_pi": 5.999999999999996,
+              "first_return_half_target_error_rad": 1.3951473992034527e-14,
+              "cycle_theta_w": [
+                [
+                  1.5708095306112901,
+                  2.8384592818062755
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 2.103975038780165,
+                  "determinant": 0.9999997216751009,
+                  "multipliers_re_im": [
+                    [
+                      0.7253715074166973,
+                      0.0
+                    ],
+                    [
+                      1.378603531363468,
+                      0.0
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 2.1039750409713327,
+                  "determinant": 0.9999997210344362,
+                  "multipliers_re_im": [
+                    [
+                      0.7253715040027878,
+                      0.0
+                    ],
+                    [
+                      1.378603536968545,
+                      0.0
+                    ]
+                  ]
+                }
+              ]
+            },
+            "fine_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 2.2275401441590598e-14,
+              "first_return_lift_pi": 5.999999999999992,
+              "first_return_half_target_error_rad": 2.511265318566215e-14,
+              "cycle_theta_w": [
+                [
+                  1.5707967415076254,
+                  2.8384588257985772
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 2.1039754502896315,
+                  "determinant": 0.9999999923468268,
+                  "multipliers_re_im": [
+                    [
+                      0.7253714648200466,
+                      0.0
+                    ],
+                    [
+                      1.3786039854695848,
+                      0.0
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 2.1039754509017277,
+                  "determinant": 0.9999999918484148,
+                  "multipliers_re_im": [
+                    [
+                      0.7253714633773608,
+                      0.0
+                    ],
+                    [
+                      1.3786039875243667,
+                      0.0
+                    ]
+                  ]
+                }
+              ]
+            },
+            "classification": "hyperbolic_linearization"
+          }
+        ]
+      },
+      {
+        "winding_turns_per_orbit": "7/2",
+        "target_lift_pi_two_orbits": 14,
+        "scans": [
+          {
+            "theta_rad": 0.0,
+            "samples_w_lift_error_pi": [
+              [
+                3.02,
+                -1.33508131209165
+              ],
+              [
+                3.18,
+                -0.9517608995772742
+              ],
+              [
+                3.34,
+                -0.6007474468906082
+              ],
+              [
+                3.5,
+                -0.2739173336733316
+              ],
+              [
+                3.66,
+                0.08222184797479493
+              ],
+              [
+                3.82,
+                0.4188348073113488
+              ],
+              [
+                3.98,
+                0.743387244270596
+              ]
+            ],
+            "brackets": [
+              [
+                3.5,
+                3.66
+              ]
+            ],
+            "shots": [
+              {
+                "bracket": [
+                  3.5,
+                  3.66
+                ],
+                "w": 3.623232161132654,
+                "lift_error_pi": 4.233857708868527e-11
+              }
+            ]
+          },
+          {
+            "theta_rad": 1.5707963267948966,
+            "samples_w_lift_error_pi": [
+              [
+                3.02,
+                -0.6762524646483463
+              ],
+              [
+                3.18,
+                -0.35915150879853197
+              ],
+              [
+                3.34,
+                -0.06446038321905867
+              ],
+              [
+                3.5,
+                0.22627512220358792
+              ],
+              [
+                3.66,
+                0.5415861506499695
+              ],
+              [
+                3.82,
+                0.8515361277274929
+              ],
+              [
+                3.98,
+                1.149816780389493
+              ]
+            ],
+            "brackets": [
+              [
+                3.34,
+                3.5
+              ]
+            ],
+            "shots": [
+              {
+                "bracket": [
+                  3.34,
+                  3.5
+                ],
+                "w": 3.3762974233467733,
+                "lift_error_pi": -7.105427357601002e-15
+              }
+            ]
+          }
+        ],
+        "trials": [
+          {
+            "seed_theta_w": [
+              0.0,
+              3.623232161132654
+            ],
+            "method": "symmetry_shot",
+            "status": "short_return_rejected",
+            "bracket": [
+              3.5,
+              3.66
+            ],
+            "coarse_fit": {
+              "theta_w": [
+                3.141440929765327,
+                3.6232319593129882
+              ],
+              "seed_residual": [
+                -2.776665865751798e-06,
+                -7.822100744903082e-07
+              ],
+              "residual": [
+                2.2322358387255243e-14,
+                3.552713678800501e-15
+              ],
+              "solver_status": 1,
+              "nfev": 4,
+              "closed": true
+            },
+            "fine_fit": {
+              "theta_w": [
+                3.1415878775273858,
+                3.6232298352302026
+              ],
+              "seed_residual": [
+                3.517992342073365e-05,
+                6.75263899019285e-07
+              ],
+              "residual": [
+                -2.2322358387255243e-14,
+                0.0
+              ],
+              "solver_status": 1,
+              "nfev": 5,
+              "closed": true
+            },
+            "root_shift": 0.0001469631127246177,
+            "coarse_at_fine_residual": [
+              -3.517946231335704e-05,
+              -6.734205020286765e-07
+            ],
+            "coarse_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 8.542226509110115e-15,
+              "first_return_lift_pi": 7.0000000000000036,
+              "first_return_half_target_error_rad": 1.1161179193627622e-14,
+              "cycle_theta_w": [
+                [
+                  3.141440929765327,
+                  3.6232319593129882
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 1.9816970639747766,
+                  "determinant": 0.999999592724406,
+                  "multipliers_re_im": [
+                    [
+                      0.9908485319873883,
+                      0.1349769587108982
+                    ],
+                    [
+                      0.9908485319873883,
+                      -0.1349769587108982
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 1.9816970655316433,
+                  "determinant": 0.9999995892537596,
+                  "multipliers_re_im": [
+                    [
+                      0.9908485327658219,
+                      0.1349769401400781
+                    ],
+                    [
+                      0.9908485327658219,
+                      -0.1349769401400781
+                    ]
+                  ]
+                }
+              ]
+            },
+            "fine_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 8.296271088900922e-15,
+              "first_return_lift_pi": 6.999999999999997,
+              "first_return_half_target_error_rad": 8.370884395220716e-15,
+              "cycle_theta_w": [
+                [
+                  3.1415878775273858,
+                  3.6232298352302026
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 1.9816974169038422,
+                  "determinant": 0.9999999877512694,
+                  "multipliers_re_im": [
+                    [
+                      0.9908487084519211,
+                      0.13497712661939923
+                    ],
+                    [
+                      0.9908487084519211,
+                      -0.13497712661939923
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 1.9816974178611881,
+                  "determinant": 0.9999999850953963,
+                  "multipliers_re_im": [
+                    [
+                      0.990848708930594,
+                      0.13497711326729134
+                    ],
+                    [
+                      0.990848708930594,
+                      -0.13497711326729134
+                    ]
+                  ]
+                }
+              ]
+            },
+            "classification": "elliptic_linearization"
+          },
+          {
+            "seed_theta_w": [
+              1.5707963267948966,
+              3.3762974233467733
+            ],
+            "method": "symmetry_shot",
+            "status": "short_return_rejected",
+            "bracket": [
+              3.34,
+              3.5
+            ],
+            "coarse_fit": {
+              "theta_w": [
+                1.5709303821754348,
+                3.376297208422975
+              ],
+              "seed_residual": [
+                -2.455273337837971e-06,
+                -8.826233028891295e-07
+              ],
+              "residual": [
+                2.2322358387255243e-14,
+                2.220446049250313e-15
+              ],
+              "solver_status": 1,
+              "nfev": 4,
+              "closed": true
+            },
+            "fine_fit": {
+              "theta_w": [
+                1.57080054673441,
+                3.3762961457750538
+              ],
+              "seed_residual": [
+                1.6711890587188983e-05,
+                9.028470997485272e-07
+              ],
+              "residual": [
+                -1.6741768790441432e-14,
+                -6.217248937900877e-15
+              ],
+              "solver_status": 1,
+              "nfev": 4,
+              "closed": true
+            },
+            "root_shift": 0.00012983978961289888,
+            "coarse_at_fine_residual": [
+              -1.671163815479916e-05,
+              -9.015639932385966e-07
+            ],
+            "coarse_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 4.440892098500626e-16,
+              "first_return_lift_pi": 7.000000000000001,
+              "first_return_half_target_error_rad": 2.7902947984069054e-15,
+              "cycle_theta_w": [
+                [
+                  1.5709303821754348,
+                  3.376297208422975
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 2.0183149591911267,
+                  "determinant": 0.9999995927627089,
+                  "multipliers_re_im": [
+                    [
+                      0.8735137334774283,
+                      0.0
+                    ],
+                    [
+                      1.1448012257136986,
+                      0.0
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 2.0183149575772754,
+                  "determinant": 0.9999995932430177,
+                  "multipliers_re_im": [
+                    [
+                      0.8735137404443183,
+                      0.0
+                    ],
+                    [
+                      1.1448012171329571,
+                      0.0
+                    ]
+                  ]
+                }
+              ]
+            },
+            "fine_cycle": {
+              "fundamental_period": 1,
+              "first_return_gap": 3.2023728339893768e-15,
+              "first_return_lift_pi": 7.000000000000001,
+              "first_return_half_target_error_rad": 2.7902947984069054e-15,
+              "cycle_theta_w": [
+                [
+                  1.57080054673441,
+                  3.3762961457750538
+                ]
+              ],
+              "linear_maps": [
+                {
+                  "h": 1e-05,
+                  "trace": 2.0183153972378527,
+                  "determinant": 0.9999999862961344,
+                  "multipliers_re_im": [
+                    [
+                      0.8735137736325356,
+                      0.0
+                    ],
+                    [
+                      1.1448016236053173,
+                      0.0
+                    ]
+                  ]
+                },
+                {
+                  "h": 5e-06,
+                  "trace": 2.01831539835063,
+                  "determinant": 0.999999986188211,
+                  "multipliers_re_im": [
+                    [
+                      0.8735137696517093,
+                      0.0
+                    ],
+                    [
+                      1.1448016286989209,
+                      0.0
+                    ]
+                  ]
+                }
+              ]
+            },
+            "classification": "hyperbolic_linearization"
+          }
+        ]
+      }
+    ],
+    "section": "Nominal periapse; theta from +X modulo pi, radians; w = body z spin / mean motion.",
+    "interpretation": [
+      "The labels are net 2pi turns per orbit, not the instantaneous w at periapse.",
+      "Symmetry is a seed heuristic only. Roots require both coordinates and the specified lift.",
+      "One-orbit closures are rejected as new two-cycles; their linear maps are one-orbit maps.",
+      "Stability is local. Determinant near one is a consistency check, not a classification by itself.",
+      "Neighborhoods iterate the fixed-orbit one-return map at fine resolution; each call restarts the same Kepler phase. The samples test only finite-time behavior.",
+      "A finite search, including failed, unmatched or unattempted trials, cannot exclude other cycles."
+    ],
+    "termination": "bounded_design_completed",
+    "native_step_calls": [
+      5728,
+      3345
+    ]
+  }
+}

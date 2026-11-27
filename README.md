@@ -22,6 +22,7 @@ Orbital Engineering Lab (OEL) is the simulation engine used in these studies. It
 | [Burns, Lamy & Soter (1979), *Radiation Forces on Small Particles in the Solar System*](reproductions/burns-lamy-soter-1979-dust-drag/) | How long does sunlight take to draw a circular dust orbit inward? | The circular estimate gives **400.494 R²/β years**, within 0.13% of Eq. (50). Full trajectories test where the approximation breaks down. |
 | [Einstein (1915), *Explanation of the Perihelion Motion of Mercury*](reproductions/einstein-1915-mercury-perihelion/) | How much does solar relativity advance Mercury’s perihelion? | The paired trajectories give **+42.98 arcseconds per Julian century**, matching the paper’s rounded +43. |
 | [Wisdom, Peale & Mignard (1984), *The Chaotic Rotation of Hyperion*](reproductions/wisdom-peale-mignard-1984-hyperion/) | Which spin states coexist on an eccentric Saturn-centered orbit? | A broad chaotic region coexists with regular spin states. A paper-guided search recovered the 9/4 island. |
+| [Goldreich & Peale (1966), *Spin-orbit coupling in the solar system*](reproductions/goldreich-peale-1966-mercury-spin-capture/) | How often does a despinning Mercury enter 3:2 resonance in the constant-angular-lag model? | The averaged estimate was 17.83% against the quoted 16%. Two perihelion launches each captured 0/6 orientations, and an aphelion launch captured 1/6. |
 
 ## Replay the first reproduction
 
